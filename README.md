@@ -37,28 +37,3 @@
 |Action Space | (9,) |
 |Observation Space| (59,) |
 
-# Dependencies & Installation
-
-# Usage 
-## Train 
-
-### Description of Configuration Parameters 
-
-## Tensorboard 
-
-# Results
-## Soft Actor-Critic (SAC)
-### Fetch 
-| Pick and Place | Push | Reach | Slide |
-|--------------------------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
-| ![](assets/plots/FetchReachDense-v4.png) | ![]() | ![]() | ![]() | 
-
-## Soft Actor-Critic + Hindsight Experience Replay (SAC + HER)
-### Fetch 
-| Pick and Place | Push | Reach | Slide |
-|--------------------------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
-| ![](assets/plots/FetchReach-v4.png) | ![]() | ![]() | ![]() | 
-
-## Twin Delayed DDPG (TD3)
-
-# Demonstration
