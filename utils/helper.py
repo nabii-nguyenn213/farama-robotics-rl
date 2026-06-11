@@ -1,7 +1,16 @@
 import os 
+import torch 
+from omegaconf import OmegaConf
 import gymnasium as gym 
 import gymnasium_robotics
 from gymnasium.spaces import Box, Discrete
+
+def loadConfig(configDir=None): 
+    if configDir is None:
+        configDir="configs/SAC.yaml"
+    config = OmegaConf.load(configDir)
+    OmegaConf.resolve(config)
+    return config
 
 def getObsActDim(env_name, **kwargs):
     env = gym.make(env_name, **kwargs)
