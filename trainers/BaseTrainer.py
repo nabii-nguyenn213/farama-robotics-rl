@@ -48,6 +48,10 @@ class BaseTrainer(ABC):
         self.model_dir = config["dir"].get("model", f"./results/model/{env_name}")
         self.best_dir = config["dir"].get("best", f"./results/best/{env_name}")
         self.tb_dir = config["dir"].get("tensorboard", f"./logs/tensorboard_logs/{env_name}")
+        
+        self.learning_start = config["train"].get("learning_start", 10_000)
+        self.gradient_step = config["train"].get("gradient_step", 1)
+        self.batch_size = config["train"].get("batch_size", 64)
 
         self.seed_everything(self.seed)
 

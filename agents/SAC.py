@@ -53,8 +53,8 @@ class SAC_Agent:
         # Optimizer 
         if config["train"]["optimizer"]["name"] == "Adam": 
             self.actor_optimizer = optim.Adam(self.net.actor.parameters(), lr=actor_lr)
-            self.crtic1_optimizer= optim.Adam(self.net.critic1.parameters(), lr=critic_lr)
-            self.crtic2_optimizer= optim.Adam(self.net.critic2.parameters(), lr=critic_lr)
+            self.critic1_optimizer= optim.Adam(self.net.critic1.parameters(), lr=critic_lr)
+            self.critic2_optimizer= optim.Adam(self.net.critic2.parameters(), lr=critic_lr)
         else : 
             raise ValueError(f"Unsupported optimizer {config['train']['optimizer']['name']}")
 
@@ -108,11 +108,11 @@ class SAC_Agent:
         q2_loss = F.mse_loss(current_q2, target)
         critic_loss = q1_loss + q2_loss
 
-        self.crtic1_optimizer.zero_grad()
-        self.crtic2_optimizer.zero_grad()
+        self.critic1_optimizer.zero_grad()
+        self.critic2_optimizer.zero_grad()
         critic_loss.backward()
-        self.crtic1_optimizer.step()
-        self.crtic2_optimizer.step()
+        self.critic1_optimizer.step()
+        self.critic2_optimizer.step()
 
         new_action, log_pi, _ = self.net.sample_action(obs)
         q1_new = self.net.critic1(obs, new_action)

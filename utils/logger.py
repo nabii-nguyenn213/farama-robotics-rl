@@ -82,9 +82,16 @@ class Logger:
     def _elapsed_sec(self):
         return time.time() - self.start_time
 
-    def save_config(self):  
-        with open(self.config_save_path, "w", encoding="utf-8") as f: 
-            yaml.safe_dump(self.config_save_path, f, sort_keys=False)
+    def save_config(self):
+        config_to_save = self.config
+
+        try:
+            config_to_save = OmegaConf.to_container(self.config, resolve=True)
+        except Exception:
+            pass
+
+        with open(self.config_save_path, "w", encoding="utf-8") as f:
+            yaml.safe_dump(config_to_save, f, sort_keys=False)
 
     def log_train(self, step, metrics: dict, print_to_console=False):
         critic_loss = self._to_float(metrics.get("critic_loss", 0.0))
