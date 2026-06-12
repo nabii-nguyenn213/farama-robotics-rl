@@ -1,4 +1,3 @@
-from math import trunc
 import os 
 import numpy as np 
 import torch 
@@ -17,15 +16,19 @@ class SACTrainer(BaseTrainer):
         buffer_capacity = config["train"].get("memory_size", 1_000_000)
         env_name = config["env"].get("name", "FetchSlide-v4")
         env_kwargs = config["env"].get("kwargs", {})
-        obs_dim, act_dim = getObsActDim(env_name , **env_kwargs)
+        obs_dim, act_dim = getObsActDim(env_name,max_episode_steps=config["env"].get("max_episode_steps", 0),
+                                        reward_scaler=config["env"].get("reward_scaler", 1.0),
+                                        flatten_obs=config["env"].get("flatten_obs", True),**env_kwargs)
         self.replay_buffer = ReplayBuffer(max_size=buffer_capacity, obs_dim=obs_dim, act_dim=act_dim)
 
-        self.logger = Logger(config=config, run_name=self.run_name, log_dir=self.log_dir, tb_dir=self.tb_dir)
 
     def train(self): 
+        self.dirs_resolve()
+        self.make_dirs(run_name=self.run_name)
+        self.logger = Logger(config=self.config, run_name=self.run_name, log_dir=self.log_dir, tb_dir=self.tb_dir)
+        self.logger._init_files()
         self.logger.save_config()
         self.logger.info(f"Initialize SAC Trainer: run name={self.run_name}")
-        self.make_dirs(run_name=self.run_name)
         
         obs, _ = self.reset_env(self.env)
         ep_return = 0.0 
@@ -91,9 +94,9 @@ class SACTrainer(BaseTrainer):
     def save_checkpoint(self, step, filename=None):
         if filename is None:
             filename = f"sac_checkpoint_{step}.pt"
+        os.makedirs(self.ckpt_dir, exist_ok=True)
         ckpt_path = os.path.join(
             self.ckpt_dir,
-            self.run_name,
             filename,
         )
         checkpoint = {
@@ -110,9 +113,9 @@ class SACTrainer(BaseTrainer):
         )
 
     def save_best(self, step):
+        os.makedirs(self.best_dir, exist_ok=True)
         best_path = os.path.join(
             self.best_dir,
-            self.run_name,
             "sac_best.pt",
         )
         checkpoint = {
@@ -133,9 +136,9 @@ class SACTrainer(BaseTrainer):
             filename = "sac_model.pt"
         else:
             filename = f"sac_model_{step}.pt"
+        os.makedirs(self.model_dir, exist_ok=True)
         model_path = os.path.join(
             self.model_dir,
-            self.run_name,
             filename,
         )
         torch.save(self.agent.net.state_dict(), model_path)

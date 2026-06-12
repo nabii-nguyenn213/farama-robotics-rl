@@ -20,8 +20,9 @@ class SAC_Agent:
 
         env_name = config["env"].get("name", "FetchSlide-v4")
         env_kwargs = config["env"].get("kwargs", {}) 
-        obs_dim, act_dim = getObsActDim(env_name, **env_kwargs)
-
+        obs_dim, act_dim = getObsActDim(env_name,max_episode_steps=config["env"].get("max_episode_steps", 0),
+                                        reward_scaler=config["env"].get("reward_scaler", 1.0),
+                                        flatten_obs=config["env"].get("flatten_obs", True),**env_kwargs)
         if self.auto_alpha: 
             target_entropy_cfg = config["train"].get("target_entropy", "auto") 
             if target_entropy_cfg == "auto": 

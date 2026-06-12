@@ -13,8 +13,8 @@ class Logger:
         self.config = config 
         self.run_name = run_name
         env_name = config["env"].get("name", "FetchSlide-v4")
-        self.log_dir = config["dir"].get("log", f"./logs/log/{env_name}") if log_dir is None else log_dir
-        self.tb_dir = config["dir"].get("tensorboard", f"./logs/tensorboard_logs/{env_name}") if tb_dir is None else tb_dir
+        self.log_dir = config["dir"].get("log", f"./logs/log/{env_name}/{run_name}") if log_dir is None else log_dir
+        self.tb_dir = config["dir"].get("tensorboard", f"./logs/tensorboard_logs/{env_name}/{run_name}") if tb_dir is None else tb_dir
 
         self.start_time = time.time()
         self.best_eval_return = float("-inf")
@@ -26,8 +26,6 @@ class Logger:
         self.config_save_path = os.path.join(self.log_dir, f"{self.run_name}_config.yaml")
         
         self.writer = SummaryWriter(log_dir=self.tb_dir)
-
-        self._init_files()
 
     def _init_files(self):
         if not os.path.exists(self.train_csv_path):

@@ -1,31 +1,74 @@
-import numpy as np 
-import gymnasium as gym 
+from typing import Any, cast
+import numpy as np
+import gymnasium as gym
+from gymnasium import ObservationWrapper, RewardWrapper
+from gymnasium.spaces import Box, Dict as DictSpace
 from gymnasium.wrappers import TimeLimit
-import gymnasium_robotics
-gym.register_envs(gymnasium_robotics)
 
-def make_env(env_name, max_episode_steps=0, reward_scaler=1.0, **env_kwargs): 
-    env = gym.make(env_name, **env_kwargs) 
-    if max_episode_steps and max_episode_steps > 0: 
-        env = TimeLimit(env, max_episode_steps) 
-    return env
-
-def flatten_obs(obs_dict): 
-    obs = np.asarray(obs_dict["observation"], dtype=np.float32)
-    desired_goal = np.asarray(obs_dict["desired_goal"], dtype=np.float32)
+def flatten_goal_obs(obs_dict: dict[str, Any]) -> np.ndarray:
+    obs = np.asarray(obs_dict["observation"], dtype=np.float32).reshape(-1)
+    desired_goal = np.asarray(obs_dict["desired_goal"], dtype=np.float32).reshape(-1)
     return np.concatenate([obs, desired_goal], axis=-1).astype(np.float32)
 
-# def get_env_info(env_name, max_episode_steps=0, **env_kwargs): 
-#     env = make_env(env_name, max_episode_steps, **env_kwargs)
-#     try : 
-#         obs_space = env.observation_space
-#         act_space = env.action_space
-#         obs_dim = int(np.prod(obs_space["observation"].shape) + np.prod(obs_space["desired_goal"].shape))
-#         act_dim = int(np.prod(act_space.shape))
-#         return {"obs_dim" : obs_dim, 
-#                 "act_dim" : act_dim, 
-#                 "action_low" : np.asarray(act_space.low, dtype=np.float32).copy(), 
-#                 "action_high" : np.asarray(act_space.high, dtype=np.float32).copy()
-#                }
-#     finally: 
-#         env.close()
+class FlattenGoalObservation(ObservationWrapper):
+    def __init__(self, env):
+        super().__init__(env)
+        obs_space = env.observation_space
+        if not isinstance(obs_space, DictSpace):
+            raise TypeError(
+                f"FlattenGoalObservation expects Dict observation space, got {type(obs_space)}"
+            )
+        observation_space = cast(Box, obs_space.spaces["observation"])
+        desired_goal_space = cast(Box, obs_space.spaces["desired_goal"])
+        low = np.concatenate(
+            [
+                observation_space.low.reshape(-1),
+                desired_goal_space.low.reshape(-1),
+            ],
+            axis=-1,
+        ).astype(np.float32)
+        high = np.concatenate(
+            [
+                observation_space.high.reshape(-1),
+                desired_goal_space.high.reshape(-1),
+            ],
+            axis=-1,
+        ).astype(np.float32)
+        self.observation_space = Box(
+            low=low,
+            high=high,
+            shape=low.shape,
+            dtype=np.float32,
+        )
+
+    def observation(self, observation: dict[str, Any]) -> np.ndarray:
+        return flatten_goal_obs(observation)
+
+class RewardScaler(RewardWrapper):
+    def __init__(self, env, reward_scaler=1.0):
+        super().__init__(env)
+        self.reward_scaler = float(reward_scaler)
+
+    def reward(self, reward):
+        return float(reward) * self.reward_scaler
+
+
+def make_env(
+    env_name,
+    max_episode_steps=0,
+    reward_scaler=1.0,
+    flatten_obs=True,
+    **env_kwargs,
+):
+    env = gym.make(env_name, **env_kwargs)
+
+    if flatten_obs and isinstance(env.observation_space, gym.spaces.Dict):
+        env = FlattenGoalObservation(env)
+
+    if reward_scaler != 1.0:
+        env = RewardScaler(env, reward_scaler)
+
+    if max_episode_steps is not None and max_episode_steps > 0:
+        env = TimeLimit(env, max_episode_steps=max_episode_steps)
+
+    return env

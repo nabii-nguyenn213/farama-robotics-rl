@@ -8,6 +8,7 @@ import torch
 from torch.utils import deterministic 
 from agents.SAC import SAC_Agent
 from envs.env import make_env
+from pathlib import Path
 
 class BaseTrainer(ABC): 
 
@@ -16,11 +17,15 @@ class BaseTrainer(ABC):
         self.config = config 
 
         env_name = config["env"].get("name", "FetchSlide-v4")
+        max_episode_steps = config["env"].get("max_episode_steps", 0)
+        reward_scaler = config["env"].get("reward_scaler", 1.0)
+        flatten_obs = config["env"].get("flatten_obs", True) 
         env_kwargs = config["env"].get("kwargs", {})
         max_episode_steps = config["env"].get("max_episode_steps", 0)
-
-        self.env = make_env(env_name, max_episode_steps, **env_kwargs)
-        self.eval_env = make_env(env_name, max_episode_steps, **env_kwargs)
+        self.env = make_env(env_name,max_episode_steps=max_episode_steps,reward_scaler=reward_scaler,
+                            flatten_obs=flatten_obs,**env_kwargs)
+        self.eval_env = make_env(env_name,max_episode_steps=max_episode_steps,reward_scaler=reward_scaler,
+                            flatten_obs=flatten_obs,**env_kwargs)
         self.agent =  None 
         
         if hasattr(self.agent, "device"): 
@@ -78,11 +83,26 @@ class BaseTrainer(ABC):
     def make_dirs(self, run_name=None): 
         if run_name is None: 
             run_name = self.run_name
-        os.makedirs(os.path.join(self.log_dir, run_name), exist_ok=True)
-        os.makedirs(os.path.join(self.ckpt_dir, run_name), exist_ok=True)
-        os.makedirs(os.path.join(self.model_dir, run_name), exist_ok=True)
-        os.makedirs(os.path.join(self.best_dir, run_name), exist_ok=True)
-        os.makedirs(os.path.join(self.tb_dir, self.run_name), exist_ok=True)
+        # os.makedirs(os.path.join(self.log_dir, run_name), exist_ok=True)
+        # os.makedirs(os.path.join(self.ckpt_dir, run_name), exist_ok=True)
+        # os.makedirs(os.path.join(self.model_dir, run_name), exist_ok=True)
+        # os.makedirs(os.path.join(self.best_dir, run_name), exist_ok=True)
+        # os.makedirs(os.path.join(self.tb_dir, run_name), exist_ok=True)
+        os.makedirs(self.log_dir, exist_ok=True)
+        os.makedirs(self.ckpt_dir, exist_ok=True)
+        os.makedirs(self.model_dir, exist_ok=True)
+        os.makedirs(self.best_dir, exist_ok=True)
+        os.makedirs(self.tb_dir, exist_ok=True)
+
+    def dirs_resolve(self):
+        if getattr(self, "_dirs_resolved", False):
+            return
+        self.log_dir = str(Path(self.log_dir) / self.run_name)
+        self.ckpt_dir = str(Path(self.ckpt_dir) / self.run_name)
+        self.model_dir = str(Path(self.model_dir) / self.run_name)
+        self.best_dir = str(Path(self.best_dir) / self.run_name)
+        self.tb_dir = str(Path(self.tb_dir) / self.run_name)
+        self._dirs_resolved = True
 
     def reset_env(self, env=None): 
         if env is None: 
