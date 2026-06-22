@@ -29,10 +29,9 @@ class ReplayBuffer:
         return len(self) >= batch_size
 
     def sample_buffer(self, batch_size, device="cpu"): 
-        max_mem=len(self) 
-        if max_mem < batch_size: 
-            raise ValueError(f"Not enough samples in replay buffer {max_mem} < {batch_size}")
-        batch = np.random.randint(0, max_mem, size=batch_size) 
+        if not self.can_sample(batch_size):
+            raise ValueError(f"Not enough samples in replay buffer {len(self)} < {batch_size}")
+        batch = np.random.randint(0, len(self), size=batch_size) 
         return {
             "obs": torch.as_tensor(self.state_memory[batch], dtype=torch.float32, device=device),
             "act": torch.as_tensor(self.action_memory[batch], dtype=torch.float32, device=device),
@@ -41,5 +40,9 @@ class ReplayBuffer:
             "done": torch.as_tensor(self.terminal_memory[batch], dtype=torch.float32, device=device),
             }
 
+class RolloutBuffer: 
+    pass
+
 class HER_ReplayBuffer: 
     pass
+
