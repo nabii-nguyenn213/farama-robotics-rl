@@ -3,6 +3,7 @@ import os
 import time 
 from utils.helper import loadConfig
 from trainers.train_sac import SACTrainer
+from trainers.train_sac_her import SACHERTrainer
 
 def get_args(): 
     parser = argparse.ArgumentParser()
@@ -18,6 +19,7 @@ def process_configDir(agent, configDir=None):
     else: 
         if not os.path.exists(configDir): 
             raise FileNotFoundError(f"Cannot found configuration file {configDir}")
+        return configDir
 
 def main(): 
     args = get_args()
@@ -27,7 +29,7 @@ def main():
     if args.agent.lower()=="sac": 
         agent= SACTrainer(config)
     elif args.agent.lower()=="sacher": 
-        # TODO : Imlement SAC HER agent
+        agent = SACHERTrainer(config)
         pass 
     else: 
         # TODO : Implement PPO agent

@@ -1,5 +1,6 @@
 import os 
-import torch 
+import torch
+import numpy as np 
 from omegaconf import OmegaConf
 import gymnasium as gym 
 import gymnasium_robotics
@@ -28,6 +29,15 @@ def getObsActDim(env_name, max_episode_steps=0, reward_scaler=1.0, flatten_obs=T
         obs_dim = obs_space.shape[0]
     elif isinstance(obs_space, Discrete):
         obs_dim = obs_space.n
+    elif isinstance(obs_space, Dict):
+        if "observation" in obs_space.spaces and "desired_goal" in obs_space.spaces:
+            obs_dim = int(np.prod(obs_space.spaces["observation"].shape)) + \
+                      int(np.prod(obs_space.spaces["desired_goal"].shape))
+        else:
+            env.close()
+            raise NotImplementedError(
+                f"Dict observation space missing required keys: {obs_space}"
+            )
     else:
         env.close()
         raise NotImplementedError(f"Unsupported observation space: {type(obs_space)}")
@@ -41,3 +51,12 @@ def getObsActDim(env_name, max_episode_steps=0, reward_scaler=1.0, flatten_obs=T
         raise NotImplementedError(f"Unsupported action space: {type(act_space)}")
     env.close()
     return obs_dim, act_dim
+
+def flatten_goal_obs(obs):
+    return np.concatenate(
+        [
+            obs["observation"],
+            obs["desired_goal"],
+        ],
+        axis=-1,
+    ).astype(np.float32)

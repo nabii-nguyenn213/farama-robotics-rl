@@ -1,0 +1,2236 @@
+[2026-07-02 12:23:20] Initialize SAC+HER Trainer: run name=20260702_122318
+[2026-07-02 12:23:20] episode=1 step=50 return=-50.000 length=50
+[2026-07-02 12:23:20] episode=2 step=100 return=-50.000 length=50
+[2026-07-02 12:23:20] episode=3 step=150 return=-50.000 length=50
+[2026-07-02 12:23:20] episode=4 step=200 return=-50.000 length=50
+[2026-07-02 12:23:20] episode=5 step=250 return=-50.000 length=50
+[2026-07-02 12:23:20] episode=6 step=300 return=-50.000 length=50
+[2026-07-02 12:23:20] episode=7 step=350 return=-50.000 length=50
+[2026-07-02 12:23:20] episode=8 step=400 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=9 step=450 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=10 step=500 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=11 step=550 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=12 step=600 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=13 step=650 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=14 step=700 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=15 step=750 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=16 step=800 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=17 step=850 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=18 step=900 return=-50.000 length=50
+[2026-07-02 12:23:21] episode=19 step=950 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=20 step=1000 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=21 step=1050 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=22 step=1100 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=23 step=1150 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=24 step=1200 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=25 step=1250 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=26 step=1300 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=27 step=1350 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=28 step=1400 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=29 step=1450 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=30 step=1500 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=31 step=1550 return=-50.000 length=50
+[2026-07-02 12:23:22] episode=32 step=1600 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=33 step=1650 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=34 step=1700 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=35 step=1750 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=36 step=1800 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=37 step=1850 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=38 step=1900 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=39 step=1950 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=40 step=2000 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=41 step=2050 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=42 step=2100 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=43 step=2150 return=-50.000 length=50
+[2026-07-02 12:23:23] episode=44 step=2200 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=45 step=2250 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=46 step=2300 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=47 step=2350 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=48 step=2400 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=49 step=2450 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=50 step=2500 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=51 step=2550 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=52 step=2600 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=53 step=2650 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=54 step=2700 return=-50.000 length=50
+[2026-07-02 12:23:24] episode=55 step=2750 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=56 step=2800 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=57 step=2850 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=58 step=2900 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=59 step=2950 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=60 step=3000 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=61 step=3050 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=62 step=3100 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=63 step=3150 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=64 step=3200 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=65 step=3250 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=66 step=3300 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=67 step=3350 return=-50.000 length=50
+[2026-07-02 12:23:25] episode=68 step=3400 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=69 step=3450 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=70 step=3500 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=71 step=3550 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=72 step=3600 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=73 step=3650 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=74 step=3700 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=75 step=3750 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=76 step=3800 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=77 step=3850 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=78 step=3900 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=79 step=3950 return=-50.000 length=50
+[2026-07-02 12:23:26] episode=80 step=4000 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=81 step=4050 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=82 step=4100 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=83 step=4150 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=84 step=4200 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=85 step=4250 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=86 step=4300 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=87 step=4350 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=88 step=4400 return=0.000 length=50
+[2026-07-02 12:23:27] episode=89 step=4450 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=90 step=4500 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=91 step=4550 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=92 step=4600 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=93 step=4650 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=94 step=4700 return=-50.000 length=50
+[2026-07-02 12:23:27] episode=95 step=4750 return=-50.000 length=50
+[2026-07-02 12:23:28] episode=96 step=4800 return=-50.000 length=50
+[2026-07-02 12:23:28] episode=97 step=4850 return=-50.000 length=50
+[2026-07-02 12:23:28] episode=98 step=4900 return=-50.000 length=50
+[2026-07-02 12:23:28] episode=99 step=4950 return=-50.000 length=50
+[2026-07-02 12:23:28] episode=100 step=5000 return=-50.000 length=50
+[2026-07-02 12:23:28] step=5000 critic_loss=0.5035 actor_loss=-0.5032 log_pi=-2.5671 q1=0.0937 q2=-0.0590
+[2026-07-02 12:23:30] [eval] step=5000 avg_return=-50.000 NEW_BEST
+[2026-07-02 12:23:30] saved best model at step=5000: results\best\FetchSlide-v4\20260702_122318\sacher_best.pt
+[2026-07-02 12:23:30] saved checkpoint at step=5000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_5000.pt
+[2026-07-02 12:23:31] episode=101 step=5050 return=-50.000 length=50
+[2026-07-02 12:23:32] episode=102 step=5100 return=-50.000 length=50
+[2026-07-02 12:23:33] episode=103 step=5150 return=-50.000 length=50
+[2026-07-02 12:23:35] episode=104 step=5200 return=-50.000 length=50
+[2026-07-02 12:23:36] episode=105 step=5250 return=-50.000 length=50
+[2026-07-02 12:23:38] episode=106 step=5300 return=-50.000 length=50
+[2026-07-02 12:23:39] episode=107 step=5350 return=-50.000 length=50
+[2026-07-02 12:23:41] episode=108 step=5400 return=-50.000 length=50
+[2026-07-02 12:23:42] episode=109 step=5450 return=-50.000 length=50
+[2026-07-02 12:23:44] episode=110 step=5500 return=-50.000 length=50
+[2026-07-02 12:23:44] step=5500 critic_loss=0.1788 actor_loss=-0.9102 log_pi=-2.7241 q1=0.4765 q2=0.4866
+[2026-07-02 12:23:45] episode=111 step=5550 return=-50.000 length=50
+[2026-07-02 12:23:46] episode=112 step=5600 return=-50.000 length=50
+[2026-07-02 12:23:48] episode=113 step=5650 return=-50.000 length=50
+[2026-07-02 12:23:49] episode=114 step=5700 return=-50.000 length=50
+[2026-07-02 12:23:50] episode=115 step=5750 return=-50.000 length=50
+[2026-07-02 12:23:52] episode=116 step=5800 return=-50.000 length=50
+[2026-07-02 12:23:53] episode=117 step=5850 return=-50.000 length=50
+[2026-07-02 12:23:54] episode=118 step=5900 return=-50.000 length=50
+[2026-07-02 12:23:56] episode=119 step=5950 return=-50.000 length=50
+[2026-07-02 12:23:57] episode=120 step=6000 return=-50.000 length=50
+[2026-07-02 12:23:57] step=6000 critic_loss=0.1929 actor_loss=-0.9779 log_pi=-2.6604 q1=0.6192 q2=0.6210
+[2026-07-02 12:23:58] episode=121 step=6050 return=-50.000 length=50
+[2026-07-02 12:24:00] episode=122 step=6100 return=-50.000 length=50
+[2026-07-02 12:24:01] episode=123 step=6150 return=-50.000 length=50
+[2026-07-02 12:24:03] episode=124 step=6200 return=-50.000 length=50
+[2026-07-02 12:24:04] episode=125 step=6250 return=-50.000 length=50
+[2026-07-02 12:24:06] episode=126 step=6300 return=-50.000 length=50
+[2026-07-02 12:24:07] episode=127 step=6350 return=-50.000 length=50
+[2026-07-02 12:24:09] episode=128 step=6400 return=-50.000 length=50
+[2026-07-02 12:24:10] episode=129 step=6450 return=-50.000 length=50
+[2026-07-02 12:24:12] episode=130 step=6500 return=-50.000 length=50
+[2026-07-02 12:24:12] step=6500 critic_loss=0.2565 actor_loss=-1.2343 log_pi=-2.6443 q1=0.9116 q2=0.8854
+[2026-07-02 12:24:14] episode=131 step=6550 return=-50.000 length=50
+[2026-07-02 12:24:15] episode=132 step=6600 return=-50.000 length=50
+[2026-07-02 12:24:17] episode=133 step=6650 return=-50.000 length=50
+[2026-07-02 12:24:18] episode=134 step=6700 return=-50.000 length=50
+[2026-07-02 12:24:20] episode=135 step=6750 return=-50.000 length=50
+[2026-07-02 12:24:21] episode=136 step=6800 return=-50.000 length=50
+[2026-07-02 12:24:22] episode=137 step=6850 return=-50.000 length=50
+[2026-07-02 12:24:24] episode=138 step=6900 return=-50.000 length=50
+[2026-07-02 12:24:25] episode=139 step=6950 return=-50.000 length=50
+[2026-07-02 12:24:27] episode=140 step=7000 return=-50.000 length=50
+[2026-07-02 12:24:27] step=7000 critic_loss=0.6512 actor_loss=-1.2335 log_pi=-2.5658 q1=0.9292 q2=0.9450
+[2026-07-02 12:24:28] episode=141 step=7050 return=-50.000 length=50
+[2026-07-02 12:24:29] episode=142 step=7100 return=-50.000 length=50
+[2026-07-02 12:24:31] episode=143 step=7150 return=-50.000 length=50
+[2026-07-02 12:24:32] episode=144 step=7200 return=-50.000 length=50
+[2026-07-02 12:24:34] episode=145 step=7250 return=-50.000 length=50
+[2026-07-02 12:24:35] episode=146 step=7300 return=-50.000 length=50
+[2026-07-02 12:24:36] episode=147 step=7350 return=-50.000 length=50
+[2026-07-02 12:24:38] episode=148 step=7400 return=-50.000 length=50
+[2026-07-02 12:24:39] episode=149 step=7450 return=-50.000 length=50
+[2026-07-02 12:24:40] episode=150 step=7500 return=-50.000 length=50
+[2026-07-02 12:24:40] step=7500 critic_loss=0.4809 actor_loss=-1.3114 log_pi=-2.5994 q1=1.0138 q2=0.9404
+[2026-07-02 12:24:42] episode=151 step=7550 return=-50.000 length=50
+[2026-07-02 12:24:43] episode=152 step=7600 return=-50.000 length=50
+[2026-07-02 12:24:44] episode=153 step=7650 return=-50.000 length=50
+[2026-07-02 12:24:46] episode=154 step=7700 return=-50.000 length=50
+[2026-07-02 12:24:47] episode=155 step=7750 return=-50.000 length=50
+[2026-07-02 12:24:49] episode=156 step=7800 return=-50.000 length=50
+[2026-07-02 12:24:50] episode=157 step=7850 return=-50.000 length=50
+[2026-07-02 12:24:51] episode=158 step=7900 return=-50.000 length=50
+[2026-07-02 12:24:53] episode=159 step=7950 return=-50.000 length=50
+[2026-07-02 12:24:54] episode=160 step=8000 return=-50.000 length=50
+[2026-07-02 12:24:54] step=8000 critic_loss=0.2836 actor_loss=-0.2285 log_pi=-2.5088 q1=0.0614 q2=0.0063
+[2026-07-02 12:24:56] episode=161 step=8050 return=-50.000 length=50
+[2026-07-02 12:24:57] episode=162 step=8100 return=-50.000 length=50
+[2026-07-02 12:24:58] episode=163 step=8150 return=-50.000 length=50
+[2026-07-02 12:25:00] episode=164 step=8200 return=-50.000 length=50
+[2026-07-02 12:25:01] episode=165 step=8250 return=-50.000 length=50
+[2026-07-02 12:25:02] episode=166 step=8300 return=-50.000 length=50
+[2026-07-02 12:25:04] episode=167 step=8350 return=-50.000 length=50
+[2026-07-02 12:25:05] episode=168 step=8400 return=-50.000 length=50
+[2026-07-02 12:25:06] episode=169 step=8450 return=-50.000 length=50
+[2026-07-02 12:25:08] episode=170 step=8500 return=-50.000 length=50
+[2026-07-02 12:25:08] step=8500 critic_loss=0.8753 actor_loss=-0.3562 log_pi=-2.1777 q1=0.1883 q2=0.0961
+[2026-07-02 12:25:09] episode=171 step=8550 return=-50.000 length=50
+[2026-07-02 12:25:11] episode=172 step=8600 return=-50.000 length=50
+[2026-07-02 12:25:12] episode=173 step=8650 return=-50.000 length=50
+[2026-07-02 12:25:13] episode=174 step=8700 return=-50.000 length=50
+[2026-07-02 12:25:15] episode=175 step=8750 return=-50.000 length=50
+[2026-07-02 12:25:17] episode=176 step=8800 return=-50.000 length=50
+[2026-07-02 12:25:19] episode=177 step=8850 return=-50.000 length=50
+[2026-07-02 12:25:21] episode=178 step=8900 return=-50.000 length=50
+[2026-07-02 12:25:23] episode=179 step=8950 return=-50.000 length=50
+[2026-07-02 12:25:25] episode=180 step=9000 return=-50.000 length=50
+[2026-07-02 12:25:25] step=9000 critic_loss=0.4686 actor_loss=-0.0016 log_pi=-2.3344 q1=-0.0626 q2=-0.0278
+[2026-07-02 12:25:26] episode=181 step=9050 return=-50.000 length=50
+[2026-07-02 12:25:27] episode=182 step=9100 return=-50.000 length=50
+[2026-07-02 12:25:28] episode=183 step=9150 return=-50.000 length=50
+[2026-07-02 12:25:30] episode=184 step=9200 return=-50.000 length=50
+[2026-07-02 12:25:31] episode=185 step=9250 return=-50.000 length=50
+[2026-07-02 12:25:32] episode=186 step=9300 return=-50.000 length=50
+[2026-07-02 12:25:33] episode=187 step=9350 return=-50.000 length=50
+[2026-07-02 12:25:34] episode=188 step=9400 return=-50.000 length=50
+[2026-07-02 12:25:35] episode=189 step=9450 return=-50.000 length=50
+[2026-07-02 12:25:36] episode=190 step=9500 return=-50.000 length=50
+[2026-07-02 12:25:36] step=9500 critic_loss=0.2736 actor_loss=-0.1583 log_pi=-2.0446 q1=0.0748 q2=0.0844
+[2026-07-02 12:25:37] episode=191 step=9550 return=-50.000 length=50
+[2026-07-02 12:25:38] episode=192 step=9600 return=-50.000 length=50
+[2026-07-02 12:25:39] episode=193 step=9650 return=-50.000 length=50
+[2026-07-02 12:25:41] episode=194 step=9700 return=-50.000 length=50
+[2026-07-02 12:25:42] episode=195 step=9750 return=-50.000 length=50
+[2026-07-02 12:25:43] episode=196 step=9800 return=-50.000 length=50
+[2026-07-02 12:25:44] episode=197 step=9850 return=-50.000 length=50
+[2026-07-02 12:25:45] episode=198 step=9900 return=-50.000 length=50
+[2026-07-02 12:25:46] episode=199 step=9950 return=-50.000 length=50
+[2026-07-02 12:25:47] episode=200 step=10000 return=-50.000 length=50
+[2026-07-02 12:25:47] step=10000 critic_loss=1.1105 actor_loss=-0.3561 log_pi=-2.0884 q1=0.1851 q2=0.1420
+[2026-07-02 12:25:48] [eval] step=10000 avg_return=-50.000
+[2026-07-02 12:25:48] saved checkpoint at step=10000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_10000.pt
+[2026-07-02 12:25:49] episode=201 step=10050 return=-50.000 length=50
+[2026-07-02 12:25:50] episode=202 step=10100 return=-50.000 length=50
+[2026-07-02 12:25:51] episode=203 step=10150 return=-50.000 length=50
+[2026-07-02 12:25:52] episode=204 step=10200 return=-50.000 length=50
+[2026-07-02 12:25:53] episode=205 step=10250 return=-50.000 length=50
+[2026-07-02 12:25:54] episode=206 step=10300 return=-50.000 length=50
+[2026-07-02 12:25:55] episode=207 step=10350 return=-50.000 length=50
+[2026-07-02 12:25:56] episode=208 step=10400 return=-50.000 length=50
+[2026-07-02 12:25:57] episode=209 step=10450 return=-50.000 length=50
+[2026-07-02 12:25:58] episode=210 step=10500 return=-50.000 length=50
+[2026-07-02 12:25:59] step=10500 critic_loss=2.9515 actor_loss=0.2559 log_pi=-1.5987 q1=-0.3705 q2=-0.4259
+[2026-07-02 12:25:59] episode=211 step=10550 return=-50.000 length=50
+[2026-07-02 12:26:00] episode=212 step=10600 return=-50.000 length=50
+[2026-07-02 12:26:01] episode=213 step=10650 return=-50.000 length=50
+[2026-07-02 12:26:02] episode=214 step=10700 return=-50.000 length=50
+[2026-07-02 12:26:03] episode=215 step=10750 return=-50.000 length=50
+[2026-07-02 12:26:04] episode=216 step=10800 return=-50.000 length=50
+[2026-07-02 12:26:05] episode=217 step=10850 return=-50.000 length=50
+[2026-07-02 12:26:07] episode=218 step=10900 return=-50.000 length=50
+[2026-07-02 12:26:08] episode=219 step=10950 return=-50.000 length=50
+[2026-07-02 12:26:09] episode=220 step=11000 return=-50.000 length=50
+[2026-07-02 12:26:10] step=11000 critic_loss=1.7687 actor_loss=0.7372 log_pi=-1.1161 q1=-0.9234 q2=-0.9272
+[2026-07-02 12:26:11] episode=221 step=11050 return=-50.000 length=50
+[2026-07-02 12:26:12] episode=222 step=11100 return=-50.000 length=50
+[2026-07-02 12:26:13] episode=223 step=11150 return=-50.000 length=50
+[2026-07-02 12:26:14] episode=224 step=11200 return=-50.000 length=50
+[2026-07-02 12:26:15] episode=225 step=11250 return=-50.000 length=50
+[2026-07-02 12:26:17] episode=226 step=11300 return=-50.000 length=50
+[2026-07-02 12:26:18] episode=227 step=11350 return=-50.000 length=50
+[2026-07-02 12:26:19] episode=228 step=11400 return=-50.000 length=50
+[2026-07-02 12:26:21] episode=229 step=11450 return=-50.000 length=50
+[2026-07-02 12:26:22] episode=230 step=11500 return=-50.000 length=50
+[2026-07-02 12:26:22] step=11500 critic_loss=2.8348 actor_loss=-0.1755 log_pi=-1.0877 q1=0.1961 q2=0.1653
+[2026-07-02 12:26:23] episode=231 step=11550 return=-50.000 length=50
+[2026-07-02 12:26:24] episode=232 step=11600 return=-50.000 length=50
+[2026-07-02 12:26:25] episode=233 step=11650 return=-50.000 length=50
+[2026-07-02 12:26:26] episode=234 step=11700 return=-50.000 length=50
+[2026-07-02 12:26:27] episode=235 step=11750 return=-50.000 length=50
+[2026-07-02 12:26:28] episode=236 step=11800 return=-50.000 length=50
+[2026-07-02 12:26:29] episode=237 step=11850 return=-50.000 length=50
+[2026-07-02 12:26:30] episode=238 step=11900 return=-50.000 length=50
+[2026-07-02 12:26:31] episode=239 step=11950 return=-50.000 length=50
+[2026-07-02 12:26:32] episode=240 step=12000 return=-50.000 length=50
+[2026-07-02 12:26:32] step=12000 critic_loss=0.3869 actor_loss=0.5418 log_pi=-0.9360 q1=-0.6455 q2=-0.5889
+[2026-07-02 12:26:33] episode=241 step=12050 return=-50.000 length=50
+[2026-07-02 12:26:34] episode=242 step=12100 return=-50.000 length=50
+[2026-07-02 12:26:36] episode=243 step=12150 return=-50.000 length=50
+[2026-07-02 12:26:37] episode=244 step=12200 return=-50.000 length=50
+[2026-07-02 12:26:38] episode=245 step=12250 return=-50.000 length=50
+[2026-07-02 12:26:39] episode=246 step=12300 return=-50.000 length=50
+[2026-07-02 12:26:40] episode=247 step=12350 return=-50.000 length=50
+[2026-07-02 12:26:42] episode=248 step=12400 return=-50.000 length=50
+[2026-07-02 12:26:43] episode=249 step=12450 return=-50.000 length=50
+[2026-07-02 12:26:44] episode=250 step=12500 return=-50.000 length=50
+[2026-07-02 12:26:44] step=12500 critic_loss=2.9002 actor_loss=0.9980 log_pi=0.2462 q1=-1.0164 q2=-1.0868
+[2026-07-02 12:26:46] episode=251 step=12550 return=-50.000 length=50
+[2026-07-02 12:26:47] episode=252 step=12600 return=-50.000 length=50
+[2026-07-02 12:26:48] episode=253 step=12650 return=-50.000 length=50
+[2026-07-02 12:26:49] episode=254 step=12700 return=-50.000 length=50
+[2026-07-02 12:26:50] episode=255 step=12750 return=-50.000 length=50
+[2026-07-02 12:26:52] episode=256 step=12800 return=-50.000 length=50
+[2026-07-02 12:26:53] episode=257 step=12850 return=-50.000 length=50
+[2026-07-02 12:26:54] episode=258 step=12900 return=-50.000 length=50
+[2026-07-02 12:26:55] episode=259 step=12950 return=-50.000 length=50
+[2026-07-02 12:26:56] episode=260 step=13000 return=-50.000 length=50
+[2026-07-02 12:26:56] step=13000 critic_loss=1.2669 actor_loss=1.3121 log_pi=-0.3083 q1=-1.3425 q2=-1.3829
+[2026-07-02 12:26:57] episode=261 step=13050 return=-50.000 length=50
+[2026-07-02 12:26:58] episode=262 step=13100 return=-50.000 length=50
+[2026-07-02 12:26:59] episode=263 step=13150 return=-50.000 length=50
+[2026-07-02 12:27:01] episode=264 step=13200 return=-50.000 length=50
+[2026-07-02 12:27:02] episode=265 step=13250 return=-50.000 length=50
+[2026-07-02 12:27:03] episode=266 step=13300 return=-50.000 length=50
+[2026-07-02 12:27:05] episode=267 step=13350 return=-50.000 length=50
+[2026-07-02 12:27:07] episode=268 step=13400 return=-50.000 length=50
+[2026-07-02 12:27:09] episode=269 step=13450 return=-50.000 length=50
+[2026-07-02 12:27:11] episode=270 step=13500 return=-50.000 length=50
+[2026-07-02 12:27:11] step=13500 critic_loss=2.7521 actor_loss=0.6518 log_pi=0.2334 q1=-0.6018 q2=-0.6051
+[2026-07-02 12:27:13] episode=271 step=13550 return=0.000 length=50
+[2026-07-02 12:27:15] episode=272 step=13600 return=-50.000 length=50
+[2026-07-02 12:27:16] episode=273 step=13650 return=-50.000 length=50
+[2026-07-02 12:27:18] episode=274 step=13700 return=-50.000 length=50
+[2026-07-02 12:27:20] episode=275 step=13750 return=-50.000 length=50
+[2026-07-02 12:27:21] episode=276 step=13800 return=-50.000 length=50
+[2026-07-02 12:27:22] episode=277 step=13850 return=-50.000 length=50
+[2026-07-02 12:27:23] episode=278 step=13900 return=-50.000 length=50
+[2026-07-02 12:27:24] episode=279 step=13950 return=-50.000 length=50
+[2026-07-02 12:27:26] episode=280 step=14000 return=-50.000 length=50
+[2026-07-02 12:27:26] step=14000 critic_loss=4.4516 actor_loss=0.6099 log_pi=1.3055 q1=-0.7943 q2=-0.7877
+[2026-07-02 12:27:27] episode=281 step=14050 return=-50.000 length=50
+[2026-07-02 12:27:28] episode=282 step=14100 return=-50.000 length=50
+[2026-07-02 12:27:30] episode=283 step=14150 return=-50.000 length=50
+[2026-07-02 12:27:31] episode=284 step=14200 return=-50.000 length=50
+[2026-07-02 12:27:32] episode=285 step=14250 return=-50.000 length=50
+[2026-07-02 12:27:33] episode=286 step=14300 return=-50.000 length=50
+[2026-07-02 12:27:34] episode=287 step=14350 return=-50.000 length=50
+[2026-07-02 12:27:35] episode=288 step=14400 return=-50.000 length=50
+[2026-07-02 12:27:36] episode=289 step=14450 return=-50.000 length=50
+[2026-07-02 12:27:37] episode=290 step=14500 return=-50.000 length=50
+[2026-07-02 12:27:37] step=14500 critic_loss=1.1006 actor_loss=1.1834 log_pi=1.5326 q1=-1.3068 q2=-1.2983
+[2026-07-02 12:27:38] episode=291 step=14550 return=-50.000 length=50
+[2026-07-02 12:27:39] episode=292 step=14600 return=-50.000 length=50
+[2026-07-02 12:27:40] episode=293 step=14650 return=-50.000 length=50
+[2026-07-02 12:27:41] episode=294 step=14700 return=-50.000 length=50
+[2026-07-02 12:27:42] episode=295 step=14750 return=-50.000 length=50
+[2026-07-02 12:27:44] episode=296 step=14800 return=-50.000 length=50
+[2026-07-02 12:27:45] episode=297 step=14850 return=-50.000 length=50
+[2026-07-02 12:27:46] episode=298 step=14900 return=-50.000 length=50
+[2026-07-02 12:27:47] episode=299 step=14950 return=-50.000 length=50
+[2026-07-02 12:27:48] episode=300 step=15000 return=-50.000 length=50
+[2026-07-02 12:27:48] step=15000 critic_loss=9.6222 actor_loss=1.4991 log_pi=1.9962 q1=-1.7829 q2=-1.7782
+[2026-07-02 12:27:49] [eval] step=15000 avg_return=-50.000
+[2026-07-02 12:27:49] saved checkpoint at step=15000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_15000.pt
+[2026-07-02 12:27:50] episode=301 step=15050 return=-50.000 length=50
+[2026-07-02 12:27:52] episode=302 step=15100 return=-50.000 length=50
+[2026-07-02 12:27:53] episode=303 step=15150 return=-50.000 length=50
+[2026-07-02 12:27:55] episode=304 step=15200 return=-50.000 length=50
+[2026-07-02 12:27:56] episode=305 step=15250 return=-50.000 length=50
+[2026-07-02 12:27:57] episode=306 step=15300 return=-50.000 length=50
+[2026-07-02 12:27:58] episode=307 step=15350 return=-50.000 length=50
+[2026-07-02 12:28:00] episode=308 step=15400 return=-50.000 length=50
+[2026-07-02 12:28:02] episode=309 step=15450 return=-50.000 length=50
+[2026-07-02 12:28:03] episode=310 step=15500 return=-50.000 length=50
+[2026-07-02 12:28:03] step=15500 critic_loss=1.3453 actor_loss=0.5820 log_pi=3.8365 q1=-0.6039 q2=-0.5590
+[2026-07-02 12:28:05] episode=311 step=15550 return=-50.000 length=50
+[2026-07-02 12:28:07] episode=312 step=15600 return=-50.000 length=50
+[2026-07-02 12:28:08] episode=313 step=15650 return=-50.000 length=50
+[2026-07-02 12:28:10] episode=314 step=15700 return=-50.000 length=50
+[2026-07-02 12:28:12] episode=315 step=15750 return=-50.000 length=50
+[2026-07-02 12:28:13] episode=316 step=15800 return=-50.000 length=50
+[2026-07-02 12:28:15] episode=317 step=15850 return=-50.000 length=50
+[2026-07-02 12:28:19] episode=318 step=15900 return=-50.000 length=50
+[2026-07-02 12:28:21] episode=319 step=15950 return=-50.000 length=50
+[2026-07-02 12:28:23] episode=320 step=16000 return=-50.000 length=50
+[2026-07-02 12:28:23] step=16000 critic_loss=1.4391 actor_loss=0.5394 log_pi=5.5689 q1=-0.6820 q2=-0.8034
+[2026-07-02 12:28:24] episode=321 step=16050 return=-50.000 length=50
+[2026-07-02 12:28:25] episode=322 step=16100 return=-50.000 length=50
+[2026-07-02 12:28:26] episode=323 step=16150 return=-50.000 length=50
+[2026-07-02 12:28:28] episode=324 step=16200 return=-50.000 length=50
+[2026-07-02 12:28:29] episode=325 step=16250 return=-50.000 length=50
+[2026-07-02 12:28:30] episode=326 step=16300 return=-50.000 length=50
+[2026-07-02 12:28:31] episode=327 step=16350 return=-50.000 length=50
+[2026-07-02 12:28:32] episode=328 step=16400 return=-50.000 length=50
+[2026-07-02 12:28:34] episode=329 step=16450 return=-50.000 length=50
+[2026-07-02 12:28:35] episode=330 step=16500 return=-50.000 length=50
+[2026-07-02 12:28:35] step=16500 critic_loss=1.8632 actor_loss=1.5176 log_pi=1.4586 q1=-1.6849 q2=-1.6773
+[2026-07-02 12:28:36] episode=331 step=16550 return=-50.000 length=50
+[2026-07-02 12:28:37] episode=332 step=16600 return=-50.000 length=50
+[2026-07-02 12:28:38] episode=333 step=16650 return=-50.000 length=50
+[2026-07-02 12:28:40] episode=334 step=16700 return=-50.000 length=50
+[2026-07-02 12:28:41] episode=335 step=16750 return=-50.000 length=50
+[2026-07-02 12:28:42] episode=336 step=16800 return=-50.000 length=50
+[2026-07-02 12:28:43] episode=337 step=16850 return=-50.000 length=50
+[2026-07-02 12:28:44] episode=338 step=16900 return=-50.000 length=50
+[2026-07-02 12:28:46] episode=339 step=16950 return=-50.000 length=50
+[2026-07-02 12:28:47] episode=340 step=17000 return=-50.000 length=50
+[2026-07-02 12:28:47] step=17000 critic_loss=4.6427 actor_loss=1.3132 log_pi=0.5453 q1=-1.3355 q2=-1.3740
+[2026-07-02 12:28:49] episode=341 step=17050 return=-50.000 length=50
+[2026-07-02 12:28:51] episode=342 step=17100 return=-50.000 length=50
+[2026-07-02 12:28:52] episode=343 step=17150 return=-50.000 length=50
+[2026-07-02 12:28:53] episode=344 step=17200 return=-50.000 length=50
+[2026-07-02 12:28:55] episode=345 step=17250 return=-50.000 length=50
+[2026-07-02 12:28:56] episode=346 step=17300 return=-48.000 length=50
+[2026-07-02 12:28:57] episode=347 step=17350 return=-50.000 length=50
+[2026-07-02 12:28:58] episode=348 step=17400 return=-50.000 length=50
+[2026-07-02 12:29:00] episode=349 step=17450 return=-50.000 length=50
+[2026-07-02 12:29:01] episode=350 step=17500 return=-50.000 length=50
+[2026-07-02 12:29:01] step=17500 critic_loss=1.6634 actor_loss=0.4115 log_pi=2.1334 q1=-0.4888 q2=-0.4988
+[2026-07-02 12:29:02] episode=351 step=17550 return=-50.000 length=50
+[2026-07-02 12:29:03] episode=352 step=17600 return=-50.000 length=50
+[2026-07-02 12:29:05] episode=353 step=17650 return=-50.000 length=50
+[2026-07-02 12:29:06] episode=354 step=17700 return=-50.000 length=50
+[2026-07-02 12:29:07] episode=355 step=17750 return=-50.000 length=50
+[2026-07-02 12:29:08] episode=356 step=17800 return=-50.000 length=50
+[2026-07-02 12:29:09] episode=357 step=17850 return=-50.000 length=50
+[2026-07-02 12:29:11] episode=358 step=17900 return=-50.000 length=50
+[2026-07-02 12:29:12] episode=359 step=17950 return=-50.000 length=50
+[2026-07-02 12:29:13] episode=360 step=18000 return=-50.000 length=50
+[2026-07-02 12:29:13] step=18000 critic_loss=2.1285 actor_loss=1.3028 log_pi=4.3562 q1=-1.4501 q2=-1.5377
+[2026-07-02 12:29:14] episode=361 step=18050 return=-50.000 length=50
+[2026-07-02 12:29:15] episode=362 step=18100 return=-50.000 length=50
+[2026-07-02 12:29:16] episode=363 step=18150 return=-50.000 length=50
+[2026-07-02 12:29:18] episode=364 step=18200 return=-50.000 length=50
+[2026-07-02 12:29:19] episode=365 step=18250 return=-50.000 length=50
+[2026-07-02 12:29:20] episode=366 step=18300 return=-50.000 length=50
+[2026-07-02 12:29:21] episode=367 step=18350 return=-50.000 length=50
+[2026-07-02 12:29:22] episode=368 step=18400 return=-50.000 length=50
+[2026-07-02 12:29:23] episode=369 step=18450 return=-50.000 length=50
+[2026-07-02 12:29:25] episode=370 step=18500 return=-50.000 length=50
+[2026-07-02 12:29:25] step=18500 critic_loss=5.3804 actor_loss=0.5264 log_pi=4.5044 q1=-0.6623 q2=-0.6794
+[2026-07-02 12:29:26] episode=371 step=18550 return=-50.000 length=50
+[2026-07-02 12:29:27] episode=372 step=18600 return=-50.000 length=50
+[2026-07-02 12:29:29] episode=373 step=18650 return=-50.000 length=50
+[2026-07-02 12:29:30] episode=374 step=18700 return=-50.000 length=50
+[2026-07-02 12:29:31] episode=375 step=18750 return=-50.000 length=50
+[2026-07-02 12:29:32] episode=376 step=18800 return=-50.000 length=50
+[2026-07-02 12:29:33] episode=377 step=18850 return=-50.000 length=50
+[2026-07-02 12:29:35] episode=378 step=18900 return=-50.000 length=50
+[2026-07-02 12:29:36] episode=379 step=18950 return=-50.000 length=50
+[2026-07-02 12:29:37] episode=380 step=19000 return=-50.000 length=50
+[2026-07-02 12:29:37] step=19000 critic_loss=1.1404 actor_loss=0.5827 log_pi=4.4667 q1=-0.8932 q2=-0.8348
+[2026-07-02 12:29:39] episode=381 step=19050 return=-50.000 length=50
+[2026-07-02 12:29:40] episode=382 step=19100 return=-50.000 length=50
+[2026-07-02 12:29:41] episode=383 step=19150 return=-50.000 length=50
+[2026-07-02 12:29:42] episode=384 step=19200 return=-50.000 length=50
+[2026-07-02 12:29:44] episode=385 step=19250 return=-50.000 length=50
+[2026-07-02 12:29:45] episode=386 step=19300 return=-50.000 length=50
+[2026-07-02 12:29:46] episode=387 step=19350 return=-50.000 length=50
+[2026-07-02 12:29:47] episode=388 step=19400 return=-50.000 length=50
+[2026-07-02 12:29:49] episode=389 step=19450 return=-50.000 length=50
+[2026-07-02 12:29:50] episode=390 step=19500 return=-50.000 length=50
+[2026-07-02 12:29:50] step=19500 critic_loss=4.4425 actor_loss=1.0557 log_pi=4.6881 q1=-1.6987 q2=-1.6271
+[2026-07-02 12:29:52] episode=391 step=19550 return=-50.000 length=50
+[2026-07-02 12:29:53] episode=392 step=19600 return=-50.000 length=50
+[2026-07-02 12:29:54] episode=393 step=19650 return=-50.000 length=50
+[2026-07-02 12:29:55] episode=394 step=19700 return=-50.000 length=50
+[2026-07-02 12:29:56] episode=395 step=19750 return=-47.000 length=50
+[2026-07-02 12:29:57] episode=396 step=19800 return=-50.000 length=50
+[2026-07-02 12:29:58] episode=397 step=19850 return=-50.000 length=50
+[2026-07-02 12:29:59] episode=398 step=19900 return=-50.000 length=50
+[2026-07-02 12:30:00] episode=399 step=19950 return=-50.000 length=50
+[2026-07-02 12:30:01] episode=400 step=20000 return=-50.000 length=50
+[2026-07-02 12:30:01] step=20000 critic_loss=1.5952 actor_loss=-0.2198 log_pi=4.3316 q1=0.0266 q2=0.0908
+[2026-07-02 12:30:02] [eval] step=20000 avg_return=-50.000
+[2026-07-02 12:30:02] saved checkpoint at step=20000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_20000.pt
+[2026-07-02 12:30:04] episode=401 step=20050 return=-50.000 length=50
+[2026-07-02 12:30:05] episode=402 step=20100 return=-50.000 length=50
+[2026-07-02 12:30:06] episode=403 step=20150 return=-50.000 length=50
+[2026-07-02 12:30:07] episode=404 step=20200 return=-50.000 length=50
+[2026-07-02 12:30:08] episode=405 step=20250 return=-50.000 length=50
+[2026-07-02 12:30:09] episode=406 step=20300 return=-50.000 length=50
+[2026-07-02 12:30:10] episode=407 step=20350 return=-50.000 length=50
+[2026-07-02 12:30:11] episode=408 step=20400 return=-50.000 length=50
+[2026-07-02 12:30:12] episode=409 step=20450 return=-50.000 length=50
+[2026-07-02 12:30:13] episode=410 step=20500 return=-50.000 length=50
+[2026-07-02 12:30:13] step=20500 critic_loss=4.2801 actor_loss=-0.4518 log_pi=6.5119 q1=0.0052 q2=-0.0857
+[2026-07-02 12:30:14] episode=411 step=20550 return=-50.000 length=50
+[2026-07-02 12:30:15] episode=412 step=20600 return=-50.000 length=50
+[2026-07-02 12:30:16] episode=413 step=20650 return=-50.000 length=50
+[2026-07-02 12:30:17] episode=414 step=20700 return=-50.000 length=50
+[2026-07-02 12:30:18] episode=415 step=20750 return=-50.000 length=50
+[2026-07-02 12:30:19] episode=416 step=20800 return=-50.000 length=50
+[2026-07-02 12:30:20] episode=417 step=20850 return=-50.000 length=50
+[2026-07-02 12:30:21] episode=418 step=20900 return=-50.000 length=50
+[2026-07-02 12:30:22] episode=419 step=20950 return=-50.000 length=50
+[2026-07-02 12:30:23] episode=420 step=21000 return=-50.000 length=50
+[2026-07-02 12:30:23] step=21000 critic_loss=2.7779 actor_loss=-0.8976 log_pi=7.7482 q1=0.4475 q2=0.4539
+[2026-07-02 12:30:24] episode=421 step=21050 return=-50.000 length=50
+[2026-07-02 12:30:26] episode=422 step=21100 return=-50.000 length=50
+[2026-07-02 12:30:27] episode=423 step=21150 return=-50.000 length=50
+[2026-07-02 12:30:28] episode=424 step=21200 return=-50.000 length=50
+[2026-07-02 12:30:29] episode=425 step=21250 return=-50.000 length=50
+[2026-07-02 12:30:30] episode=426 step=21300 return=-50.000 length=50
+[2026-07-02 12:30:31] episode=427 step=21350 return=-50.000 length=50
+[2026-07-02 12:30:33] episode=428 step=21400 return=-50.000 length=50
+[2026-07-02 12:30:34] episode=429 step=21450 return=-50.000 length=50
+[2026-07-02 12:30:35] episode=430 step=21500 return=-50.000 length=50
+[2026-07-02 12:30:35] step=21500 critic_loss=4.3317 actor_loss=-2.8727 log_pi=7.2222 q1=2.1675 q2=2.2839
+[2026-07-02 12:30:36] episode=431 step=21550 return=-50.000 length=50
+[2026-07-02 12:30:37] episode=432 step=21600 return=-50.000 length=50
+[2026-07-02 12:30:38] episode=433 step=21650 return=-50.000 length=50
+[2026-07-02 12:30:39] episode=434 step=21700 return=-50.000 length=50
+[2026-07-02 12:30:40] episode=435 step=21750 return=-50.000 length=50
+[2026-07-02 12:30:41] episode=436 step=21800 return=-50.000 length=50
+[2026-07-02 12:30:42] episode=437 step=21850 return=-50.000 length=50
+[2026-07-02 12:30:44] episode=438 step=21900 return=-50.000 length=50
+[2026-07-02 12:30:45] episode=439 step=21950 return=-50.000 length=50
+[2026-07-02 12:30:46] episode=440 step=22000 return=-50.000 length=50
+[2026-07-02 12:30:46] step=22000 critic_loss=10.4703 actor_loss=-0.3600 log_pi=5.7729 q1=-0.1160 q2=-0.2155
+[2026-07-02 12:30:47] episode=441 step=22050 return=-50.000 length=50
+[2026-07-02 12:30:48] episode=442 step=22100 return=-50.000 length=50
+[2026-07-02 12:30:49] episode=443 step=22150 return=-50.000 length=50
+[2026-07-02 12:30:50] episode=444 step=22200 return=-50.000 length=50
+[2026-07-02 12:30:51] episode=445 step=22250 return=-50.000 length=50
+[2026-07-02 12:30:52] episode=446 step=22300 return=-50.000 length=50
+[2026-07-02 12:30:53] episode=447 step=22350 return=-50.000 length=50
+[2026-07-02 12:30:54] episode=448 step=22400 return=-50.000 length=50
+[2026-07-02 12:30:55] episode=449 step=22450 return=-50.000 length=50
+[2026-07-02 12:30:56] episode=450 step=22500 return=-50.000 length=50
+[2026-07-02 12:30:56] step=22500 critic_loss=9.7646 actor_loss=-1.3878 log_pi=5.5470 q1=1.2146 q2=1.2380
+[2026-07-02 12:30:58] episode=451 step=22550 return=-50.000 length=50
+[2026-07-02 12:31:00] episode=452 step=22600 return=-50.000 length=50
+[2026-07-02 12:31:01] episode=453 step=22650 return=-50.000 length=50
+[2026-07-02 12:31:02] episode=454 step=22700 return=-50.000 length=50
+[2026-07-02 12:31:03] episode=455 step=22750 return=-50.000 length=50
+[2026-07-02 12:31:04] episode=456 step=22800 return=-50.000 length=50
+[2026-07-02 12:31:05] episode=457 step=22850 return=-50.000 length=50
+[2026-07-02 12:31:06] episode=458 step=22900 return=-50.000 length=50
+[2026-07-02 12:31:07] episode=459 step=22950 return=-50.000 length=50
+[2026-07-02 12:31:08] episode=460 step=23000 return=-50.000 length=50
+[2026-07-02 12:31:08] step=23000 critic_loss=9.1644 actor_loss=-2.6898 log_pi=6.5953 q1=1.7764 q2=1.8332
+[2026-07-02 12:31:09] episode=461 step=23050 return=-48.000 length=50
+[2026-07-02 12:31:10] episode=462 step=23100 return=-50.000 length=50
+[2026-07-02 12:31:11] episode=463 step=23150 return=-50.000 length=50
+[2026-07-02 12:31:12] episode=464 step=23200 return=-50.000 length=50
+[2026-07-02 12:31:14] episode=465 step=23250 return=-50.000 length=50
+[2026-07-02 12:31:15] episode=466 step=23300 return=-50.000 length=50
+[2026-07-02 12:31:16] episode=467 step=23350 return=-50.000 length=50
+[2026-07-02 12:31:17] episode=468 step=23400 return=-50.000 length=50
+[2026-07-02 12:31:18] episode=469 step=23450 return=-50.000 length=50
+[2026-07-02 12:31:19] episode=470 step=23500 return=-50.000 length=50
+[2026-07-02 12:31:19] step=23500 critic_loss=5.3064 actor_loss=-6.3653 log_pi=7.0577 q1=5.1258 q2=4.9889
+[2026-07-02 12:31:20] episode=471 step=23550 return=-50.000 length=50
+[2026-07-02 12:31:21] episode=472 step=23600 return=-50.000 length=50
+[2026-07-02 12:31:22] episode=473 step=23650 return=-50.000 length=50
+[2026-07-02 12:31:23] episode=474 step=23700 return=-50.000 length=50
+[2026-07-02 12:31:25] episode=475 step=23750 return=-50.000 length=50
+[2026-07-02 12:31:27] episode=476 step=23800 return=-50.000 length=50
+[2026-07-02 12:31:28] episode=477 step=23850 return=-50.000 length=50
+[2026-07-02 12:31:29] episode=478 step=23900 return=-50.000 length=50
+[2026-07-02 12:31:30] episode=479 step=23950 return=-50.000 length=50
+[2026-07-02 12:31:31] episode=480 step=24000 return=-50.000 length=50
+[2026-07-02 12:31:31] step=24000 critic_loss=4.9482 actor_loss=-3.0428 log_pi=3.3067 q1=2.9582 q2=3.0786
+[2026-07-02 12:31:33] episode=481 step=24050 return=-50.000 length=50
+[2026-07-02 12:31:34] episode=482 step=24100 return=-50.000 length=50
+[2026-07-02 12:31:35] episode=483 step=24150 return=-50.000 length=50
+[2026-07-02 12:31:36] episode=484 step=24200 return=-50.000 length=50
+[2026-07-02 12:31:38] episode=485 step=24250 return=-50.000 length=50
+[2026-07-02 12:31:39] episode=486 step=24300 return=-50.000 length=50
+[2026-07-02 12:31:40] episode=487 step=24350 return=-50.000 length=50
+[2026-07-02 12:31:41] episode=488 step=24400 return=-50.000 length=50
+[2026-07-02 12:31:42] episode=489 step=24450 return=-50.000 length=50
+[2026-07-02 12:31:43] episode=490 step=24500 return=-50.000 length=50
+[2026-07-02 12:31:43] step=24500 critic_loss=8.4442 actor_loss=-3.0821 log_pi=3.1552 q1=2.7983 q2=2.8441
+[2026-07-02 12:31:44] episode=491 step=24550 return=-50.000 length=50
+[2026-07-02 12:31:45] episode=492 step=24600 return=-50.000 length=50
+[2026-07-02 12:31:47] episode=493 step=24650 return=-50.000 length=50
+[2026-07-02 12:31:48] episode=494 step=24700 return=-50.000 length=50
+[2026-07-02 12:31:49] episode=495 step=24750 return=-50.000 length=50
+[2026-07-02 12:31:50] episode=496 step=24800 return=-50.000 length=50
+[2026-07-02 12:31:51] episode=497 step=24850 return=-50.000 length=50
+[2026-07-02 12:31:52] episode=498 step=24900 return=-50.000 length=50
+[2026-07-02 12:31:53] episode=499 step=24950 return=-50.000 length=50
+[2026-07-02 12:31:54] episode=500 step=25000 return=-50.000 length=50
+[2026-07-02 12:31:54] step=25000 critic_loss=14.2668 actor_loss=-7.0683 log_pi=5.8472 q1=5.8088 q2=5.8910
+[2026-07-02 12:31:55] [eval] step=25000 avg_return=-50.000
+[2026-07-02 12:31:55] saved checkpoint at step=25000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_25000.pt
+[2026-07-02 12:31:56] episode=501 step=25050 return=-50.000 length=50
+[2026-07-02 12:31:58] episode=502 step=25100 return=-50.000 length=50
+[2026-07-02 12:31:59] episode=503 step=25150 return=-50.000 length=50
+[2026-07-02 12:32:00] episode=504 step=25200 return=-50.000 length=50
+[2026-07-02 12:32:01] episode=505 step=25250 return=-50.000 length=50
+[2026-07-02 12:32:02] episode=506 step=25300 return=-50.000 length=50
+[2026-07-02 12:32:03] episode=507 step=25350 return=-50.000 length=50
+[2026-07-02 12:32:04] episode=508 step=25400 return=-50.000 length=50
+[2026-07-02 12:32:05] episode=509 step=25450 return=-50.000 length=50
+[2026-07-02 12:32:07] episode=510 step=25500 return=-50.000 length=50
+[2026-07-02 12:32:07] step=25500 critic_loss=30.7413 actor_loss=-9.3012 log_pi=5.9774 q1=7.8000 q2=8.0324
+[2026-07-02 12:32:08] episode=511 step=25550 return=-50.000 length=50
+[2026-07-02 12:32:09] episode=512 step=25600 return=-50.000 length=50
+[2026-07-02 12:32:10] episode=513 step=25650 return=-50.000 length=50
+[2026-07-02 12:32:11] episode=514 step=25700 return=-50.000 length=50
+[2026-07-02 12:32:12] episode=515 step=25750 return=-50.000 length=50
+[2026-07-02 12:32:13] episode=516 step=25800 return=-50.000 length=50
+[2026-07-02 12:32:14] episode=517 step=25850 return=-50.000 length=50
+[2026-07-02 12:32:15] episode=518 step=25900 return=-50.000 length=50
+[2026-07-02 12:32:16] episode=519 step=25950 return=-50.000 length=50
+[2026-07-02 12:32:17] episode=520 step=26000 return=-50.000 length=50
+[2026-07-02 12:32:17] step=26000 critic_loss=7.2058 actor_loss=-8.8471 log_pi=6.7937 q1=7.5868 q2=7.4081
+[2026-07-02 12:32:19] episode=521 step=26050 return=-50.000 length=50
+[2026-07-02 12:32:20] episode=522 step=26100 return=-50.000 length=50
+[2026-07-02 12:32:21] episode=523 step=26150 return=-50.000 length=50
+[2026-07-02 12:32:22] episode=524 step=26200 return=-50.000 length=50
+[2026-07-02 12:32:23] episode=525 step=26250 return=-50.000 length=50
+[2026-07-02 12:32:24] episode=526 step=26300 return=-50.000 length=50
+[2026-07-02 12:32:25] episode=527 step=26350 return=-50.000 length=50
+[2026-07-02 12:32:26] episode=528 step=26400 return=-50.000 length=50
+[2026-07-02 12:32:27] episode=529 step=26450 return=-50.000 length=50
+[2026-07-02 12:32:29] episode=530 step=26500 return=-50.000 length=50
+[2026-07-02 12:32:29] step=26500 critic_loss=29.4775 actor_loss=-11.4450 log_pi=5.0016 q1=10.0730 q2=10.2838
+[2026-07-02 12:32:30] episode=531 step=26550 return=-50.000 length=50
+[2026-07-02 12:32:31] episode=532 step=26600 return=-50.000 length=50
+[2026-07-02 12:32:32] episode=533 step=26650 return=-50.000 length=50
+[2026-07-02 12:32:33] episode=534 step=26700 return=-50.000 length=50
+[2026-07-02 12:32:34] episode=535 step=26750 return=-50.000 length=50
+[2026-07-02 12:32:35] episode=536 step=26800 return=-50.000 length=50
+[2026-07-02 12:32:36] episode=537 step=26850 return=-50.000 length=50
+[2026-07-02 12:32:37] episode=538 step=26900 return=-50.000 length=50
+[2026-07-02 12:32:38] episode=539 step=26950 return=-50.000 length=50
+[2026-07-02 12:32:39] episode=540 step=27000 return=-50.000 length=50
+[2026-07-02 12:32:39] step=27000 critic_loss=108.5282 actor_loss=-20.7222 log_pi=8.1142 q1=18.2637 q2=18.4419
+[2026-07-02 12:32:40] episode=541 step=27050 return=-50.000 length=50
+[2026-07-02 12:32:41] episode=542 step=27100 return=-50.000 length=50
+[2026-07-02 12:32:42] episode=543 step=27150 return=-50.000 length=50
+[2026-07-02 12:32:43] episode=544 step=27200 return=-50.000 length=50
+[2026-07-02 12:32:44] episode=545 step=27250 return=-50.000 length=50
+[2026-07-02 12:32:46] episode=546 step=27300 return=-50.000 length=50
+[2026-07-02 12:32:47] episode=547 step=27350 return=-50.000 length=50
+[2026-07-02 12:32:48] episode=548 step=27400 return=-50.000 length=50
+[2026-07-02 12:32:49] episode=549 step=27450 return=-50.000 length=50
+[2026-07-02 12:32:50] episode=550 step=27500 return=-50.000 length=50
+[2026-07-02 12:32:50] step=27500 critic_loss=70.9575 actor_loss=-16.7461 log_pi=6.9084 q1=14.8745 q2=14.8752
+[2026-07-02 12:32:51] episode=551 step=27550 return=-50.000 length=50
+[2026-07-02 12:32:52] episode=552 step=27600 return=-50.000 length=50
+[2026-07-02 12:32:53] episode=553 step=27650 return=-50.000 length=50
+[2026-07-02 12:32:54] episode=554 step=27700 return=-50.000 length=50
+[2026-07-02 12:32:55] episode=555 step=27750 return=-50.000 length=50
+[2026-07-02 12:32:56] episode=556 step=27800 return=-50.000 length=50
+[2026-07-02 12:32:57] episode=557 step=27850 return=-50.000 length=50
+[2026-07-02 12:32:58] episode=558 step=27900 return=-50.000 length=50
+[2026-07-02 12:32:59] episode=559 step=27950 return=-50.000 length=50
+[2026-07-02 12:33:00] episode=560 step=28000 return=-50.000 length=50
+[2026-07-02 12:33:00] step=28000 critic_loss=180.8403 actor_loss=-24.9024 log_pi=5.9885 q1=22.7119 q2=22.5832
+[2026-07-02 12:33:02] episode=561 step=28050 return=-50.000 length=50
+[2026-07-02 12:33:03] episode=562 step=28100 return=-50.000 length=50
+[2026-07-02 12:33:04] episode=563 step=28150 return=-50.000 length=50
+[2026-07-02 12:33:05] episode=564 step=28200 return=-50.000 length=50
+[2026-07-02 12:33:07] episode=565 step=28250 return=-50.000 length=50
+[2026-07-02 12:33:08] episode=566 step=28300 return=-50.000 length=50
+[2026-07-02 12:33:09] episode=567 step=28350 return=-50.000 length=50
+[2026-07-02 12:33:10] episode=568 step=28400 return=-50.000 length=50
+[2026-07-02 12:33:11] episode=569 step=28450 return=-50.000 length=50
+[2026-07-02 12:33:12] episode=570 step=28500 return=-50.000 length=50
+[2026-07-02 12:33:12] step=28500 critic_loss=105.7237 actor_loss=-28.0185 log_pi=3.0412 q1=25.2832 q2=25.6578
+[2026-07-02 12:33:13] episode=571 step=28550 return=-50.000 length=50
+[2026-07-02 12:33:15] episode=572 step=28600 return=-50.000 length=50
+[2026-07-02 12:33:16] episode=573 step=28650 return=-50.000 length=50
+[2026-07-02 12:33:17] episode=574 step=28700 return=-50.000 length=50
+[2026-07-02 12:33:18] episode=575 step=28750 return=-50.000 length=50
+[2026-07-02 12:33:19] episode=576 step=28800 return=-50.000 length=50
+[2026-07-02 12:33:20] episode=577 step=28850 return=-50.000 length=50
+[2026-07-02 12:33:21] episode=578 step=28900 return=-50.000 length=50
+[2026-07-02 12:33:22] episode=579 step=28950 return=-50.000 length=50
+[2026-07-02 12:33:23] episode=580 step=29000 return=-50.000 length=50
+[2026-07-02 12:33:23] step=29000 critic_loss=41.7726 actor_loss=-28.6484 log_pi=5.5589 q1=26.8233 q2=26.6763
+[2026-07-02 12:33:25] episode=581 step=29050 return=-50.000 length=50
+[2026-07-02 12:33:26] episode=582 step=29100 return=-50.000 length=50
+[2026-07-02 12:33:27] episode=583 step=29150 return=-50.000 length=50
+[2026-07-02 12:33:28] episode=584 step=29200 return=-50.000 length=50
+[2026-07-02 12:33:29] episode=585 step=29250 return=-50.000 length=50
+[2026-07-02 12:33:30] episode=586 step=29300 return=-50.000 length=50
+[2026-07-02 12:33:31] episode=587 step=29350 return=-50.000 length=50
+[2026-07-02 12:33:32] episode=588 step=29400 return=-50.000 length=50
+[2026-07-02 12:33:33] episode=589 step=29450 return=-50.000 length=50
+[2026-07-02 12:33:34] episode=590 step=29500 return=-50.000 length=50
+[2026-07-02 12:33:34] step=29500 critic_loss=95.3324 actor_loss=-28.0227 log_pi=4.3157 q1=27.4094 q2=27.1561
+[2026-07-02 12:33:35] episode=591 step=29550 return=-50.000 length=50
+[2026-07-02 12:33:36] episode=592 step=29600 return=-50.000 length=50
+[2026-07-02 12:33:37] episode=593 step=29650 return=-50.000 length=50
+[2026-07-02 12:33:38] episode=594 step=29700 return=-50.000 length=50
+[2026-07-02 12:33:39] episode=595 step=29750 return=-50.000 length=50
+[2026-07-02 12:33:40] episode=596 step=29800 return=-50.000 length=50
+[2026-07-02 12:33:41] episode=597 step=29850 return=-50.000 length=50
+[2026-07-02 12:33:42] episode=598 step=29900 return=-50.000 length=50
+[2026-07-02 12:33:43] episode=599 step=29950 return=-50.000 length=50
+[2026-07-02 12:33:44] episode=600 step=30000 return=-50.000 length=50
+[2026-07-02 12:33:44] step=30000 critic_loss=107.4874 actor_loss=-29.9682 log_pi=3.4877 q1=28.3311 q2=28.5925
+[2026-07-02 12:33:45] [eval] step=30000 avg_return=-50.000
+[2026-07-02 12:33:45] saved checkpoint at step=30000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_30000.pt
+[2026-07-02 12:33:46] episode=601 step=30050 return=-50.000 length=50
+[2026-07-02 12:33:47] episode=602 step=30100 return=-50.000 length=50
+[2026-07-02 12:33:48] episode=603 step=30150 return=-50.000 length=50
+[2026-07-02 12:33:49] episode=604 step=30200 return=-50.000 length=50
+[2026-07-02 12:33:50] episode=605 step=30250 return=-50.000 length=50
+[2026-07-02 12:33:52] episode=606 step=30300 return=-50.000 length=50
+[2026-07-02 12:33:53] episode=607 step=30350 return=-50.000 length=50
+[2026-07-02 12:33:54] episode=608 step=30400 return=-50.000 length=50
+[2026-07-02 12:33:55] episode=609 step=30450 return=-50.000 length=50
+[2026-07-02 12:33:56] episode=610 step=30500 return=-50.000 length=50
+[2026-07-02 12:33:56] step=30500 critic_loss=87.4913 actor_loss=-29.4235 log_pi=4.5104 q1=27.2962 q2=27.2993
+[2026-07-02 12:33:57] episode=611 step=30550 return=-50.000 length=50
+[2026-07-02 12:33:58] episode=612 step=30600 return=-50.000 length=50
+[2026-07-02 12:33:59] episode=613 step=30650 return=-50.000 length=50
+[2026-07-02 12:34:00] episode=614 step=30700 return=-50.000 length=50
+[2026-07-02 12:34:01] episode=615 step=30750 return=-50.000 length=50
+[2026-07-02 12:34:02] episode=616 step=30800 return=-50.000 length=50
+[2026-07-02 12:34:03] episode=617 step=30850 return=-50.000 length=50
+[2026-07-02 12:34:04] episode=618 step=30900 return=-50.000 length=50
+[2026-07-02 12:34:05] episode=619 step=30950 return=-50.000 length=50
+[2026-07-02 12:34:06] episode=620 step=31000 return=-50.000 length=50
+[2026-07-02 12:34:06] step=31000 critic_loss=157.5372 actor_loss=-33.4355 log_pi=5.5266 q1=31.8657 q2=31.8812
+[2026-07-02 12:34:07] episode=621 step=31050 return=-50.000 length=50
+[2026-07-02 12:34:08] episode=622 step=31100 return=-50.000 length=50
+[2026-07-02 12:34:09] episode=623 step=31150 return=-50.000 length=50
+[2026-07-02 12:34:10] episode=624 step=31200 return=-50.000 length=50
+[2026-07-02 12:34:11] episode=625 step=31250 return=-50.000 length=50
+[2026-07-02 12:34:12] episode=626 step=31300 return=-50.000 length=50
+[2026-07-02 12:34:13] episode=627 step=31350 return=-50.000 length=50
+[2026-07-02 12:34:14] episode=628 step=31400 return=-50.000 length=50
+[2026-07-02 12:34:15] episode=629 step=31450 return=-50.000 length=50
+[2026-07-02 12:34:16] episode=630 step=31500 return=-50.000 length=50
+[2026-07-02 12:34:16] step=31500 critic_loss=97.0823 actor_loss=-41.5706 log_pi=4.9113 q1=39.0598 q2=38.7690
+[2026-07-02 12:34:17] episode=631 step=31550 return=-50.000 length=50
+[2026-07-02 12:34:19] episode=632 step=31600 return=-50.000 length=50
+[2026-07-02 12:34:20] episode=633 step=31650 return=-50.000 length=50
+[2026-07-02 12:34:21] episode=634 step=31700 return=-50.000 length=50
+[2026-07-02 12:34:22] episode=635 step=31750 return=-50.000 length=50
+[2026-07-02 12:34:23] episode=636 step=31800 return=-50.000 length=50
+[2026-07-02 12:34:24] episode=637 step=31850 return=-50.000 length=50
+[2026-07-02 12:34:25] episode=638 step=31900 return=-50.000 length=50
+[2026-07-02 12:34:26] episode=639 step=31950 return=-50.000 length=50
+[2026-07-02 12:34:27] episode=640 step=32000 return=-50.000 length=50
+[2026-07-02 12:34:27] step=32000 critic_loss=261.1259 actor_loss=-42.1829 log_pi=5.4827 q1=39.5814 q2=39.3840
+[2026-07-02 12:34:28] episode=641 step=32050 return=-50.000 length=50
+[2026-07-02 12:34:29] episode=642 step=32100 return=-50.000 length=50
+[2026-07-02 12:34:30] episode=643 step=32150 return=-50.000 length=50
+[2026-07-02 12:34:31] episode=644 step=32200 return=-50.000 length=50
+[2026-07-02 12:34:32] episode=645 step=32250 return=-50.000 length=50
+[2026-07-02 12:34:33] episode=646 step=32300 return=-50.000 length=50
+[2026-07-02 12:34:35] episode=647 step=32350 return=-50.000 length=50
+[2026-07-02 12:34:36] episode=648 step=32400 return=-50.000 length=50
+[2026-07-02 12:34:37] episode=649 step=32450 return=-50.000 length=50
+[2026-07-02 12:34:38] episode=650 step=32500 return=-50.000 length=50
+[2026-07-02 12:34:38] step=32500 critic_loss=243.7274 actor_loss=-47.7081 log_pi=5.1977 q1=45.1870 q2=45.1992
+[2026-07-02 12:34:39] episode=651 step=32550 return=-50.000 length=50
+[2026-07-02 12:34:41] episode=652 step=32600 return=-50.000 length=50
+[2026-07-02 12:34:42] episode=653 step=32650 return=-50.000 length=50
+[2026-07-02 12:34:43] episode=654 step=32700 return=-50.000 length=50
+[2026-07-02 12:34:44] episode=655 step=32750 return=-50.000 length=50
+[2026-07-02 12:34:46] episode=656 step=32800 return=-50.000 length=50
+[2026-07-02 12:34:47] episode=657 step=32850 return=-50.000 length=50
+[2026-07-02 12:34:48] episode=658 step=32900 return=-50.000 length=50
+[2026-07-02 12:34:49] episode=659 step=32950 return=-50.000 length=50
+[2026-07-02 12:34:50] episode=660 step=33000 return=-50.000 length=50
+[2026-07-02 12:34:50] step=33000 critic_loss=633.2378 actor_loss=-46.8382 log_pi=3.8440 q1=45.4474 q2=46.1305
+[2026-07-02 12:34:51] episode=661 step=33050 return=-50.000 length=50
+[2026-07-02 12:34:53] episode=662 step=33100 return=-50.000 length=50
+[2026-07-02 12:34:54] episode=663 step=33150 return=-50.000 length=50
+[2026-07-02 12:34:55] episode=664 step=33200 return=-50.000 length=50
+[2026-07-02 12:34:56] episode=665 step=33250 return=-47.000 length=50
+[2026-07-02 12:34:57] episode=666 step=33300 return=-50.000 length=50
+[2026-07-02 12:34:58] episode=667 step=33350 return=-50.000 length=50
+[2026-07-02 12:34:59] episode=668 step=33400 return=-50.000 length=50
+[2026-07-02 12:35:00] episode=669 step=33450 return=-50.000 length=50
+[2026-07-02 12:35:01] episode=670 step=33500 return=-50.000 length=50
+[2026-07-02 12:35:01] step=33500 critic_loss=209.4646 actor_loss=-50.6512 log_pi=2.6113 q1=47.8583 q2=47.1028
+[2026-07-02 12:35:03] episode=671 step=33550 return=-50.000 length=50
+[2026-07-02 12:35:04] episode=672 step=33600 return=-50.000 length=50
+[2026-07-02 12:35:05] episode=673 step=33650 return=-50.000 length=50
+[2026-07-02 12:35:06] episode=674 step=33700 return=-50.000 length=50
+[2026-07-02 12:35:07] episode=675 step=33750 return=-50.000 length=50
+[2026-07-02 12:35:08] episode=676 step=33800 return=-50.000 length=50
+[2026-07-02 12:35:10] episode=677 step=33850 return=-50.000 length=50
+[2026-07-02 12:35:11] episode=678 step=33900 return=-50.000 length=50
+[2026-07-02 12:35:12] episode=679 step=33950 return=-50.000 length=50
+[2026-07-02 12:35:13] episode=680 step=34000 return=-50.000 length=50
+[2026-07-02 12:35:13] step=34000 critic_loss=630.2236 actor_loss=-50.8625 log_pi=4.5547 q1=46.3740 q2=47.8048
+[2026-07-02 12:35:14] episode=681 step=34050 return=-50.000 length=50
+[2026-07-02 12:35:15] episode=682 step=34100 return=-50.000 length=50
+[2026-07-02 12:35:16] episode=683 step=34150 return=-50.000 length=50
+[2026-07-02 12:35:17] episode=684 step=34200 return=-50.000 length=50
+[2026-07-02 12:35:18] episode=685 step=34250 return=-50.000 length=50
+[2026-07-02 12:35:19] episode=686 step=34300 return=-50.000 length=50
+[2026-07-02 12:35:21] episode=687 step=34350 return=-50.000 length=50
+[2026-07-02 12:35:22] episode=688 step=34400 return=-50.000 length=50
+[2026-07-02 12:35:23] episode=689 step=34450 return=-50.000 length=50
+[2026-07-02 12:35:24] episode=690 step=34500 return=-50.000 length=50
+[2026-07-02 12:35:24] step=34500 critic_loss=69.3446 actor_loss=-58.3758 log_pi=4.4578 q1=55.0742 q2=54.3965
+[2026-07-02 12:35:25] episode=691 step=34550 return=-50.000 length=50
+[2026-07-02 12:35:26] episode=692 step=34600 return=-50.000 length=50
+[2026-07-02 12:35:27] episode=693 step=34650 return=-50.000 length=50
+[2026-07-02 12:35:28] episode=694 step=34700 return=-50.000 length=50
+[2026-07-02 12:35:30] episode=695 step=34750 return=-50.000 length=50
+[2026-07-02 12:35:31] episode=696 step=34800 return=-50.000 length=50
+[2026-07-02 12:35:32] episode=697 step=34850 return=-50.000 length=50
+[2026-07-02 12:35:34] episode=698 step=34900 return=-50.000 length=50
+[2026-07-02 12:35:35] episode=699 step=34950 return=-50.000 length=50
+[2026-07-02 12:35:36] episode=700 step=35000 return=-50.000 length=50
+[2026-07-02 12:35:36] step=35000 critic_loss=345.8723 actor_loss=-65.3414 log_pi=4.6447 q1=61.2382 q2=61.6782
+[2026-07-02 12:35:36] [eval] step=35000 avg_return=-50.000
+[2026-07-02 12:35:36] saved checkpoint at step=35000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_35000.pt
+[2026-07-02 12:35:38] episode=701 step=35050 return=-50.000 length=50
+[2026-07-02 12:35:39] episode=702 step=35100 return=-50.000 length=50
+[2026-07-02 12:35:40] episode=703 step=35150 return=-50.000 length=50
+[2026-07-02 12:35:41] episode=704 step=35200 return=-50.000 length=50
+[2026-07-02 12:35:42] episode=705 step=35250 return=-50.000 length=50
+[2026-07-02 12:35:43] episode=706 step=35300 return=-50.000 length=50
+[2026-07-02 12:35:44] episode=707 step=35350 return=-50.000 length=50
+[2026-07-02 12:35:45] episode=708 step=35400 return=-50.000 length=50
+[2026-07-02 12:35:46] episode=709 step=35450 return=-50.000 length=50
+[2026-07-02 12:35:47] episode=710 step=35500 return=-50.000 length=50
+[2026-07-02 12:35:47] step=35500 critic_loss=145.6899 actor_loss=-50.1932 log_pi=4.4522 q1=49.1844 q2=49.0626
+[2026-07-02 12:35:48] episode=711 step=35550 return=-50.000 length=50
+[2026-07-02 12:35:50] episode=712 step=35600 return=-50.000 length=50
+[2026-07-02 12:35:51] episode=713 step=35650 return=-50.000 length=50
+[2026-07-02 12:35:52] episode=714 step=35700 return=-50.000 length=50
+[2026-07-02 12:35:53] episode=715 step=35750 return=-50.000 length=50
+[2026-07-02 12:35:54] episode=716 step=35800 return=-50.000 length=50
+[2026-07-02 12:35:56] episode=717 step=35850 return=-50.000 length=50
+[2026-07-02 12:35:57] episode=718 step=35900 return=-50.000 length=50
+[2026-07-02 12:35:59] episode=719 step=35950 return=-50.000 length=50
+[2026-07-02 12:36:00] episode=720 step=36000 return=-50.000 length=50
+[2026-07-02 12:36:00] step=36000 critic_loss=1994.8054 actor_loss=-78.9893 log_pi=4.1103 q1=75.0834 q2=75.4225
+[2026-07-02 12:36:01] episode=721 step=36050 return=-50.000 length=50
+[2026-07-02 12:36:02] episode=722 step=36100 return=-50.000 length=50
+[2026-07-02 12:36:03] episode=723 step=36150 return=-50.000 length=50
+[2026-07-02 12:36:04] episode=724 step=36200 return=-50.000 length=50
+[2026-07-02 12:36:05] episode=725 step=36250 return=-50.000 length=50
+[2026-07-02 12:36:06] episode=726 step=36300 return=-50.000 length=50
+[2026-07-02 12:36:07] episode=727 step=36350 return=-50.000 length=50
+[2026-07-02 12:36:08] episode=728 step=36400 return=-50.000 length=50
+[2026-07-02 12:36:09] episode=729 step=36450 return=-50.000 length=50
+[2026-07-02 12:36:10] episode=730 step=36500 return=-50.000 length=50
+[2026-07-02 12:36:10] step=36500 critic_loss=1598.1599 actor_loss=-74.3806 log_pi=4.5022 q1=67.4774 q2=65.8486
+[2026-07-02 12:36:11] episode=731 step=36550 return=-50.000 length=50
+[2026-07-02 12:36:12] episode=732 step=36600 return=-50.000 length=50
+[2026-07-02 12:36:13] episode=733 step=36650 return=-50.000 length=50
+[2026-07-02 12:36:14] episode=734 step=36700 return=-46.000 length=50
+[2026-07-02 12:36:15] episode=735 step=36750 return=-50.000 length=50
+[2026-07-02 12:36:16] episode=736 step=36800 return=-50.000 length=50
+[2026-07-02 12:36:17] episode=737 step=36850 return=-50.000 length=50
+[2026-07-02 12:36:18] episode=738 step=36900 return=-50.000 length=50
+[2026-07-02 12:36:19] episode=739 step=36950 return=-50.000 length=50
+[2026-07-02 12:36:20] episode=740 step=37000 return=-50.000 length=50
+[2026-07-02 12:36:20] step=37000 critic_loss=266.7847 actor_loss=-54.5687 log_pi=4.3568 q1=52.9042 q2=52.5813
+[2026-07-02 12:36:21] episode=741 step=37050 return=-50.000 length=50
+[2026-07-02 12:36:22] episode=742 step=37100 return=-50.000 length=50
+[2026-07-02 12:36:24] episode=743 step=37150 return=-50.000 length=50
+[2026-07-02 12:36:25] episode=744 step=37200 return=-50.000 length=50
+[2026-07-02 12:36:26] episode=745 step=37250 return=-50.000 length=50
+[2026-07-02 12:36:27] episode=746 step=37300 return=-50.000 length=50
+[2026-07-02 12:36:28] episode=747 step=37350 return=-50.000 length=50
+[2026-07-02 12:36:29] episode=748 step=37400 return=-50.000 length=50
+[2026-07-02 12:36:30] episode=749 step=37450 return=-50.000 length=50
+[2026-07-02 12:36:31] episode=750 step=37500 return=-50.000 length=50
+[2026-07-02 12:36:31] step=37500 critic_loss=771.0649 actor_loss=-64.4967 log_pi=3.8874 q1=61.8933 q2=61.8971
+[2026-07-02 12:36:32] episode=751 step=37550 return=-50.000 length=50
+[2026-07-02 12:36:33] episode=752 step=37600 return=-50.000 length=50
+[2026-07-02 12:36:34] episode=753 step=37650 return=-50.000 length=50
+[2026-07-02 12:36:35] episode=754 step=37700 return=-50.000 length=50
+[2026-07-02 12:36:35] episode=755 step=37750 return=-50.000 length=50
+[2026-07-02 12:36:36] episode=756 step=37800 return=-50.000 length=50
+[2026-07-02 12:36:37] episode=757 step=37850 return=-50.000 length=50
+[2026-07-02 12:36:38] episode=758 step=37900 return=-50.000 length=50
+[2026-07-02 12:36:39] episode=759 step=37950 return=-50.000 length=50
+[2026-07-02 12:36:40] episode=760 step=38000 return=-50.000 length=50
+[2026-07-02 12:36:40] step=38000 critic_loss=24353.1152 actor_loss=-90.4273 log_pi=2.9819 q1=88.1249 q2=88.7323
+[2026-07-02 12:36:41] episode=761 step=38050 return=-50.000 length=50
+[2026-07-02 12:36:42] episode=762 step=38100 return=-50.000 length=50
+[2026-07-02 12:36:43] episode=763 step=38150 return=-50.000 length=50
+[2026-07-02 12:36:44] episode=764 step=38200 return=-50.000 length=50
+[2026-07-02 12:36:45] episode=765 step=38250 return=-50.000 length=50
+[2026-07-02 12:36:46] episode=766 step=38300 return=-50.000 length=50
+[2026-07-02 12:36:47] episode=767 step=38350 return=-50.000 length=50
+[2026-07-02 12:36:48] episode=768 step=38400 return=-50.000 length=50
+[2026-07-02 12:36:49] episode=769 step=38450 return=-50.000 length=50
+[2026-07-02 12:36:50] episode=770 step=38500 return=-50.000 length=50
+[2026-07-02 12:36:50] step=38500 critic_loss=774.8838 actor_loss=-85.8599 log_pi=4.7681 q1=80.3593 q2=80.7254
+[2026-07-02 12:36:51] episode=771 step=38550 return=-50.000 length=50
+[2026-07-02 12:36:52] episode=772 step=38600 return=-50.000 length=50
+[2026-07-02 12:36:53] episode=773 step=38650 return=-50.000 length=50
+[2026-07-02 12:36:54] episode=774 step=38700 return=-50.000 length=50
+[2026-07-02 12:36:55] episode=775 step=38750 return=-50.000 length=50
+[2026-07-02 12:36:56] episode=776 step=38800 return=-50.000 length=50
+[2026-07-02 12:36:57] episode=777 step=38850 return=-50.000 length=50
+[2026-07-02 12:36:58] episode=778 step=38900 return=-50.000 length=50
+[2026-07-02 12:36:59] episode=779 step=38950 return=-50.000 length=50
+[2026-07-02 12:37:00] episode=780 step=39000 return=-50.000 length=50
+[2026-07-02 12:37:00] step=39000 critic_loss=2489.2800 actor_loss=-87.2025 log_pi=4.1690 q1=83.8153 q2=83.5918
+[2026-07-02 12:37:01] episode=781 step=39050 return=-50.000 length=50
+[2026-07-02 12:37:02] episode=782 step=39100 return=-50.000 length=50
+[2026-07-02 12:37:03] episode=783 step=39150 return=-50.000 length=50
+[2026-07-02 12:37:04] episode=784 step=39200 return=-50.000 length=50
+[2026-07-02 12:37:05] episode=785 step=39250 return=-50.000 length=50
+[2026-07-02 12:37:06] episode=786 step=39300 return=-50.000 length=50
+[2026-07-02 12:37:07] episode=787 step=39350 return=-50.000 length=50
+[2026-07-02 12:37:08] episode=788 step=39400 return=-50.000 length=50
+[2026-07-02 12:37:09] episode=789 step=39450 return=-50.000 length=50
+[2026-07-02 12:37:10] episode=790 step=39500 return=-50.000 length=50
+[2026-07-02 12:37:10] step=39500 critic_loss=219.8855 actor_loss=-82.7778 log_pi=7.6298 q1=75.4283 q2=75.1927
+[2026-07-02 12:37:11] episode=791 step=39550 return=-50.000 length=50
+[2026-07-02 12:37:12] episode=792 step=39600 return=-50.000 length=50
+[2026-07-02 12:37:13] episode=793 step=39650 return=-50.000 length=50
+[2026-07-02 12:37:15] episode=794 step=39700 return=-50.000 length=50
+[2026-07-02 12:37:16] episode=795 step=39750 return=-50.000 length=50
+[2026-07-02 12:37:17] episode=796 step=39800 return=-50.000 length=50
+[2026-07-02 12:37:18] episode=797 step=39850 return=-50.000 length=50
+[2026-07-02 12:37:19] episode=798 step=39900 return=-50.000 length=50
+[2026-07-02 12:37:20] episode=799 step=39950 return=-50.000 length=50
+[2026-07-02 12:37:21] episode=800 step=40000 return=-50.000 length=50
+[2026-07-02 12:37:21] step=40000 critic_loss=848.7415 actor_loss=-92.2150 log_pi=4.4125 q1=88.1005 q2=89.4334
+[2026-07-02 12:37:22] [eval] step=40000 avg_return=-50.000
+[2026-07-02 12:37:22] saved checkpoint at step=40000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_40000.pt
+[2026-07-02 12:37:23] episode=801 step=40050 return=-50.000 length=50
+[2026-07-02 12:37:24] episode=802 step=40100 return=-50.000 length=50
+[2026-07-02 12:37:25] episode=803 step=40150 return=-50.000 length=50
+[2026-07-02 12:37:26] episode=804 step=40200 return=-50.000 length=50
+[2026-07-02 12:37:27] episode=805 step=40250 return=-50.000 length=50
+[2026-07-02 12:37:28] episode=806 step=40300 return=-50.000 length=50
+[2026-07-02 12:37:29] episode=807 step=40350 return=-50.000 length=50
+[2026-07-02 12:37:30] episode=808 step=40400 return=-50.000 length=50
+[2026-07-02 12:37:31] episode=809 step=40450 return=-50.000 length=50
+[2026-07-02 12:37:32] episode=810 step=40500 return=-50.000 length=50
+[2026-07-02 12:37:32] step=40500 critic_loss=2581.5454 actor_loss=-113.1781 log_pi=3.2216 q1=108.7712 q2=111.0886
+[2026-07-02 12:37:33] episode=811 step=40550 return=-50.000 length=50
+[2026-07-02 12:37:34] episode=812 step=40600 return=-50.000 length=50
+[2026-07-02 12:37:35] episode=813 step=40650 return=-50.000 length=50
+[2026-07-02 12:37:36] episode=814 step=40700 return=-50.000 length=50
+[2026-07-02 12:37:37] episode=815 step=40750 return=-50.000 length=50
+[2026-07-02 12:37:38] episode=816 step=40800 return=-50.000 length=50
+[2026-07-02 12:37:39] episode=817 step=40850 return=-50.000 length=50
+[2026-07-02 12:37:40] episode=818 step=40900 return=-50.000 length=50
+[2026-07-02 12:37:41] episode=819 step=40950 return=-50.000 length=50
+[2026-07-02 12:37:42] episode=820 step=41000 return=-50.000 length=50
+[2026-07-02 12:37:42] step=41000 critic_loss=2969.4209 actor_loss=-110.1449 log_pi=3.7689 q1=101.1627 q2=99.6758
+[2026-07-02 12:37:43] episode=821 step=41050 return=-50.000 length=50
+[2026-07-02 12:37:44] episode=822 step=41100 return=-50.000 length=50
+[2026-07-02 12:37:45] episode=823 step=41150 return=-50.000 length=50
+[2026-07-02 12:37:46] episode=824 step=41200 return=-50.000 length=50
+[2026-07-02 12:37:47] episode=825 step=41250 return=-50.000 length=50
+[2026-07-02 12:37:48] episode=826 step=41300 return=-50.000 length=50
+[2026-07-02 12:37:49] episode=827 step=41350 return=-50.000 length=50
+[2026-07-02 12:37:50] episode=828 step=41400 return=-50.000 length=50
+[2026-07-02 12:37:51] episode=829 step=41450 return=-50.000 length=50
+[2026-07-02 12:37:53] episode=830 step=41500 return=-50.000 length=50
+[2026-07-02 12:37:53] step=41500 critic_loss=525.5042 actor_loss=-78.5802 log_pi=3.4108 q1=74.4607 q2=74.5938
+[2026-07-02 12:37:54] episode=831 step=41550 return=-50.000 length=50
+[2026-07-02 12:37:55] episode=832 step=41600 return=-50.000 length=50
+[2026-07-02 12:37:56] episode=833 step=41650 return=-50.000 length=50
+[2026-07-02 12:37:57] episode=834 step=41700 return=-50.000 length=50
+[2026-07-02 12:37:58] episode=835 step=41750 return=-50.000 length=50
+[2026-07-02 12:37:59] episode=836 step=41800 return=-50.000 length=50
+[2026-07-02 12:38:00] episode=837 step=41850 return=-50.000 length=50
+[2026-07-02 12:38:01] episode=838 step=41900 return=-50.000 length=50
+[2026-07-02 12:38:02] episode=839 step=41950 return=-50.000 length=50
+[2026-07-02 12:38:03] episode=840 step=42000 return=-50.000 length=50
+[2026-07-02 12:38:03] step=42000 critic_loss=146450.7969 actor_loss=-114.5839 log_pi=4.6397 q1=113.4727 q2=112.2402
+[2026-07-02 12:38:04] episode=841 step=42050 return=-50.000 length=50
+[2026-07-02 12:38:05] episode=842 step=42100 return=-50.000 length=50
+[2026-07-02 12:38:06] episode=843 step=42150 return=-50.000 length=50
+[2026-07-02 12:38:07] episode=844 step=42200 return=-50.000 length=50
+[2026-07-02 12:38:08] episode=845 step=42250 return=-50.000 length=50
+[2026-07-02 12:38:09] episode=846 step=42300 return=-50.000 length=50
+[2026-07-02 12:38:10] episode=847 step=42350 return=-50.000 length=50
+[2026-07-02 12:38:11] episode=848 step=42400 return=-50.000 length=50
+[2026-07-02 12:38:12] episode=849 step=42450 return=-50.000 length=50
+[2026-07-02 12:38:13] episode=850 step=42500 return=-50.000 length=50
+[2026-07-02 12:38:13] step=42500 critic_loss=181.4193 actor_loss=-68.6470 log_pi=4.1919 q1=64.3100 q2=65.9997
+[2026-07-02 12:38:14] episode=851 step=42550 return=-50.000 length=50
+[2026-07-02 12:38:15] episode=852 step=42600 return=-50.000 length=50
+[2026-07-02 12:38:16] episode=853 step=42650 return=-50.000 length=50
+[2026-07-02 12:38:17] episode=854 step=42700 return=-50.000 length=50
+[2026-07-02 12:38:17] episode=855 step=42750 return=-50.000 length=50
+[2026-07-02 12:38:19] episode=856 step=42800 return=-50.000 length=50
+[2026-07-02 12:38:19] episode=857 step=42850 return=-50.000 length=50
+[2026-07-02 12:38:20] episode=858 step=42900 return=-50.000 length=50
+[2026-07-02 12:38:21] episode=859 step=42950 return=-50.000 length=50
+[2026-07-02 12:38:22] episode=860 step=43000 return=-50.000 length=50
+[2026-07-02 12:38:22] step=43000 critic_loss=1313.4578 actor_loss=-83.2927 log_pi=2.5313 q1=83.9861 q2=86.0780
+[2026-07-02 12:38:23] episode=861 step=43050 return=-50.000 length=50
+[2026-07-02 12:38:24] episode=862 step=43100 return=-50.000 length=50
+[2026-07-02 12:38:25] episode=863 step=43150 return=-50.000 length=50
+[2026-07-02 12:38:26] episode=864 step=43200 return=-50.000 length=50
+[2026-07-02 12:38:27] episode=865 step=43250 return=-50.000 length=50
+[2026-07-02 12:38:28] episode=866 step=43300 return=-50.000 length=50
+[2026-07-02 12:38:29] episode=867 step=43350 return=-50.000 length=50
+[2026-07-02 12:38:30] episode=868 step=43400 return=-50.000 length=50
+[2026-07-02 12:38:32] episode=869 step=43450 return=-50.000 length=50
+[2026-07-02 12:38:33] episode=870 step=43500 return=-50.000 length=50
+[2026-07-02 12:38:33] step=43500 critic_loss=36738.5859 actor_loss=-89.6926 log_pi=3.1655 q1=90.1790 q2=89.7714
+[2026-07-02 12:38:34] episode=871 step=43550 return=-50.000 length=50
+[2026-07-02 12:38:35] episode=872 step=43600 return=-50.000 length=50
+[2026-07-02 12:38:36] episode=873 step=43650 return=-50.000 length=50
+[2026-07-02 12:38:37] episode=874 step=43700 return=-50.000 length=50
+[2026-07-02 12:38:38] episode=875 step=43750 return=-50.000 length=50
+[2026-07-02 12:38:39] episode=876 step=43800 return=-50.000 length=50
+[2026-07-02 12:38:39] episode=877 step=43850 return=-50.000 length=50
+[2026-07-02 12:38:40] episode=878 step=43900 return=-50.000 length=50
+[2026-07-02 12:38:41] episode=879 step=43950 return=-50.000 length=50
+[2026-07-02 12:38:42] episode=880 step=44000 return=-50.000 length=50
+[2026-07-02 12:38:42] step=44000 critic_loss=1732.1953 actor_loss=-85.3183 log_pi=3.1120 q1=80.7770 q2=79.7502
+[2026-07-02 12:38:43] episode=881 step=44050 return=-50.000 length=50
+[2026-07-02 12:38:44] episode=882 step=44100 return=-46.000 length=50
+[2026-07-02 12:38:45] episode=883 step=44150 return=-50.000 length=50
+[2026-07-02 12:38:46] episode=884 step=44200 return=-50.000 length=50
+[2026-07-02 12:38:47] episode=885 step=44250 return=-50.000 length=50
+[2026-07-02 12:38:48] episode=886 step=44300 return=-50.000 length=50
+[2026-07-02 12:38:50] episode=887 step=44350 return=-50.000 length=50
+[2026-07-02 12:38:50] episode=888 step=44400 return=-50.000 length=50
+[2026-07-02 12:38:51] episode=889 step=44450 return=-50.000 length=50
+[2026-07-02 12:38:52] episode=890 step=44500 return=-50.000 length=50
+[2026-07-02 12:38:52] step=44500 critic_loss=1046.8491 actor_loss=-67.2578 log_pi=2.4601 q1=67.6977 q2=67.3199
+[2026-07-02 12:38:53] episode=891 step=44550 return=-50.000 length=50
+[2026-07-02 12:38:54] episode=892 step=44600 return=-50.000 length=50
+[2026-07-02 12:38:55] episode=893 step=44650 return=-50.000 length=50
+[2026-07-02 12:38:57] episode=894 step=44700 return=-50.000 length=50
+[2026-07-02 12:38:58] episode=895 step=44750 return=-50.000 length=50
+[2026-07-02 12:38:59] episode=896 step=44800 return=-50.000 length=50
+[2026-07-02 12:39:00] episode=897 step=44850 return=-50.000 length=50
+[2026-07-02 12:39:01] episode=898 step=44900 return=-50.000 length=50
+[2026-07-02 12:39:02] episode=899 step=44950 return=-50.000 length=50
+[2026-07-02 12:39:03] episode=900 step=45000 return=-50.000 length=50
+[2026-07-02 12:39:03] step=45000 critic_loss=853.2692 actor_loss=-89.1235 log_pi=6.5745 q1=82.9633 q2=82.1854
+[2026-07-02 12:39:04] [eval] step=45000 avg_return=-50.000
+[2026-07-02 12:39:04] saved checkpoint at step=45000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_45000.pt
+[2026-07-02 12:39:05] episode=901 step=45050 return=-50.000 length=50
+[2026-07-02 12:39:06] episode=902 step=45100 return=-50.000 length=50
+[2026-07-02 12:39:07] episode=903 step=45150 return=-50.000 length=50
+[2026-07-02 12:39:08] episode=904 step=45200 return=-50.000 length=50
+[2026-07-02 12:39:09] episode=905 step=45250 return=-50.000 length=50
+[2026-07-02 12:39:10] episode=906 step=45300 return=-50.000 length=50
+[2026-07-02 12:39:11] episode=907 step=45350 return=-50.000 length=50
+[2026-07-02 12:39:12] episode=908 step=45400 return=-50.000 length=50
+[2026-07-02 12:39:13] episode=909 step=45450 return=-50.000 length=50
+[2026-07-02 12:39:14] episode=910 step=45500 return=-50.000 length=50
+[2026-07-02 12:39:14] step=45500 critic_loss=446.8960 actor_loss=-80.8620 log_pi=5.1215 q1=73.7364 q2=73.9050
+[2026-07-02 12:39:15] episode=911 step=45550 return=-50.000 length=50
+[2026-07-02 12:39:16] episode=912 step=45600 return=-50.000 length=50
+[2026-07-02 12:39:17] episode=913 step=45650 return=-50.000 length=50
+[2026-07-02 12:39:19] episode=914 step=45700 return=-50.000 length=50
+[2026-07-02 12:39:20] episode=915 step=45750 return=-50.000 length=50
+[2026-07-02 12:39:21] episode=916 step=45800 return=-50.000 length=50
+[2026-07-02 12:39:22] episode=917 step=45850 return=-50.000 length=50
+[2026-07-02 12:39:23] episode=918 step=45900 return=-50.000 length=50
+[2026-07-02 12:39:24] episode=919 step=45950 return=-50.000 length=50
+[2026-07-02 12:39:26] episode=920 step=46000 return=-50.000 length=50
+[2026-07-02 12:39:26] step=46000 critic_loss=2978.0107 actor_loss=-89.4749 log_pi=3.6581 q1=86.4648 q2=87.6418
+[2026-07-02 12:39:27] episode=921 step=46050 return=-50.000 length=50
+[2026-07-02 12:39:28] episode=922 step=46100 return=-50.000 length=50
+[2026-07-02 12:39:29] episode=923 step=46150 return=-50.000 length=50
+[2026-07-02 12:39:30] episode=924 step=46200 return=-50.000 length=50
+[2026-07-02 12:39:31] episode=925 step=46250 return=-50.000 length=50
+[2026-07-02 12:39:32] episode=926 step=46300 return=-50.000 length=50
+[2026-07-02 12:39:33] episode=927 step=46350 return=-50.000 length=50
+[2026-07-02 12:39:34] episode=928 step=46400 return=-50.000 length=50
+[2026-07-02 12:39:35] episode=929 step=46450 return=-50.000 length=50
+[2026-07-02 12:39:36] episode=930 step=46500 return=-50.000 length=50
+[2026-07-02 12:39:36] step=46500 critic_loss=4108.9219 actor_loss=-131.1087 log_pi=4.7958 q1=127.1696 q2=125.7579
+[2026-07-02 12:39:37] episode=931 step=46550 return=-50.000 length=50
+[2026-07-02 12:39:38] episode=932 step=46600 return=-50.000 length=50
+[2026-07-02 12:39:39] episode=933 step=46650 return=-50.000 length=50
+[2026-07-02 12:39:40] episode=934 step=46700 return=-50.000 length=50
+[2026-07-02 12:39:41] episode=935 step=46750 return=-50.000 length=50
+[2026-07-02 12:39:42] episode=936 step=46800 return=-50.000 length=50
+[2026-07-02 12:39:43] episode=937 step=46850 return=-50.000 length=50
+[2026-07-02 12:39:44] episode=938 step=46900 return=-50.000 length=50
+[2026-07-02 12:39:45] episode=939 step=46950 return=-50.000 length=50
+[2026-07-02 12:39:46] episode=940 step=47000 return=-50.000 length=50
+[2026-07-02 12:39:46] step=47000 critic_loss=647.4833 actor_loss=-86.8583 log_pi=2.7293 q1=87.6060 q2=88.1313
+[2026-07-02 12:39:47] episode=941 step=47050 return=-50.000 length=50
+[2026-07-02 12:39:48] episode=942 step=47100 return=-50.000 length=50
+[2026-07-02 12:39:49] episode=943 step=47150 return=-50.000 length=50
+[2026-07-02 12:39:50] episode=944 step=47200 return=-50.000 length=50
+[2026-07-02 12:39:51] episode=945 step=47250 return=-50.000 length=50
+[2026-07-02 12:39:52] episode=946 step=47300 return=-50.000 length=50
+[2026-07-02 12:39:53] episode=947 step=47350 return=-50.000 length=50
+[2026-07-02 12:39:54] episode=948 step=47400 return=-50.000 length=50
+[2026-07-02 12:39:55] episode=949 step=47450 return=-50.000 length=50
+[2026-07-02 12:39:56] episode=950 step=47500 return=-50.000 length=50
+[2026-07-02 12:39:56] step=47500 critic_loss=1839.6129 actor_loss=-121.5942 log_pi=3.2707 q1=113.1130 q2=117.6175
+[2026-07-02 12:39:57] episode=951 step=47550 return=-50.000 length=50
+[2026-07-02 12:39:58] episode=952 step=47600 return=-50.000 length=50
+[2026-07-02 12:39:59] episode=953 step=47650 return=-50.000 length=50
+[2026-07-02 12:40:00] episode=954 step=47700 return=-50.000 length=50
+[2026-07-02 12:40:01] episode=955 step=47750 return=-50.000 length=50
+[2026-07-02 12:40:02] episode=956 step=47800 return=-50.000 length=50
+[2026-07-02 12:40:03] episode=957 step=47850 return=-50.000 length=50
+[2026-07-02 12:40:04] episode=958 step=47900 return=-50.000 length=50
+[2026-07-02 12:40:05] episode=959 step=47950 return=-50.000 length=50
+[2026-07-02 12:40:06] episode=960 step=48000 return=-50.000 length=50
+[2026-07-02 12:40:06] step=48000 critic_loss=3905.8040 actor_loss=-139.7764 log_pi=4.3378 q1=131.2115 q2=133.7131
+[2026-07-02 12:40:07] episode=961 step=48050 return=-50.000 length=50
+[2026-07-02 12:40:08] episode=962 step=48100 return=-50.000 length=50
+[2026-07-02 12:40:09] episode=963 step=48150 return=-50.000 length=50
+[2026-07-02 12:40:10] episode=964 step=48200 return=-50.000 length=50
+[2026-07-02 12:40:11] episode=965 step=48250 return=-50.000 length=50
+[2026-07-02 12:40:12] episode=966 step=48300 return=-50.000 length=50
+[2026-07-02 12:40:13] episode=967 step=48350 return=-50.000 length=50
+[2026-07-02 12:40:14] episode=968 step=48400 return=-50.000 length=50
+[2026-07-02 12:40:15] episode=969 step=48450 return=-50.000 length=50
+[2026-07-02 12:40:16] episode=970 step=48500 return=-50.000 length=50
+[2026-07-02 12:40:16] step=48500 critic_loss=3899.0430 actor_loss=-141.1649 log_pi=2.8791 q1=134.9352 q2=134.4781
+[2026-07-02 12:40:17] episode=971 step=48550 return=-50.000 length=50
+[2026-07-02 12:40:18] episode=972 step=48600 return=-50.000 length=50
+[2026-07-02 12:40:19] episode=973 step=48650 return=-50.000 length=50
+[2026-07-02 12:40:20] episode=974 step=48700 return=-50.000 length=50
+[2026-07-02 12:40:21] episode=975 step=48750 return=-50.000 length=50
+[2026-07-02 12:40:22] episode=976 step=48800 return=-47.000 length=50
+[2026-07-02 12:40:23] episode=977 step=48850 return=-50.000 length=50
+[2026-07-02 12:40:24] episode=978 step=48900 return=-50.000 length=50
+[2026-07-02 12:40:25] episode=979 step=48950 return=-50.000 length=50
+[2026-07-02 12:40:26] episode=980 step=49000 return=-50.000 length=50
+[2026-07-02 12:40:26] step=49000 critic_loss=2797.9634 actor_loss=-99.1686 log_pi=3.5085 q1=95.2140 q2=95.8182
+[2026-07-02 12:40:27] episode=981 step=49050 return=-50.000 length=50
+[2026-07-02 12:40:28] episode=982 step=49100 return=-50.000 length=50
+[2026-07-02 12:40:29] episode=983 step=49150 return=-50.000 length=50
+[2026-07-02 12:40:30] episode=984 step=49200 return=-50.000 length=50
+[2026-07-02 12:40:31] episode=985 step=49250 return=-50.000 length=50
+[2026-07-02 12:40:32] episode=986 step=49300 return=-50.000 length=50
+[2026-07-02 12:40:33] episode=987 step=49350 return=-50.000 length=50
+[2026-07-02 12:40:34] episode=988 step=49400 return=-50.000 length=50
+[2026-07-02 12:40:35] episode=989 step=49450 return=-50.000 length=50
+[2026-07-02 12:40:36] episode=990 step=49500 return=-50.000 length=50
+[2026-07-02 12:40:36] step=49500 critic_loss=151165.2188 actor_loss=-155.1949 log_pi=3.9951 q1=144.4885 q2=143.7068
+[2026-07-02 12:40:37] episode=991 step=49550 return=-50.000 length=50
+[2026-07-02 12:40:38] episode=992 step=49600 return=-50.000 length=50
+[2026-07-02 12:40:39] episode=993 step=49650 return=-50.000 length=50
+[2026-07-02 12:40:40] episode=994 step=49700 return=-50.000 length=50
+[2026-07-02 12:40:41] episode=995 step=49750 return=-50.000 length=50
+[2026-07-02 12:40:42] episode=996 step=49800 return=-50.000 length=50
+[2026-07-02 12:40:43] episode=997 step=49850 return=-50.000 length=50
+[2026-07-02 12:40:44] episode=998 step=49900 return=-50.000 length=50
+[2026-07-02 12:40:45] episode=999 step=49950 return=-50.000 length=50
+[2026-07-02 12:40:46] episode=1000 step=50000 return=-50.000 length=50
+[2026-07-02 12:40:46] step=50000 critic_loss=2014.8507 actor_loss=-152.1967 log_pi=4.7041 q1=142.5876 q2=142.9706
+[2026-07-02 12:40:47] [eval] step=50000 avg_return=-50.000
+[2026-07-02 12:40:47] saved checkpoint at step=50000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_50000.pt
+[2026-07-02 12:40:48] episode=1001 step=50050 return=-50.000 length=50
+[2026-07-02 12:40:49] episode=1002 step=50100 return=-50.000 length=50
+[2026-07-02 12:40:50] episode=1003 step=50150 return=-50.000 length=50
+[2026-07-02 12:40:51] episode=1004 step=50200 return=-50.000 length=50
+[2026-07-02 12:40:52] episode=1005 step=50250 return=-50.000 length=50
+[2026-07-02 12:40:53] episode=1006 step=50300 return=-50.000 length=50
+[2026-07-02 12:40:54] episode=1007 step=50350 return=-50.000 length=50
+[2026-07-02 12:40:55] episode=1008 step=50400 return=-50.000 length=50
+[2026-07-02 12:40:56] episode=1009 step=50450 return=-50.000 length=50
+[2026-07-02 12:40:57] episode=1010 step=50500 return=-50.000 length=50
+[2026-07-02 12:40:57] step=50500 critic_loss=882.7783 actor_loss=-129.1828 log_pi=3.9614 q1=119.5997 q2=120.4187
+[2026-07-02 12:40:58] episode=1011 step=50550 return=-50.000 length=50
+[2026-07-02 12:40:59] episode=1012 step=50600 return=-50.000 length=50
+[2026-07-02 12:41:00] episode=1013 step=50650 return=-50.000 length=50
+[2026-07-02 12:41:01] episode=1014 step=50700 return=-50.000 length=50
+[2026-07-02 12:41:02] episode=1015 step=50750 return=-50.000 length=50
+[2026-07-02 12:41:02] episode=1016 step=50800 return=-50.000 length=50
+[2026-07-02 12:41:03] episode=1017 step=50850 return=-50.000 length=50
+[2026-07-02 12:41:04] episode=1018 step=50900 return=-50.000 length=50
+[2026-07-02 12:41:05] episode=1019 step=50950 return=-50.000 length=50
+[2026-07-02 12:41:06] episode=1020 step=51000 return=-50.000 length=50
+[2026-07-02 12:41:06] step=51000 critic_loss=6944.6489 actor_loss=-217.9851 log_pi=3.9670 q1=209.8183 q2=207.6867
+[2026-07-02 12:41:07] episode=1021 step=51050 return=-50.000 length=50
+[2026-07-02 12:41:08] episode=1022 step=51100 return=-50.000 length=50
+[2026-07-02 12:41:09] episode=1023 step=51150 return=-50.000 length=50
+[2026-07-02 12:41:10] episode=1024 step=51200 return=-50.000 length=50
+[2026-07-02 12:41:11] episode=1025 step=51250 return=-50.000 length=50
+[2026-07-02 12:41:12] episode=1026 step=51300 return=-50.000 length=50
+[2026-07-02 12:41:13] episode=1027 step=51350 return=-50.000 length=50
+[2026-07-02 12:41:14] episode=1028 step=51400 return=-50.000 length=50
+[2026-07-02 12:41:15] episode=1029 step=51450 return=-50.000 length=50
+[2026-07-02 12:41:16] episode=1030 step=51500 return=-50.000 length=50
+[2026-07-02 12:41:16] step=51500 critic_loss=2856.8738 actor_loss=-174.1799 log_pi=4.1056 q1=160.6048 q2=161.2452
+[2026-07-02 12:41:17] episode=1031 step=51550 return=-50.000 length=50
+[2026-07-02 12:41:18] episode=1032 step=51600 return=-50.000 length=50
+[2026-07-02 12:41:19] episode=1033 step=51650 return=-50.000 length=50
+[2026-07-02 12:41:20] episode=1034 step=51700 return=-50.000 length=50
+[2026-07-02 12:41:21] episode=1035 step=51750 return=-50.000 length=50
+[2026-07-02 12:41:22] episode=1036 step=51800 return=-50.000 length=50
+[2026-07-02 12:41:23] episode=1037 step=51850 return=-50.000 length=50
+[2026-07-02 12:41:24] episode=1038 step=51900 return=-50.000 length=50
+[2026-07-02 12:41:25] episode=1039 step=51950 return=-50.000 length=50
+[2026-07-02 12:41:26] episode=1040 step=52000 return=-50.000 length=50
+[2026-07-02 12:41:26] step=52000 critic_loss=3828.5291 actor_loss=-216.3750 log_pi=3.3239 q1=200.3466 q2=198.4699
+[2026-07-02 12:41:27] episode=1041 step=52050 return=-50.000 length=50
+[2026-07-02 12:41:28] episode=1042 step=52100 return=-50.000 length=50
+[2026-07-02 12:41:29] episode=1043 step=52150 return=-50.000 length=50
+[2026-07-02 12:41:30] episode=1044 step=52200 return=-50.000 length=50
+[2026-07-02 12:41:31] episode=1045 step=52250 return=-50.000 length=50
+[2026-07-02 12:41:32] episode=1046 step=52300 return=-50.000 length=50
+[2026-07-02 12:41:33] episode=1047 step=52350 return=-50.000 length=50
+[2026-07-02 12:41:34] episode=1048 step=52400 return=-50.000 length=50
+[2026-07-02 12:41:35] episode=1049 step=52450 return=-50.000 length=50
+[2026-07-02 12:41:36] episode=1050 step=52500 return=-50.000 length=50
+[2026-07-02 12:41:36] step=52500 critic_loss=3542.7832 actor_loss=-205.0801 log_pi=4.4934 q1=189.4385 q2=188.6492
+[2026-07-02 12:41:37] episode=1051 step=52550 return=-50.000 length=50
+[2026-07-02 12:41:38] episode=1052 step=52600 return=-50.000 length=50
+[2026-07-02 12:41:39] episode=1053 step=52650 return=-50.000 length=50
+[2026-07-02 12:41:40] episode=1054 step=52700 return=-50.000 length=50
+[2026-07-02 12:41:41] episode=1055 step=52750 return=-50.000 length=50
+[2026-07-02 12:41:42] episode=1056 step=52800 return=-50.000 length=50
+[2026-07-02 12:41:43] episode=1057 step=52850 return=-50.000 length=50
+[2026-07-02 12:41:44] episode=1058 step=52900 return=-50.000 length=50
+[2026-07-02 12:41:45] episode=1059 step=52950 return=-50.000 length=50
+[2026-07-02 12:41:46] episode=1060 step=53000 return=-50.000 length=50
+[2026-07-02 12:41:46] step=53000 critic_loss=2599.4143 actor_loss=-244.1821 log_pi=4.4439 q1=231.9525 q2=227.5886
+[2026-07-02 12:41:47] episode=1061 step=53050 return=-50.000 length=50
+[2026-07-02 12:41:48] episode=1062 step=53100 return=-50.000 length=50
+[2026-07-02 12:41:49] episode=1063 step=53150 return=-50.000 length=50
+[2026-07-02 12:41:50] episode=1064 step=53200 return=-50.000 length=50
+[2026-07-02 12:41:51] episode=1065 step=53250 return=-50.000 length=50
+[2026-07-02 12:41:52] episode=1066 step=53300 return=-50.000 length=50
+[2026-07-02 12:41:53] episode=1067 step=53350 return=-50.000 length=50
+[2026-07-02 12:41:54] episode=1068 step=53400 return=-50.000 length=50
+[2026-07-02 12:41:55] episode=1069 step=53450 return=-50.000 length=50
+[2026-07-02 12:41:55] episode=1070 step=53500 return=-50.000 length=50
+[2026-07-02 12:41:56] step=53500 critic_loss=5357.5312 actor_loss=-190.6446 log_pi=3.8945 q1=178.5984 q2=177.9757
+[2026-07-02 12:41:56] episode=1071 step=53550 return=-50.000 length=50
+[2026-07-02 12:41:57] episode=1072 step=53600 return=-50.000 length=50
+[2026-07-02 12:41:58] episode=1073 step=53650 return=-50.000 length=50
+[2026-07-02 12:41:59] episode=1074 step=53700 return=-50.000 length=50
+[2026-07-02 12:42:00] episode=1075 step=53750 return=-50.000 length=50
+[2026-07-02 12:42:01] episode=1076 step=53800 return=-50.000 length=50
+[2026-07-02 12:42:02] episode=1077 step=53850 return=-50.000 length=50
+[2026-07-02 12:42:03] episode=1078 step=53900 return=-50.000 length=50
+[2026-07-02 12:42:04] episode=1079 step=53950 return=-50.000 length=50
+[2026-07-02 12:42:05] episode=1080 step=54000 return=-50.000 length=50
+[2026-07-02 12:42:05] step=54000 critic_loss=6866.9199 actor_loss=-201.1299 log_pi=2.9987 q1=194.8794 q2=193.4067
+[2026-07-02 12:42:06] episode=1081 step=54050 return=-50.000 length=50
+[2026-07-02 12:42:07] episode=1082 step=54100 return=-50.000 length=50
+[2026-07-02 12:42:08] episode=1083 step=54150 return=-50.000 length=50
+[2026-07-02 12:42:09] episode=1084 step=54200 return=-50.000 length=50
+[2026-07-02 12:42:10] episode=1085 step=54250 return=-50.000 length=50
+[2026-07-02 12:42:11] episode=1086 step=54300 return=-50.000 length=50
+[2026-07-02 12:42:12] episode=1087 step=54350 return=-50.000 length=50
+[2026-07-02 12:42:13] episode=1088 step=54400 return=-50.000 length=50
+[2026-07-02 12:42:14] episode=1089 step=54450 return=-50.000 length=50
+[2026-07-02 12:42:15] episode=1090 step=54500 return=-50.000 length=50
+[2026-07-02 12:42:15] step=54500 critic_loss=35498.6289 actor_loss=-201.5946 log_pi=3.2277 q1=195.6036 q2=195.8099
+[2026-07-02 12:42:16] episode=1091 step=54550 return=-50.000 length=50
+[2026-07-02 12:42:17] episode=1092 step=54600 return=-50.000 length=50
+[2026-07-02 12:42:18] episode=1093 step=54650 return=-50.000 length=50
+[2026-07-02 12:42:19] episode=1094 step=54700 return=-50.000 length=50
+[2026-07-02 12:42:20] episode=1095 step=54750 return=-50.000 length=50
+[2026-07-02 12:42:21] episode=1096 step=54800 return=-50.000 length=50
+[2026-07-02 12:42:22] episode=1097 step=54850 return=-50.000 length=50
+[2026-07-02 12:42:23] episode=1098 step=54900 return=-50.000 length=50
+[2026-07-02 12:42:24] episode=1099 step=54950 return=-50.000 length=50
+[2026-07-02 12:42:25] episode=1100 step=55000 return=-50.000 length=50
+[2026-07-02 12:42:25] step=55000 critic_loss=2399.1040 actor_loss=-254.0813 log_pi=5.0670 q1=239.4999 q2=238.6922
+[2026-07-02 12:42:26] [eval] step=55000 avg_return=-50.000
+[2026-07-02 12:42:26] saved checkpoint at step=55000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_55000.pt
+[2026-07-02 12:42:27] episode=1101 step=55050 return=-50.000 length=50
+[2026-07-02 12:42:28] episode=1102 step=55100 return=-50.000 length=50
+[2026-07-02 12:42:29] episode=1103 step=55150 return=-50.000 length=50
+[2026-07-02 12:42:30] episode=1104 step=55200 return=-50.000 length=50
+[2026-07-02 12:42:31] episode=1105 step=55250 return=-50.000 length=50
+[2026-07-02 12:42:32] episode=1106 step=55300 return=-50.000 length=50
+[2026-07-02 12:42:33] episode=1107 step=55350 return=-50.000 length=50
+[2026-07-02 12:42:34] episode=1108 step=55400 return=-50.000 length=50
+[2026-07-02 12:42:35] episode=1109 step=55450 return=-50.000 length=50
+[2026-07-02 12:42:36] episode=1110 step=55500 return=-50.000 length=50
+[2026-07-02 12:42:36] step=55500 critic_loss=5718.8291 actor_loss=-216.2600 log_pi=4.3475 q1=200.2394 q2=198.5901
+[2026-07-02 12:42:37] episode=1111 step=55550 return=-50.000 length=50
+[2026-07-02 12:42:38] episode=1112 step=55600 return=-50.000 length=50
+[2026-07-02 12:42:39] episode=1113 step=55650 return=-50.000 length=50
+[2026-07-02 12:42:40] episode=1114 step=55700 return=-50.000 length=50
+[2026-07-02 12:42:41] episode=1115 step=55750 return=-50.000 length=50
+[2026-07-02 12:42:42] episode=1116 step=55800 return=-50.000 length=50
+[2026-07-02 12:42:43] episode=1117 step=55850 return=-50.000 length=50
+[2026-07-02 12:42:44] episode=1118 step=55900 return=-50.000 length=50
+[2026-07-02 12:42:45] episode=1119 step=55950 return=-50.000 length=50
+[2026-07-02 12:42:46] episode=1120 step=56000 return=-50.000 length=50
+[2026-07-02 12:42:46] step=56000 critic_loss=7046.2798 actor_loss=-249.2249 log_pi=5.0954 q1=238.9041 q2=241.3706
+[2026-07-02 12:42:47] episode=1121 step=56050 return=-50.000 length=50
+[2026-07-02 12:42:48] episode=1122 step=56100 return=-50.000 length=50
+[2026-07-02 12:42:48] episode=1123 step=56150 return=-50.000 length=50
+[2026-07-02 12:42:49] episode=1124 step=56200 return=-50.000 length=50
+[2026-07-02 12:42:50] episode=1125 step=56250 return=-50.000 length=50
+[2026-07-02 12:42:51] episode=1126 step=56300 return=-50.000 length=50
+[2026-07-02 12:42:52] episode=1127 step=56350 return=-50.000 length=50
+[2026-07-02 12:42:53] episode=1128 step=56400 return=-50.000 length=50
+[2026-07-02 12:42:54] episode=1129 step=56450 return=-50.000 length=50
+[2026-07-02 12:42:55] episode=1130 step=56500 return=-50.000 length=50
+[2026-07-02 12:42:55] step=56500 critic_loss=5797.4775 actor_loss=-205.9078 log_pi=4.2030 q1=202.5696 q2=201.7845
+[2026-07-02 12:42:56] episode=1131 step=56550 return=-50.000 length=50
+[2026-07-02 12:42:57] episode=1132 step=56600 return=-50.000 length=50
+[2026-07-02 12:42:58] episode=1133 step=56650 return=-50.000 length=50
+[2026-07-02 12:42:59] episode=1134 step=56700 return=-50.000 length=50
+[2026-07-02 12:43:00] episode=1135 step=56750 return=-50.000 length=50
+[2026-07-02 12:43:01] episode=1136 step=56800 return=-50.000 length=50
+[2026-07-02 12:43:02] episode=1137 step=56850 return=-50.000 length=50
+[2026-07-02 12:43:03] episode=1138 step=56900 return=-50.000 length=50
+[2026-07-02 12:43:04] episode=1139 step=56950 return=-50.000 length=50
+[2026-07-02 12:43:06] episode=1140 step=57000 return=-50.000 length=50
+[2026-07-02 12:43:06] step=57000 critic_loss=4386.0537 actor_loss=-234.8765 log_pi=3.3929 q1=224.2733 q2=221.8575
+[2026-07-02 12:43:07] episode=1141 step=57050 return=-50.000 length=50
+[2026-07-02 12:43:08] episode=1142 step=57100 return=-50.000 length=50
+[2026-07-02 12:43:09] episode=1143 step=57150 return=-50.000 length=50
+[2026-07-02 12:43:10] episode=1144 step=57200 return=-50.000 length=50
+[2026-07-02 12:43:11] episode=1145 step=57250 return=-50.000 length=50
+[2026-07-02 12:43:12] episode=1146 step=57300 return=-50.000 length=50
+[2026-07-02 12:43:13] episode=1147 step=57350 return=-50.000 length=50
+[2026-07-02 12:43:14] episode=1148 step=57400 return=-50.000 length=50
+[2026-07-02 12:43:15] episode=1149 step=57450 return=-50.000 length=50
+[2026-07-02 12:43:16] episode=1150 step=57500 return=-50.000 length=50
+[2026-07-02 12:43:16] step=57500 critic_loss=21735.8555 actor_loss=-230.1514 log_pi=3.9079 q1=226.5038 q2=226.1569
+[2026-07-02 12:43:17] episode=1151 step=57550 return=-50.000 length=50
+[2026-07-02 12:43:19] episode=1152 step=57600 return=-50.000 length=50
+[2026-07-02 12:43:20] episode=1153 step=57650 return=-50.000 length=50
+[2026-07-02 12:43:21] episode=1154 step=57700 return=-50.000 length=50
+[2026-07-02 12:43:22] episode=1155 step=57750 return=-50.000 length=50
+[2026-07-02 12:43:23] episode=1156 step=57800 return=-50.000 length=50
+[2026-07-02 12:43:24] episode=1157 step=57850 return=-50.000 length=50
+[2026-07-02 12:43:25] episode=1158 step=57900 return=-50.000 length=50
+[2026-07-02 12:43:26] episode=1159 step=57950 return=-50.000 length=50
+[2026-07-02 12:43:27] episode=1160 step=58000 return=-50.000 length=50
+[2026-07-02 12:43:27] step=58000 critic_loss=4238.6904 actor_loss=-179.9357 log_pi=4.0122 q1=175.8720 q2=176.6767
+[2026-07-02 12:43:28] episode=1161 step=58050 return=-50.000 length=50
+[2026-07-02 12:43:29] episode=1162 step=58100 return=-50.000 length=50
+[2026-07-02 12:43:30] episode=1163 step=58150 return=-50.000 length=50
+[2026-07-02 12:43:31] episode=1164 step=58200 return=-50.000 length=50
+[2026-07-02 12:43:33] episode=1165 step=58250 return=-50.000 length=50
+[2026-07-02 12:43:34] episode=1166 step=58300 return=-50.000 length=50
+[2026-07-02 12:43:35] episode=1167 step=58350 return=-50.000 length=50
+[2026-07-02 12:43:36] episode=1168 step=58400 return=-50.000 length=50
+[2026-07-02 12:43:37] episode=1169 step=58450 return=-50.000 length=50
+[2026-07-02 12:43:38] episode=1170 step=58500 return=-50.000 length=50
+[2026-07-02 12:43:38] step=58500 critic_loss=27336.0586 actor_loss=-203.6095 log_pi=2.8536 q1=193.3299 q2=192.2384
+[2026-07-02 12:43:39] episode=1171 step=58550 return=-50.000 length=50
+[2026-07-02 12:43:40] episode=1172 step=58600 return=-50.000 length=50
+[2026-07-02 12:43:41] episode=1173 step=58650 return=-50.000 length=50
+[2026-07-02 12:43:42] episode=1174 step=58700 return=-50.000 length=50
+[2026-07-02 12:43:43] episode=1175 step=58750 return=-50.000 length=50
+[2026-07-02 12:43:44] episode=1176 step=58800 return=-50.000 length=50
+[2026-07-02 12:43:45] episode=1177 step=58850 return=-50.000 length=50
+[2026-07-02 12:43:47] episode=1178 step=58900 return=-50.000 length=50
+[2026-07-02 12:43:47] episode=1179 step=58950 return=-50.000 length=50
+[2026-07-02 12:43:48] episode=1180 step=59000 return=-50.000 length=50
+[2026-07-02 12:43:49] step=59000 critic_loss=1935.1503 actor_loss=-166.8948 log_pi=2.9825 q1=161.9700 q2=162.1741
+[2026-07-02 12:43:49] episode=1181 step=59050 return=-50.000 length=50
+[2026-07-02 12:43:51] episode=1182 step=59100 return=-50.000 length=50
+[2026-07-02 12:43:52] episode=1183 step=59150 return=-50.000 length=50
+[2026-07-02 12:43:53] episode=1184 step=59200 return=-50.000 length=50
+[2026-07-02 12:43:54] episode=1185 step=59250 return=-50.000 length=50
+[2026-07-02 12:43:55] episode=1186 step=59300 return=-50.000 length=50
+[2026-07-02 12:43:56] episode=1187 step=59350 return=-50.000 length=50
+[2026-07-02 12:43:57] episode=1188 step=59400 return=-50.000 length=50
+[2026-07-02 12:43:58] episode=1189 step=59450 return=-50.000 length=50
+[2026-07-02 12:43:59] episode=1190 step=59500 return=-50.000 length=50
+[2026-07-02 12:43:59] step=59500 critic_loss=57048.2422 actor_loss=-240.1843 log_pi=4.4392 q1=219.7674 q2=217.7290
+[2026-07-02 12:44:00] episode=1191 step=59550 return=-50.000 length=50
+[2026-07-02 12:44:01] episode=1192 step=59600 return=-50.000 length=50
+[2026-07-02 12:44:02] episode=1193 step=59650 return=-50.000 length=50
+[2026-07-02 12:44:03] episode=1194 step=59700 return=-50.000 length=50
+[2026-07-02 12:44:04] episode=1195 step=59750 return=-50.000 length=50
+[2026-07-02 12:44:05] episode=1196 step=59800 return=-50.000 length=50
+[2026-07-02 12:44:06] episode=1197 step=59850 return=-50.000 length=50
+[2026-07-02 12:44:07] episode=1198 step=59900 return=-50.000 length=50
+[2026-07-02 12:44:08] episode=1199 step=59950 return=-50.000 length=50
+[2026-07-02 12:44:10] episode=1200 step=60000 return=-50.000 length=50
+[2026-07-02 12:44:10] step=60000 critic_loss=4723.0864 actor_loss=-205.3424 log_pi=3.5469 q1=195.9489 q2=196.3752
+[2026-07-02 12:44:11] [eval] step=60000 avg_return=-50.000
+[2026-07-02 12:44:11] saved checkpoint at step=60000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_60000.pt
+[2026-07-02 12:44:12] episode=1201 step=60050 return=-50.000 length=50
+[2026-07-02 12:44:13] episode=1202 step=60100 return=-50.000 length=50
+[2026-07-02 12:44:14] episode=1203 step=60150 return=-50.000 length=50
+[2026-07-02 12:44:16] episode=1204 step=60200 return=-50.000 length=50
+[2026-07-02 12:44:17] episode=1205 step=60250 return=-50.000 length=50
+[2026-07-02 12:44:18] episode=1206 step=60300 return=-50.000 length=50
+[2026-07-02 12:44:19] episode=1207 step=60350 return=-50.000 length=50
+[2026-07-02 12:44:20] episode=1208 step=60400 return=-50.000 length=50
+[2026-07-02 12:44:21] episode=1209 step=60450 return=-50.000 length=50
+[2026-07-02 12:44:22] episode=1210 step=60500 return=-50.000 length=50
+[2026-07-02 12:44:22] step=60500 critic_loss=1515.8573 actor_loss=-177.7030 log_pi=3.9212 q1=166.8762 q2=167.5818
+[2026-07-02 12:44:23] episode=1211 step=60550 return=-50.000 length=50
+[2026-07-02 12:44:24] episode=1212 step=60600 return=-50.000 length=50
+[2026-07-02 12:44:26] episode=1213 step=60650 return=-50.000 length=50
+[2026-07-02 12:44:27] episode=1214 step=60700 return=-50.000 length=50
+[2026-07-02 12:44:28] episode=1215 step=60750 return=-50.000 length=50
+[2026-07-02 12:44:29] episode=1216 step=60800 return=-50.000 length=50
+[2026-07-02 12:44:30] episode=1217 step=60850 return=-50.000 length=50
+[2026-07-02 12:44:31] episode=1218 step=60900 return=-50.000 length=50
+[2026-07-02 12:44:33] episode=1219 step=60950 return=-50.000 length=50
+[2026-07-02 12:44:35] episode=1220 step=61000 return=-50.000 length=50
+[2026-07-02 12:44:35] step=61000 critic_loss=65660.4062 actor_loss=-184.4041 log_pi=3.5617 q1=179.5532 q2=175.7927
+[2026-07-02 12:44:36] episode=1221 step=61050 return=-50.000 length=50
+[2026-07-02 12:44:38] episode=1222 step=61100 return=-50.000 length=50
+[2026-07-02 12:44:39] episode=1223 step=61150 return=-50.000 length=50
+[2026-07-02 12:44:40] episode=1224 step=61200 return=-50.000 length=50
+[2026-07-02 12:44:41] episode=1225 step=61250 return=-50.000 length=50
+[2026-07-02 12:44:43] episode=1226 step=61300 return=-50.000 length=50
+[2026-07-02 12:44:44] episode=1227 step=61350 return=-50.000 length=50
+[2026-07-02 12:44:45] episode=1228 step=61400 return=-50.000 length=50
+[2026-07-02 12:44:46] episode=1229 step=61450 return=-50.000 length=50
+[2026-07-02 12:44:47] episode=1230 step=61500 return=-50.000 length=50
+[2026-07-02 12:44:47] step=61500 critic_loss=2359.7878 actor_loss=-227.3065 log_pi=3.8698 q1=206.2939 q2=200.8652
+[2026-07-02 12:44:48] episode=1231 step=61550 return=-50.000 length=50
+[2026-07-02 12:44:50] episode=1232 step=61600 return=-50.000 length=50
+[2026-07-02 12:44:51] episode=1233 step=61650 return=-50.000 length=50
+[2026-07-02 12:44:52] episode=1234 step=61700 return=-50.000 length=50
+[2026-07-02 12:44:53] episode=1235 step=61750 return=-50.000 length=50
+[2026-07-02 12:44:54] episode=1236 step=61800 return=-50.000 length=50
+[2026-07-02 12:44:55] episode=1237 step=61850 return=-50.000 length=50
+[2026-07-02 12:44:56] episode=1238 step=61900 return=-50.000 length=50
+[2026-07-02 12:44:57] episode=1239 step=61950 return=-50.000 length=50
+[2026-07-02 12:44:58] episode=1240 step=62000 return=-50.000 length=50
+[2026-07-02 12:44:58] step=62000 critic_loss=2445.2197 actor_loss=-153.6944 log_pi=2.5542 q1=149.3872 q2=150.9365
+[2026-07-02 12:44:59] episode=1241 step=62050 return=-50.000 length=50
+[2026-07-02 12:45:00] episode=1242 step=62100 return=-50.000 length=50
+[2026-07-02 12:45:01] episode=1243 step=62150 return=-50.000 length=50
+[2026-07-02 12:45:03] episode=1244 step=62200 return=-50.000 length=50
+[2026-07-02 12:45:04] episode=1245 step=62250 return=-50.000 length=50
+[2026-07-02 12:45:05] episode=1246 step=62300 return=-50.000 length=50
+[2026-07-02 12:45:06] episode=1247 step=62350 return=-50.000 length=50
+[2026-07-02 12:45:07] episode=1248 step=62400 return=-50.000 length=50
+[2026-07-02 12:45:08] episode=1249 step=62450 return=-50.000 length=50
+[2026-07-02 12:45:09] episode=1250 step=62500 return=-50.000 length=50
+[2026-07-02 12:45:09] step=62500 critic_loss=1980.1450 actor_loss=-197.6702 log_pi=4.5889 q1=189.3560 q2=189.9217
+[2026-07-02 12:45:11] episode=1251 step=62550 return=-50.000 length=50
+[2026-07-02 12:45:12] episode=1252 step=62600 return=-50.000 length=50
+[2026-07-02 12:45:13] episode=1253 step=62650 return=-50.000 length=50
+[2026-07-02 12:45:14] episode=1254 step=62700 return=-50.000 length=50
+[2026-07-02 12:45:15] episode=1255 step=62750 return=-50.000 length=50
+[2026-07-02 12:45:16] episode=1256 step=62800 return=-50.000 length=50
+[2026-07-02 12:45:17] episode=1257 step=62850 return=-50.000 length=50
+[2026-07-02 12:45:19] episode=1258 step=62900 return=-50.000 length=50
+[2026-07-02 12:45:20] episode=1259 step=62950 return=-50.000 length=50
+[2026-07-02 12:45:21] episode=1260 step=63000 return=-50.000 length=50
+[2026-07-02 12:45:21] step=63000 critic_loss=4236.3999 actor_loss=-154.7314 log_pi=3.7556 q1=139.8163 q2=140.9783
+[2026-07-02 12:45:22] episode=1261 step=63050 return=-50.000 length=50
+[2026-07-02 12:45:23] episode=1262 step=63100 return=-50.000 length=50
+[2026-07-02 12:45:24] episode=1263 step=63150 return=-50.000 length=50
+[2026-07-02 12:45:25] episode=1264 step=63200 return=-50.000 length=50
+[2026-07-02 12:45:27] episode=1265 step=63250 return=-50.000 length=50
+[2026-07-02 12:45:28] episode=1266 step=63300 return=-50.000 length=50
+[2026-07-02 12:45:29] episode=1267 step=63350 return=-50.000 length=50
+[2026-07-02 12:45:30] episode=1268 step=63400 return=-50.000 length=50
+[2026-07-02 12:45:31] episode=1269 step=63450 return=-50.000 length=50
+[2026-07-02 12:45:32] episode=1270 step=63500 return=-50.000 length=50
+[2026-07-02 12:45:32] step=63500 critic_loss=14965.2480 actor_loss=-188.6155 log_pi=3.7151 q1=180.1148 q2=183.9208
+[2026-07-02 12:45:33] episode=1271 step=63550 return=-50.000 length=50
+[2026-07-02 12:45:35] episode=1272 step=63600 return=-50.000 length=50
+[2026-07-02 12:45:36] episode=1273 step=63650 return=-50.000 length=50
+[2026-07-02 12:45:37] episode=1274 step=63700 return=-50.000 length=50
+[2026-07-02 12:45:38] episode=1275 step=63750 return=-50.000 length=50
+[2026-07-02 12:45:39] episode=1276 step=63800 return=-50.000 length=50
+[2026-07-02 12:45:40] episode=1277 step=63850 return=-50.000 length=50
+[2026-07-02 12:45:41] episode=1278 step=63900 return=-50.000 length=50
+[2026-07-02 12:45:43] episode=1279 step=63950 return=-50.000 length=50
+[2026-07-02 12:45:44] episode=1280 step=64000 return=-50.000 length=50
+[2026-07-02 12:45:44] step=64000 critic_loss=2267.0818 actor_loss=-192.8188 log_pi=4.3112 q1=187.1400 q2=185.6372
+[2026-07-02 12:45:45] episode=1281 step=64050 return=-50.000 length=50
+[2026-07-02 12:45:46] episode=1282 step=64100 return=-50.000 length=50
+[2026-07-02 12:45:47] episode=1283 step=64150 return=-50.000 length=50
+[2026-07-02 12:45:48] episode=1284 step=64200 return=-50.000 length=50
+[2026-07-02 12:45:49] episode=1285 step=64250 return=-50.000 length=50
+[2026-07-02 12:45:51] episode=1286 step=64300 return=-50.000 length=50
+[2026-07-02 12:45:52] episode=1287 step=64350 return=-50.000 length=50
+[2026-07-02 12:45:53] episode=1288 step=64400 return=-50.000 length=50
+[2026-07-02 12:45:54] episode=1289 step=64450 return=-50.000 length=50
+[2026-07-02 12:45:55] episode=1290 step=64500 return=-50.000 length=50
+[2026-07-02 12:45:55] step=64500 critic_loss=11199.4590 actor_loss=-239.3304 log_pi=3.9256 q1=221.2611 q2=217.6221
+[2026-07-02 12:45:56] episode=1291 step=64550 return=-50.000 length=50
+[2026-07-02 12:45:57] episode=1292 step=64600 return=-50.000 length=50
+[2026-07-02 12:45:58] episode=1293 step=64650 return=-50.000 length=50
+[2026-07-02 12:46:00] episode=1294 step=64700 return=-50.000 length=50
+[2026-07-02 12:46:01] episode=1295 step=64750 return=-50.000 length=50
+[2026-07-02 12:46:02] episode=1296 step=64800 return=-50.000 length=50
+[2026-07-02 12:46:03] episode=1297 step=64850 return=-50.000 length=50
+[2026-07-02 12:46:04] episode=1298 step=64900 return=-50.000 length=50
+[2026-07-02 12:46:05] episode=1299 step=64950 return=-50.000 length=50
+[2026-07-02 12:46:06] episode=1300 step=65000 return=-50.000 length=50
+[2026-07-02 12:46:06] step=65000 critic_loss=3811.6836 actor_loss=-192.0643 log_pi=4.2513 q1=179.2672 q2=178.5944
+[2026-07-02 12:46:07] [eval] step=65000 avg_return=-50.000
+[2026-07-02 12:46:07] saved checkpoint at step=65000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_65000.pt
+[2026-07-02 12:46:09] episode=1301 step=65050 return=-50.000 length=50
+[2026-07-02 12:46:10] episode=1302 step=65100 return=-50.000 length=50
+[2026-07-02 12:46:11] episode=1303 step=65150 return=-50.000 length=50
+[2026-07-02 12:46:12] episode=1304 step=65200 return=-50.000 length=50
+[2026-07-02 12:46:13] episode=1305 step=65250 return=-50.000 length=50
+[2026-07-02 12:46:15] episode=1306 step=65300 return=-50.000 length=50
+[2026-07-02 12:46:16] episode=1307 step=65350 return=-50.000 length=50
+[2026-07-02 12:46:17] episode=1308 step=65400 return=-50.000 length=50
+[2026-07-02 12:46:18] episode=1309 step=65450 return=-50.000 length=50
+[2026-07-02 12:46:19] episode=1310 step=65500 return=-50.000 length=50
+[2026-07-02 12:46:19] step=65500 critic_loss=24266.6543 actor_loss=-244.9524 log_pi=4.7165 q1=230.4023 q2=228.8218
+[2026-07-02 12:46:20] episode=1311 step=65550 return=-50.000 length=50
+[2026-07-02 12:46:22] episode=1312 step=65600 return=-50.000 length=50
+[2026-07-02 12:46:23] episode=1313 step=65650 return=-50.000 length=50
+[2026-07-02 12:46:24] episode=1314 step=65700 return=-50.000 length=50
+[2026-07-02 12:46:25] episode=1315 step=65750 return=-50.000 length=50
+[2026-07-02 12:46:26] episode=1316 step=65800 return=-50.000 length=50
+[2026-07-02 12:46:28] episode=1317 step=65850 return=-50.000 length=50
+[2026-07-02 12:46:30] episode=1318 step=65900 return=-50.000 length=50
+[2026-07-02 12:46:33] episode=1319 step=65950 return=-50.000 length=50
+[2026-07-02 12:46:35] episode=1320 step=66000 return=-50.000 length=50
+[2026-07-02 12:46:35] step=66000 critic_loss=96255.8516 actor_loss=-167.6116 log_pi=2.6678 q1=163.8138 q2=170.2183
+[2026-07-02 12:46:36] episode=1321 step=66050 return=-50.000 length=50
+[2026-07-02 12:46:38] episode=1322 step=66100 return=-50.000 length=50
+[2026-07-02 12:46:40] episode=1323 step=66150 return=-50.000 length=50
+[2026-07-02 12:46:42] episode=1324 step=66200 return=-50.000 length=50
+[2026-07-02 12:46:44] episode=1325 step=66250 return=-50.000 length=50
+[2026-07-02 12:46:46] episode=1326 step=66300 return=-50.000 length=50
+[2026-07-02 12:46:48] episode=1327 step=66350 return=-50.000 length=50
+[2026-07-02 12:46:49] episode=1328 step=66400 return=-50.000 length=50
+[2026-07-02 12:46:50] episode=1329 step=66450 return=-50.000 length=50
+[2026-07-02 12:46:52] episode=1330 step=66500 return=-50.000 length=50
+[2026-07-02 12:46:52] step=66500 critic_loss=5112.5518 actor_loss=-217.6522 log_pi=4.5598 q1=216.0952 q2=212.7608
+[2026-07-02 12:46:53] episode=1331 step=66550 return=-50.000 length=50
+[2026-07-02 12:46:54] episode=1332 step=66600 return=-50.000 length=50
+[2026-07-02 12:46:55] episode=1333 step=66650 return=-50.000 length=50
+[2026-07-02 12:46:57] episode=1334 step=66700 return=-50.000 length=50
+[2026-07-02 12:46:58] episode=1335 step=66750 return=-50.000 length=50
+[2026-07-02 12:46:59] episode=1336 step=66800 return=-50.000 length=50
+[2026-07-02 12:47:00] episode=1337 step=66850 return=-50.000 length=50
+[2026-07-02 12:47:01] episode=1338 step=66900 return=-50.000 length=50
+[2026-07-02 12:47:02] episode=1339 step=66950 return=-50.000 length=50
+[2026-07-02 12:47:04] episode=1340 step=67000 return=-50.000 length=50
+[2026-07-02 12:47:04] step=67000 critic_loss=8439.3125 actor_loss=-210.9516 log_pi=4.2388 q1=204.1886 q2=203.5637
+[2026-07-02 12:47:05] episode=1341 step=67050 return=-50.000 length=50
+[2026-07-02 12:47:06] episode=1342 step=67100 return=-50.000 length=50
+[2026-07-02 12:47:07] episode=1343 step=67150 return=-50.000 length=50
+[2026-07-02 12:47:08] episode=1344 step=67200 return=-50.000 length=50
+[2026-07-02 12:47:09] episode=1345 step=67250 return=-50.000 length=50
+[2026-07-02 12:47:10] episode=1346 step=67300 return=-50.000 length=50
+[2026-07-02 12:47:11] episode=1347 step=67350 return=-50.000 length=50
+[2026-07-02 12:47:12] episode=1348 step=67400 return=-50.000 length=50
+[2026-07-02 12:47:14] episode=1349 step=67450 return=-50.000 length=50
+[2026-07-02 12:47:15] episode=1350 step=67500 return=-50.000 length=50
+[2026-07-02 12:47:15] step=67500 critic_loss=6674.2319 actor_loss=-186.6855 log_pi=4.3878 q1=170.3242 q2=175.9679
+[2026-07-02 12:47:16] episode=1351 step=67550 return=-50.000 length=50
+[2026-07-02 12:47:17] episode=1352 step=67600 return=-50.000 length=50
+[2026-07-02 12:47:18] episode=1353 step=67650 return=-50.000 length=50
+[2026-07-02 12:47:19] episode=1354 step=67700 return=-50.000 length=50
+[2026-07-02 12:47:20] episode=1355 step=67750 return=-50.000 length=50
+[2026-07-02 12:47:21] episode=1356 step=67800 return=-50.000 length=50
+[2026-07-02 12:47:22] episode=1357 step=67850 return=-50.000 length=50
+[2026-07-02 12:47:23] episode=1358 step=67900 return=-50.000 length=50
+[2026-07-02 12:47:24] episode=1359 step=67950 return=-50.000 length=50
+[2026-07-02 12:47:25] episode=1360 step=68000 return=-50.000 length=50
+[2026-07-02 12:47:25] step=68000 critic_loss=1226.7253 actor_loss=-192.7482 log_pi=5.5527 q1=176.2625 q2=177.8736
+[2026-07-02 12:47:26] episode=1361 step=68050 return=-50.000 length=50
+[2026-07-02 12:47:28] episode=1362 step=68100 return=-50.000 length=50
+[2026-07-02 12:47:29] episode=1363 step=68150 return=-50.000 length=50
+[2026-07-02 12:47:30] episode=1364 step=68200 return=-50.000 length=50
+[2026-07-02 12:47:31] episode=1365 step=68250 return=-50.000 length=50
+[2026-07-02 12:47:32] episode=1366 step=68300 return=-50.000 length=50
+[2026-07-02 12:47:33] episode=1367 step=68350 return=-50.000 length=50
+[2026-07-02 12:47:34] episode=1368 step=68400 return=-50.000 length=50
+[2026-07-02 12:47:36] episode=1369 step=68450 return=-50.000 length=50
+[2026-07-02 12:47:37] episode=1370 step=68500 return=-50.000 length=50
+[2026-07-02 12:47:37] step=68500 critic_loss=5120.4956 actor_loss=-223.1695 log_pi=4.6076 q1=216.3028 q2=212.8761
+[2026-07-02 12:47:38] episode=1371 step=68550 return=-50.000 length=50
+[2026-07-02 12:47:40] episode=1372 step=68600 return=-50.000 length=50
+[2026-07-02 12:47:43] episode=1373 step=68650 return=-50.000 length=50
+[2026-07-02 12:47:45] episode=1374 step=68700 return=-50.000 length=50
+[2026-07-02 12:47:47] episode=1375 step=68750 return=-50.000 length=50
+[2026-07-02 12:47:48] episode=1376 step=68800 return=-50.000 length=50
+[2026-07-02 12:47:50] episode=1377 step=68850 return=-50.000 length=50
+[2026-07-02 12:47:52] episode=1378 step=68900 return=-50.000 length=50
+[2026-07-02 12:47:53] episode=1379 step=68950 return=-50.000 length=50
+[2026-07-02 12:47:54] episode=1380 step=69000 return=-50.000 length=50
+[2026-07-02 12:47:54] step=69000 critic_loss=9309.1445 actor_loss=-253.9909 log_pi=3.6955 q1=247.8764 q2=247.1652
+[2026-07-02 12:47:55] episode=1381 step=69050 return=-50.000 length=50
+[2026-07-02 12:47:56] episode=1382 step=69100 return=-50.000 length=50
+[2026-07-02 12:47:57] episode=1383 step=69150 return=-50.000 length=50
+[2026-07-02 12:47:58] episode=1384 step=69200 return=-50.000 length=50
+[2026-07-02 12:47:59] episode=1385 step=69250 return=-50.000 length=50
+[2026-07-02 12:48:00] episode=1386 step=69300 return=-50.000 length=50
+[2026-07-02 12:48:01] episode=1387 step=69350 return=0.000 length=50
+[2026-07-02 12:48:02] episode=1388 step=69400 return=-50.000 length=50
+[2026-07-02 12:48:02] episode=1389 step=69450 return=-50.000 length=50
+[2026-07-02 12:48:03] episode=1390 step=69500 return=-50.000 length=50
+[2026-07-02 12:48:03] step=69500 critic_loss=2008.7847 actor_loss=-191.7459 log_pi=3.9792 q1=181.2603 q2=181.9164
+[2026-07-02 12:48:04] episode=1391 step=69550 return=-50.000 length=50
+[2026-07-02 12:48:05] episode=1392 step=69600 return=-50.000 length=50
+[2026-07-02 12:48:06] episode=1393 step=69650 return=-50.000 length=50
+[2026-07-02 12:48:07] episode=1394 step=69700 return=-50.000 length=50
+[2026-07-02 12:48:08] episode=1395 step=69750 return=-50.000 length=50
+[2026-07-02 12:48:10] episode=1396 step=69800 return=-50.000 length=50
+[2026-07-02 12:48:11] episode=1397 step=69850 return=-50.000 length=50
+[2026-07-02 12:48:12] episode=1398 step=69900 return=-50.000 length=50
+[2026-07-02 12:48:13] episode=1399 step=69950 return=-50.000 length=50
+[2026-07-02 12:48:15] episode=1400 step=70000 return=-50.000 length=50
+[2026-07-02 12:48:15] step=70000 critic_loss=1508.5010 actor_loss=-187.3018 log_pi=4.4246 q1=174.3547 q2=173.0004
+[2026-07-02 12:48:16] [eval] step=70000 avg_return=-50.000
+[2026-07-02 12:48:16] saved checkpoint at step=70000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_70000.pt
+[2026-07-02 12:48:17] episode=1401 step=70050 return=-50.000 length=50
+[2026-07-02 12:48:18] episode=1402 step=70100 return=-50.000 length=50
+[2026-07-02 12:48:20] episode=1403 step=70150 return=-50.000 length=50
+[2026-07-02 12:48:21] episode=1404 step=70200 return=-50.000 length=50
+[2026-07-02 12:48:22] episode=1405 step=70250 return=-50.000 length=50
+[2026-07-02 12:48:23] episode=1406 step=70300 return=-50.000 length=50
+[2026-07-02 12:48:24] episode=1407 step=70350 return=-50.000 length=50
+[2026-07-02 12:48:25] episode=1408 step=70400 return=-50.000 length=50
+[2026-07-02 12:48:26] episode=1409 step=70450 return=-50.000 length=50
+[2026-07-02 12:48:27] episode=1410 step=70500 return=-50.000 length=50
+[2026-07-02 12:48:27] step=70500 critic_loss=92469.2031 actor_loss=-160.8621 log_pi=4.0891 q1=161.7882 q2=155.9876
+[2026-07-02 12:48:28] episode=1411 step=70550 return=-50.000 length=50
+[2026-07-02 12:48:29] episode=1412 step=70600 return=-50.000 length=50
+[2026-07-02 12:48:30] episode=1413 step=70650 return=-50.000 length=50
+[2026-07-02 12:48:31] episode=1414 step=70700 return=-50.000 length=50
+[2026-07-02 12:48:33] episode=1415 step=70750 return=-50.000 length=50
+[2026-07-02 12:48:34] episode=1416 step=70800 return=-50.000 length=50
+[2026-07-02 12:48:35] episode=1417 step=70850 return=-50.000 length=50
+[2026-07-02 12:48:36] episode=1418 step=70900 return=-50.000 length=50
+[2026-07-02 12:48:37] episode=1419 step=70950 return=-50.000 length=50
+[2026-07-02 12:48:38] episode=1420 step=71000 return=-50.000 length=50
+[2026-07-02 12:48:38] step=71000 critic_loss=3650.1099 actor_loss=-173.0407 log_pi=2.7055 q1=168.0332 q2=168.8996
+[2026-07-02 12:48:39] episode=1421 step=71050 return=-50.000 length=50
+[2026-07-02 12:48:40] episode=1422 step=71100 return=-50.000 length=50
+[2026-07-02 12:48:41] episode=1423 step=71150 return=-50.000 length=50
+[2026-07-02 12:48:42] episode=1424 step=71200 return=-50.000 length=50
+[2026-07-02 12:48:43] episode=1425 step=71250 return=-50.000 length=50
+[2026-07-02 12:48:44] episode=1426 step=71300 return=-50.000 length=50
+[2026-07-02 12:48:45] episode=1427 step=71350 return=-50.000 length=50
+[2026-07-02 12:48:46] episode=1428 step=71400 return=-50.000 length=50
+[2026-07-02 12:48:47] episode=1429 step=71450 return=-50.000 length=50
+[2026-07-02 12:48:49] episode=1430 step=71500 return=-50.000 length=50
+[2026-07-02 12:48:49] step=71500 critic_loss=5568.2705 actor_loss=-178.5452 log_pi=4.6886 q1=171.8050 q2=172.3162
+[2026-07-02 12:48:51] episode=1431 step=71550 return=-50.000 length=50
+[2026-07-02 12:48:52] episode=1432 step=71600 return=-50.000 length=50
+[2026-07-02 12:48:53] episode=1433 step=71650 return=-50.000 length=50
+[2026-07-02 12:48:54] episode=1434 step=71700 return=-50.000 length=50
+[2026-07-02 12:48:56] episode=1435 step=71750 return=-50.000 length=50
+[2026-07-02 12:48:57] episode=1436 step=71800 return=-50.000 length=50
+[2026-07-02 12:48:58] episode=1437 step=71850 return=-50.000 length=50
+[2026-07-02 12:48:59] episode=1438 step=71900 return=-50.000 length=50
+[2026-07-02 12:49:01] episode=1439 step=71950 return=-50.000 length=50
+[2026-07-02 12:49:02] episode=1440 step=72000 return=-50.000 length=50
+[2026-07-02 12:49:02] step=72000 critic_loss=1438.0682 actor_loss=-150.2936 log_pi=3.9064 q1=147.4197 q2=147.1959
+[2026-07-02 12:49:03] episode=1441 step=72050 return=-50.000 length=50
+[2026-07-02 12:49:04] episode=1442 step=72100 return=-50.000 length=50
+[2026-07-02 12:49:06] episode=1443 step=72150 return=-50.000 length=50
+[2026-07-02 12:49:07] episode=1444 step=72200 return=-50.000 length=50
+[2026-07-02 12:49:08] episode=1445 step=72250 return=-50.000 length=50
+[2026-07-02 12:49:10] episode=1446 step=72300 return=-50.000 length=50
+[2026-07-02 12:49:11] episode=1447 step=72350 return=-50.000 length=50
+[2026-07-02 12:49:12] episode=1448 step=72400 return=-50.000 length=50
+[2026-07-02 12:49:14] episode=1449 step=72450 return=-50.000 length=50
+[2026-07-02 12:49:15] episode=1450 step=72500 return=-50.000 length=50
+[2026-07-02 12:49:15] step=72500 critic_loss=3223.1631 actor_loss=-233.3654 log_pi=3.5973 q1=222.9098 q2=221.8837
+[2026-07-02 12:49:16] episode=1451 step=72550 return=-50.000 length=50
+[2026-07-02 12:49:17] episode=1452 step=72600 return=-50.000 length=50
+[2026-07-02 12:49:19] episode=1453 step=72650 return=-50.000 length=50
+[2026-07-02 12:49:20] episode=1454 step=72700 return=-50.000 length=50
+[2026-07-02 12:49:21] episode=1455 step=72750 return=-50.000 length=50
+[2026-07-02 12:49:22] episode=1456 step=72800 return=-50.000 length=50
+[2026-07-02 12:49:23] episode=1457 step=72850 return=-50.000 length=50
+[2026-07-02 12:49:24] episode=1458 step=72900 return=-50.000 length=50
+[2026-07-02 12:49:25] episode=1459 step=72950 return=-50.000 length=50
+[2026-07-02 12:49:26] episode=1460 step=73000 return=-50.000 length=50
+[2026-07-02 12:49:26] step=73000 critic_loss=3584.8289 actor_loss=-155.8307 log_pi=4.2178 q1=148.0623 q2=151.7414
+[2026-07-02 12:49:27] episode=1461 step=73050 return=-50.000 length=50
+[2026-07-02 12:49:29] episode=1462 step=73100 return=-50.000 length=50
+[2026-07-02 12:49:30] episode=1463 step=73150 return=-50.000 length=50
+[2026-07-02 12:49:31] episode=1464 step=73200 return=-50.000 length=50
+[2026-07-02 12:49:32] episode=1465 step=73250 return=-50.000 length=50
+[2026-07-02 12:49:33] episode=1466 step=73300 return=-50.000 length=50
+[2026-07-02 12:49:34] episode=1467 step=73350 return=-50.000 length=50
+[2026-07-02 12:49:35] episode=1468 step=73400 return=-50.000 length=50
+[2026-07-02 12:49:36] episode=1469 step=73450 return=-50.000 length=50
+[2026-07-02 12:49:37] episode=1470 step=73500 return=-50.000 length=50
+[2026-07-02 12:49:37] step=73500 critic_loss=2252.3584 actor_loss=-170.5647 log_pi=3.2558 q1=162.3640 q2=162.4503
+[2026-07-02 12:49:38] episode=1471 step=73550 return=-50.000 length=50
+[2026-07-02 12:49:39] episode=1472 step=73600 return=-50.000 length=50
+[2026-07-02 12:49:40] episode=1473 step=73650 return=-50.000 length=50
+[2026-07-02 12:49:41] episode=1474 step=73700 return=-50.000 length=50
+[2026-07-02 12:49:42] episode=1475 step=73750 return=-50.000 length=50
+[2026-07-02 12:49:44] episode=1476 step=73800 return=-50.000 length=50
+[2026-07-02 12:49:45] episode=1477 step=73850 return=-50.000 length=50
+[2026-07-02 12:49:46] episode=1478 step=73900 return=-50.000 length=50
+[2026-07-02 12:49:47] episode=1479 step=73950 return=-50.000 length=50
+[2026-07-02 12:49:48] episode=1480 step=74000 return=-50.000 length=50
+[2026-07-02 12:49:48] step=74000 critic_loss=4020.3738 actor_loss=-182.2258 log_pi=3.7259 q1=172.0675 q2=169.7051
+[2026-07-02 12:49:49] episode=1481 step=74050 return=-50.000 length=50
+[2026-07-02 12:49:50] episode=1482 step=74100 return=-50.000 length=50
+[2026-07-02 12:49:51] episode=1483 step=74150 return=-50.000 length=50
+[2026-07-02 12:49:52] episode=1484 step=74200 return=-50.000 length=50
+[2026-07-02 12:49:53] episode=1485 step=74250 return=-50.000 length=50
+[2026-07-02 12:49:54] episode=1486 step=74300 return=-50.000 length=50
+[2026-07-02 12:49:55] episode=1487 step=74350 return=-50.000 length=50
+[2026-07-02 12:49:56] episode=1488 step=74400 return=-50.000 length=50
+[2026-07-02 12:49:57] episode=1489 step=74450 return=-50.000 length=50
+[2026-07-02 12:49:59] episode=1490 step=74500 return=-50.000 length=50
+[2026-07-02 12:49:59] step=74500 critic_loss=4399.1528 actor_loss=-177.3247 log_pi=4.3253 q1=169.7812 q2=169.4133
+[2026-07-02 12:50:00] episode=1491 step=74550 return=-50.000 length=50
+[2026-07-02 12:50:01] episode=1492 step=74600 return=-50.000 length=50
+[2026-07-02 12:50:02] episode=1493 step=74650 return=-50.000 length=50
+[2026-07-02 12:50:03] episode=1494 step=74700 return=-50.000 length=50
+[2026-07-02 12:50:04] episode=1495 step=74750 return=-50.000 length=50
+[2026-07-02 12:50:05] episode=1496 step=74800 return=-50.000 length=50
+[2026-07-02 12:50:06] episode=1497 step=74850 return=-50.000 length=50
+[2026-07-02 12:50:07] episode=1498 step=74900 return=-50.000 length=50
+[2026-07-02 12:50:08] episode=1499 step=74950 return=-50.000 length=50
+[2026-07-02 12:50:09] episode=1500 step=75000 return=-50.000 length=50
+[2026-07-02 12:50:09] step=75000 critic_loss=1813.2336 actor_loss=-178.9726 log_pi=4.9853 q1=173.3695 q2=170.6803
+[2026-07-02 12:50:10] [eval] step=75000 avg_return=-50.000
+[2026-07-02 12:50:10] saved checkpoint at step=75000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_75000.pt
+[2026-07-02 12:50:11] episode=1501 step=75050 return=-50.000 length=50
+[2026-07-02 12:50:12] episode=1502 step=75100 return=-50.000 length=50
+[2026-07-02 12:50:13] episode=1503 step=75150 return=-50.000 length=50
+[2026-07-02 12:50:14] episode=1504 step=75200 return=-50.000 length=50
+[2026-07-02 12:50:15] episode=1505 step=75250 return=-50.000 length=50
+[2026-07-02 12:50:16] episode=1506 step=75300 return=-50.000 length=50
+[2026-07-02 12:50:17] episode=1507 step=75350 return=-50.000 length=50
+[2026-07-02 12:50:19] episode=1508 step=75400 return=-50.000 length=50
+[2026-07-02 12:50:20] episode=1509 step=75450 return=-50.000 length=50
+[2026-07-02 12:50:21] episode=1510 step=75500 return=-50.000 length=50
+[2026-07-02 12:50:21] step=75500 critic_loss=8210.5195 actor_loss=-185.2829 log_pi=4.3658 q1=176.0581 q2=176.9966
+[2026-07-02 12:50:22] episode=1511 step=75550 return=-50.000 length=50
+[2026-07-02 12:50:23] episode=1512 step=75600 return=-50.000 length=50
+[2026-07-02 12:50:24] episode=1513 step=75650 return=-50.000 length=50
+[2026-07-02 12:50:25] episode=1514 step=75700 return=-50.000 length=50
+[2026-07-02 12:50:26] episode=1515 step=75750 return=-50.000 length=50
+[2026-07-02 12:50:27] episode=1516 step=75800 return=-50.000 length=50
+[2026-07-02 12:50:28] episode=1517 step=75850 return=-50.000 length=50
+[2026-07-02 12:50:29] episode=1518 step=75900 return=-50.000 length=50
+[2026-07-02 12:50:30] episode=1519 step=75950 return=-50.000 length=50
+[2026-07-02 12:50:31] episode=1520 step=76000 return=-50.000 length=50
+[2026-07-02 12:50:31] step=76000 critic_loss=2428.8276 actor_loss=-156.5320 log_pi=3.2360 q1=146.3778 q2=145.0571
+[2026-07-02 12:50:32] episode=1521 step=76050 return=-50.000 length=50
+[2026-07-02 12:50:33] episode=1522 step=76100 return=-50.000 length=50
+[2026-07-02 12:50:34] episode=1523 step=76150 return=-50.000 length=50
+[2026-07-02 12:50:35] episode=1524 step=76200 return=-50.000 length=50
+[2026-07-02 12:50:36] episode=1525 step=76250 return=-50.000 length=50
+[2026-07-02 12:50:37] episode=1526 step=76300 return=-50.000 length=50
+[2026-07-02 12:50:39] episode=1527 step=76350 return=-50.000 length=50
+[2026-07-02 12:50:40] episode=1528 step=76400 return=-50.000 length=50
+[2026-07-02 12:50:41] episode=1529 step=76450 return=-50.000 length=50
+[2026-07-02 12:50:42] episode=1530 step=76500 return=-50.000 length=50
+[2026-07-02 12:50:42] step=76500 critic_loss=1794.9646 actor_loss=-184.9338 log_pi=5.0119 q1=173.6141 q2=172.4271
+[2026-07-02 12:50:43] episode=1531 step=76550 return=-50.000 length=50
+[2026-07-02 12:50:44] episode=1532 step=76600 return=-50.000 length=50
+[2026-07-02 12:50:45] episode=1533 step=76650 return=-50.000 length=50
+[2026-07-02 12:50:46] episode=1534 step=76700 return=-50.000 length=50
+[2026-07-02 12:50:47] episode=1535 step=76750 return=-50.000 length=50
+[2026-07-02 12:50:48] episode=1536 step=76800 return=-50.000 length=50
+[2026-07-02 12:50:49] episode=1537 step=76850 return=-50.000 length=50
+[2026-07-02 12:50:50] episode=1538 step=76900 return=-50.000 length=50
+[2026-07-02 12:50:51] episode=1539 step=76950 return=-50.000 length=50
+[2026-07-02 12:50:52] episode=1540 step=77000 return=-50.000 length=50
+[2026-07-02 12:50:52] step=77000 critic_loss=3029.0015 actor_loss=-205.9478 log_pi=3.4919 q1=197.4730 q2=198.8030
+[2026-07-02 12:50:53] episode=1541 step=77050 return=-50.000 length=50
+[2026-07-02 12:50:54] episode=1542 step=77100 return=-50.000 length=50
+[2026-07-02 12:50:55] episode=1543 step=77150 return=-50.000 length=50
+[2026-07-02 12:50:56] episode=1544 step=77200 return=-50.000 length=50
+[2026-07-02 12:50:57] episode=1545 step=77250 return=-50.000 length=50
+[2026-07-02 12:50:58] episode=1546 step=77300 return=-50.000 length=50
+[2026-07-02 12:50:59] episode=1547 step=77350 return=-50.000 length=50
+[2026-07-02 12:51:00] episode=1548 step=77400 return=-50.000 length=50
+[2026-07-02 12:51:02] episode=1549 step=77450 return=-50.000 length=50
+[2026-07-02 12:51:03] episode=1550 step=77500 return=-50.000 length=50
+[2026-07-02 12:51:03] step=77500 critic_loss=5160.2759 actor_loss=-140.3902 log_pi=3.9921 q1=135.6891 q2=135.4923
+[2026-07-02 12:51:04] episode=1551 step=77550 return=-50.000 length=50
+[2026-07-02 12:51:05] episode=1552 step=77600 return=-50.000 length=50
+[2026-07-02 12:51:06] episode=1553 step=77650 return=-50.000 length=50
+[2026-07-02 12:51:08] episode=1554 step=77700 return=-50.000 length=50
+[2026-07-02 12:51:09] episode=1555 step=77750 return=-50.000 length=50
+[2026-07-02 12:51:10] episode=1556 step=77800 return=-50.000 length=50
+[2026-07-02 12:51:11] episode=1557 step=77850 return=-50.000 length=50
+[2026-07-02 12:51:13] episode=1558 step=77900 return=-50.000 length=50
+[2026-07-02 12:51:14] episode=1559 step=77950 return=-50.000 length=50
+[2026-07-02 12:51:15] episode=1560 step=78000 return=-50.000 length=50
+[2026-07-02 12:51:15] step=78000 critic_loss=4086.2510 actor_loss=-149.4919 log_pi=4.0738 q1=145.5006 q2=145.1686
+[2026-07-02 12:51:16] episode=1561 step=78050 return=-50.000 length=50
+[2026-07-02 12:51:17] episode=1562 step=78100 return=-50.000 length=50
+[2026-07-02 12:51:18] episode=1563 step=78150 return=-50.000 length=50
+[2026-07-02 12:51:19] episode=1564 step=78200 return=-50.000 length=50
+[2026-07-02 12:51:20] episode=1565 step=78250 return=-50.000 length=50
+[2026-07-02 12:51:21] episode=1566 step=78300 return=-50.000 length=50
+[2026-07-02 12:51:22] episode=1567 step=78350 return=-50.000 length=50
+[2026-07-02 12:51:23] episode=1568 step=78400 return=-50.000 length=50
+[2026-07-02 12:51:25] episode=1569 step=78450 return=-50.000 length=50
+[2026-07-02 12:51:26] episode=1570 step=78500 return=-50.000 length=50
+[2026-07-02 12:51:26] step=78500 critic_loss=1843.1543 actor_loss=-183.0040 log_pi=4.2120 q1=174.6813 q2=173.1875
+[2026-07-02 12:51:27] episode=1571 step=78550 return=-50.000 length=50
+[2026-07-02 12:51:29] episode=1572 step=78600 return=-50.000 length=50
+[2026-07-02 12:51:31] episode=1573 step=78650 return=-50.000 length=50
+[2026-07-02 12:51:32] episode=1574 step=78700 return=-50.000 length=50
+[2026-07-02 12:51:33] episode=1575 step=78750 return=-47.000 length=50
+[2026-07-02 12:51:34] episode=1576 step=78800 return=-50.000 length=50
+[2026-07-02 12:51:35] episode=1577 step=78850 return=-50.000 length=50
+[2026-07-02 12:51:36] episode=1578 step=78900 return=-50.000 length=50
+[2026-07-02 12:51:37] episode=1579 step=78950 return=-50.000 length=50
+[2026-07-02 12:51:38] episode=1580 step=79000 return=-50.000 length=50
+[2026-07-02 12:51:38] step=79000 critic_loss=1654.5715 actor_loss=-138.9902 log_pi=4.9661 q1=130.0959 q2=130.5533
+[2026-07-02 12:51:39] episode=1581 step=79050 return=-50.000 length=50
+[2026-07-02 12:51:40] episode=1582 step=79100 return=-50.000 length=50
+[2026-07-02 12:51:42] episode=1583 step=79150 return=-50.000 length=50
+[2026-07-02 12:51:43] episode=1584 step=79200 return=-50.000 length=50
+[2026-07-02 12:51:44] episode=1585 step=79250 return=-50.000 length=50
+[2026-07-02 12:51:45] episode=1586 step=79300 return=-50.000 length=50
+[2026-07-02 12:51:46] episode=1587 step=79350 return=-50.000 length=50
+[2026-07-02 12:51:47] episode=1588 step=79400 return=-50.000 length=50
+[2026-07-02 12:51:48] episode=1589 step=79450 return=-50.000 length=50
+[2026-07-02 12:51:49] episode=1590 step=79500 return=-50.000 length=50
+[2026-07-02 12:51:49] step=79500 critic_loss=1186.9924 actor_loss=-139.8643 log_pi=5.3613 q1=132.2362 q2=131.7569
+[2026-07-02 12:51:50] episode=1591 step=79550 return=-50.000 length=50
+[2026-07-02 12:51:51] episode=1592 step=79600 return=-50.000 length=50
+[2026-07-02 12:51:52] episode=1593 step=79650 return=-50.000 length=50
+[2026-07-02 12:51:53] episode=1594 step=79700 return=-50.000 length=50
+[2026-07-02 12:51:55] episode=1595 step=79750 return=-50.000 length=50
+[2026-07-02 12:51:56] episode=1596 step=79800 return=-50.000 length=50
+[2026-07-02 12:51:57] episode=1597 step=79850 return=-50.000 length=50
+[2026-07-02 12:51:58] episode=1598 step=79900 return=-50.000 length=50
+[2026-07-02 12:51:59] episode=1599 step=79950 return=-50.000 length=50
+[2026-07-02 12:52:00] episode=1600 step=80000 return=-50.000 length=50
+[2026-07-02 12:52:00] step=80000 critic_loss=1244.8640 actor_loss=-127.1455 log_pi=2.2665 q1=122.2357 q2=126.5327
+[2026-07-02 12:52:01] [eval] step=80000 avg_return=-50.000
+[2026-07-02 12:52:01] saved checkpoint at step=80000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_80000.pt
+[2026-07-02 12:52:02] episode=1601 step=80050 return=-50.000 length=50
+[2026-07-02 12:52:03] episode=1602 step=80100 return=-50.000 length=50
+[2026-07-02 12:52:05] episode=1603 step=80150 return=-50.000 length=50
+[2026-07-02 12:52:06] episode=1604 step=80200 return=-50.000 length=50
+[2026-07-02 12:52:07] episode=1605 step=80250 return=-50.000 length=50
+[2026-07-02 12:52:08] episode=1606 step=80300 return=-50.000 length=50
+[2026-07-02 12:52:09] episode=1607 step=80350 return=-50.000 length=50
+[2026-07-02 12:52:10] episode=1608 step=80400 return=-50.000 length=50
+[2026-07-02 12:52:11] episode=1609 step=80450 return=-50.000 length=50
+[2026-07-02 12:52:12] episode=1610 step=80500 return=-50.000 length=50
+[2026-07-02 12:52:12] step=80500 critic_loss=1263.0342 actor_loss=-93.6225 log_pi=4.0370 q1=86.1486 q2=86.8553
+[2026-07-02 12:52:13] episode=1611 step=80550 return=-50.000 length=50
+[2026-07-02 12:52:14] episode=1612 step=80600 return=-50.000 length=50
+[2026-07-02 12:52:15] episode=1613 step=80650 return=-50.000 length=50
+[2026-07-02 12:52:16] episode=1614 step=80700 return=-50.000 length=50
+[2026-07-02 12:52:18] episode=1615 step=80750 return=-50.000 length=50
+[2026-07-02 12:52:19] episode=1616 step=80800 return=-50.000 length=50
+[2026-07-02 12:52:20] episode=1617 step=80850 return=-50.000 length=50
+[2026-07-02 12:52:21] episode=1618 step=80900 return=-50.000 length=50
+[2026-07-02 12:52:22] episode=1619 step=80950 return=-50.000 length=50
+[2026-07-02 12:52:23] episode=1620 step=81000 return=-50.000 length=50
+[2026-07-02 12:52:23] step=81000 critic_loss=457.7862 actor_loss=-100.5609 log_pi=3.4383 q1=95.9296 q2=97.6123
+[2026-07-02 12:52:24] episode=1621 step=81050 return=-50.000 length=50
+[2026-07-02 12:52:25] episode=1622 step=81100 return=-50.000 length=50
+[2026-07-02 12:52:26] episode=1623 step=81150 return=-50.000 length=50
+[2026-07-02 12:52:27] episode=1624 step=81200 return=-50.000 length=50
+[2026-07-02 12:52:28] episode=1625 step=81250 return=-50.000 length=50
+[2026-07-02 12:52:30] episode=1626 step=81300 return=-50.000 length=50
+[2026-07-02 12:52:31] episode=1627 step=81350 return=-50.000 length=50
+[2026-07-02 12:52:32] episode=1628 step=81400 return=-50.000 length=50
+[2026-07-02 12:52:33] episode=1629 step=81450 return=-50.000 length=50
+[2026-07-02 12:52:34] episode=1630 step=81500 return=-50.000 length=50
+[2026-07-02 12:52:34] step=81500 critic_loss=519.4739 actor_loss=-125.2212 log_pi=4.9761 q1=121.4924 q2=119.8782
+[2026-07-02 12:52:35] episode=1631 step=81550 return=-50.000 length=50
+[2026-07-02 12:52:36] episode=1632 step=81600 return=-50.000 length=50
+[2026-07-02 12:52:37] episode=1633 step=81650 return=-50.000 length=50
+[2026-07-02 12:52:38] episode=1634 step=81700 return=-50.000 length=50
+[2026-07-02 12:52:39] episode=1635 step=81750 return=-50.000 length=50
+[2026-07-02 12:52:41] episode=1636 step=81800 return=-50.000 length=50
+[2026-07-02 12:52:42] episode=1637 step=81850 return=-50.000 length=50
+[2026-07-02 12:52:43] episode=1638 step=81900 return=-50.000 length=50
+[2026-07-02 12:52:44] episode=1639 step=81950 return=-50.000 length=50
+[2026-07-02 12:52:45] episode=1640 step=82000 return=-50.000 length=50
+[2026-07-02 12:52:45] step=82000 critic_loss=1710.0327 actor_loss=-110.2903 log_pi=3.6050 q1=105.2687 q2=103.5796
+[2026-07-02 12:52:46] episode=1641 step=82050 return=-50.000 length=50
+[2026-07-02 12:52:47] episode=1642 step=82100 return=-50.000 length=50
+[2026-07-02 12:52:48] episode=1643 step=82150 return=-50.000 length=50
+[2026-07-02 12:52:49] episode=1644 step=82200 return=-50.000 length=50
+[2026-07-02 12:52:50] episode=1645 step=82250 return=-50.000 length=50
+[2026-07-02 12:52:52] episode=1646 step=82300 return=-50.000 length=50
+[2026-07-02 12:52:53] episode=1647 step=82350 return=-50.000 length=50
+[2026-07-02 12:52:54] episode=1648 step=82400 return=-50.000 length=50
+[2026-07-02 12:52:55] episode=1649 step=82450 return=-50.000 length=50
+[2026-07-02 12:52:56] episode=1650 step=82500 return=-50.000 length=50
+[2026-07-02 12:52:56] step=82500 critic_loss=1392.7432 actor_loss=-106.8412 log_pi=3.9294 q1=101.0202 q2=101.5496
+[2026-07-02 12:52:57] episode=1651 step=82550 return=-50.000 length=50
+[2026-07-02 12:52:58] episode=1652 step=82600 return=-50.000 length=50
+[2026-07-02 12:52:59] episode=1653 step=82650 return=-50.000 length=50
+[2026-07-02 12:53:00] episode=1654 step=82700 return=-50.000 length=50
+[2026-07-02 12:53:01] episode=1655 step=82750 return=-50.000 length=50
+[2026-07-02 12:53:02] episode=1656 step=82800 return=-50.000 length=50
+[2026-07-02 12:53:03] episode=1657 step=82850 return=-50.000 length=50
+[2026-07-02 12:53:04] episode=1658 step=82900 return=-50.000 length=50
+[2026-07-02 12:53:06] episode=1659 step=82950 return=-50.000 length=50
+[2026-07-02 12:53:07] episode=1660 step=83000 return=-50.000 length=50
+[2026-07-02 12:53:07] step=83000 critic_loss=4214.9395 actor_loss=-109.0455 log_pi=4.9204 q1=108.3097 q2=109.5294
+[2026-07-02 12:53:08] episode=1661 step=83050 return=-50.000 length=50
+[2026-07-02 12:53:09] episode=1662 step=83100 return=-50.000 length=50
+[2026-07-02 12:53:10] episode=1663 step=83150 return=-50.000 length=50
+[2026-07-02 12:53:12] episode=1664 step=83200 return=-50.000 length=50
+[2026-07-02 12:53:13] episode=1665 step=83250 return=-50.000 length=50
+[2026-07-02 12:53:14] episode=1666 step=83300 return=-50.000 length=50
+[2026-07-02 12:53:16] episode=1667 step=83350 return=-50.000 length=50
+[2026-07-02 12:53:17] episode=1668 step=83400 return=-50.000 length=50
+[2026-07-02 12:53:18] episode=1669 step=83450 return=-50.000 length=50
+[2026-07-02 12:53:19] episode=1670 step=83500 return=-50.000 length=50
+[2026-07-02 12:53:19] step=83500 critic_loss=6478.2910 actor_loss=-112.9444 log_pi=5.3602 q1=102.4094 q2=104.2633
+[2026-07-02 12:53:20] episode=1671 step=83550 return=-50.000 length=50
+[2026-07-02 12:53:22] episode=1672 step=83600 return=-50.000 length=50
+[2026-07-02 12:53:23] episode=1673 step=83650 return=-50.000 length=50
+[2026-07-02 12:53:24] episode=1674 step=83700 return=-50.000 length=50
+[2026-07-02 12:53:25] episode=1675 step=83750 return=-50.000 length=50
+[2026-07-02 12:53:27] episode=1676 step=83800 return=-50.000 length=50
+[2026-07-02 12:53:28] episode=1677 step=83850 return=-50.000 length=50
+[2026-07-02 12:53:29] episode=1678 step=83900 return=-50.000 length=50
+[2026-07-02 12:53:30] episode=1679 step=83950 return=-50.000 length=50
+[2026-07-02 12:53:31] episode=1680 step=84000 return=-50.000 length=50
+[2026-07-02 12:53:31] step=84000 critic_loss=1501.2843 actor_loss=-110.2944 log_pi=4.2583 q1=105.9329 q2=108.6165
+[2026-07-02 12:53:32] episode=1681 step=84050 return=-50.000 length=50
+[2026-07-02 12:53:33] episode=1682 step=84100 return=-50.000 length=50
+[2026-07-02 12:53:34] episode=1683 step=84150 return=-50.000 length=50
+[2026-07-02 12:53:35] episode=1684 step=84200 return=-50.000 length=50
+[2026-07-02 12:53:36] episode=1685 step=84250 return=-50.000 length=50
+[2026-07-02 12:53:38] episode=1686 step=84300 return=-50.000 length=50
+[2026-07-02 12:53:39] episode=1687 step=84350 return=-50.000 length=50
+[2026-07-02 12:53:40] episode=1688 step=84400 return=-50.000 length=50
+[2026-07-02 12:53:41] episode=1689 step=84450 return=-50.000 length=50
+[2026-07-02 12:53:43] episode=1690 step=84500 return=-50.000 length=50
+[2026-07-02 12:53:43] step=84500 critic_loss=1034.0690 actor_loss=-102.5035 log_pi=3.5891 q1=97.6810 q2=95.6462
+[2026-07-02 12:53:44] episode=1691 step=84550 return=-50.000 length=50
+[2026-07-02 12:53:45] episode=1692 step=84600 return=-50.000 length=50
+[2026-07-02 12:53:46] episode=1693 step=84650 return=-50.000 length=50
+[2026-07-02 12:53:47] episode=1694 step=84700 return=-50.000 length=50
+[2026-07-02 12:53:48] episode=1695 step=84750 return=-50.000 length=50
+[2026-07-02 12:53:49] episode=1696 step=84800 return=-50.000 length=50
+[2026-07-02 12:53:50] episode=1697 step=84850 return=-50.000 length=50
+[2026-07-02 12:53:51] episode=1698 step=84900 return=-50.000 length=50
+[2026-07-02 12:53:53] episode=1699 step=84950 return=-50.000 length=50
+[2026-07-02 12:53:54] episode=1700 step=85000 return=-50.000 length=50
+[2026-07-02 12:53:54] step=85000 critic_loss=1343.2209 actor_loss=-86.4794 log_pi=4.3287 q1=80.8954 q2=83.0241
+[2026-07-02 12:53:55] [eval] step=85000 avg_return=-50.000
+[2026-07-02 12:53:55] saved checkpoint at step=85000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_85000.pt
+[2026-07-02 12:53:56] episode=1701 step=85050 return=-50.000 length=50
+[2026-07-02 12:53:57] episode=1702 step=85100 return=-50.000 length=50
+[2026-07-02 12:53:58] episode=1703 step=85150 return=-50.000 length=50
+[2026-07-02 12:54:00] episode=1704 step=85200 return=-50.000 length=50
+[2026-07-02 12:54:01] episode=1705 step=85250 return=-50.000 length=50
+[2026-07-02 12:54:02] episode=1706 step=85300 return=-50.000 length=50
+[2026-07-02 12:54:03] episode=1707 step=85350 return=-50.000 length=50
+[2026-07-02 12:54:04] episode=1708 step=85400 return=-50.000 length=50
+[2026-07-02 12:54:06] episode=1709 step=85450 return=-50.000 length=50
+[2026-07-02 12:54:07] episode=1710 step=85500 return=-50.000 length=50
+[2026-07-02 12:54:07] step=85500 critic_loss=3918.7163 actor_loss=-54.9233 log_pi=4.1343 q1=54.7400 q2=54.4316
+[2026-07-02 12:54:08] episode=1711 step=85550 return=-50.000 length=50
+[2026-07-02 12:54:10] episode=1712 step=85600 return=-50.000 length=50
+[2026-07-02 12:54:11] episode=1713 step=85650 return=-50.000 length=50
+[2026-07-02 12:54:12] episode=1714 step=85700 return=-50.000 length=50
+[2026-07-02 12:54:14] episode=1715 step=85750 return=-50.000 length=50
+[2026-07-02 12:54:15] episode=1716 step=85800 return=-50.000 length=50
+[2026-07-02 12:54:16] episode=1717 step=85850 return=-50.000 length=50
+[2026-07-02 12:54:17] episode=1718 step=85900 return=-50.000 length=50
+[2026-07-02 12:54:18] episode=1719 step=85950 return=-50.000 length=50
+[2026-07-02 12:54:19] episode=1720 step=86000 return=-50.000 length=50
+[2026-07-02 12:54:19] step=86000 critic_loss=1327.3545 actor_loss=-102.5145 log_pi=3.6930 q1=98.6804 q2=97.9658
+[2026-07-02 12:54:20] episode=1721 step=86050 return=-50.000 length=50
+[2026-07-02 12:54:21] episode=1722 step=86100 return=-50.000 length=50
+[2026-07-02 12:54:22] episode=1723 step=86150 return=-50.000 length=50
+[2026-07-02 12:54:23] episode=1724 step=86200 return=-50.000 length=50
+[2026-07-02 12:54:24] episode=1725 step=86250 return=-50.000 length=50
+[2026-07-02 12:54:25] episode=1726 step=86300 return=-50.000 length=50
+[2026-07-02 12:54:26] episode=1727 step=86350 return=-50.000 length=50
+[2026-07-02 12:54:27] episode=1728 step=86400 return=-50.000 length=50
+[2026-07-02 12:54:28] episode=1729 step=86450 return=-50.000 length=50
+[2026-07-02 12:54:29] episode=1730 step=86500 return=-50.000 length=50
+[2026-07-02 12:54:29] step=86500 critic_loss=2362.8618 actor_loss=-98.5107 log_pi=2.7336 q1=95.7732 q2=95.8769
+[2026-07-02 12:54:30] episode=1731 step=86550 return=-50.000 length=50
+[2026-07-02 12:54:31] episode=1732 step=86600 return=-50.000 length=50
+[2026-07-02 12:54:33] episode=1733 step=86650 return=-50.000 length=50
+[2026-07-02 12:54:34] episode=1734 step=86700 return=-50.000 length=50
+[2026-07-02 12:54:35] episode=1735 step=86750 return=-50.000 length=50
+[2026-07-02 12:54:36] episode=1736 step=86800 return=-50.000 length=50
+[2026-07-02 12:54:37] episode=1737 step=86850 return=-50.000 length=50
+[2026-07-02 12:54:38] episode=1738 step=86900 return=-50.000 length=50
+[2026-07-02 12:54:39] episode=1739 step=86950 return=-50.000 length=50
+[2026-07-02 12:54:40] episode=1740 step=87000 return=-50.000 length=50
+[2026-07-02 12:54:40] step=87000 critic_loss=1066.2139 actor_loss=-101.7494 log_pi=4.8706 q1=92.4389 q2=92.8536
+[2026-07-02 12:54:41] episode=1741 step=87050 return=-50.000 length=50
+[2026-07-02 12:54:42] episode=1742 step=87100 return=-50.000 length=50
+[2026-07-02 12:54:43] episode=1743 step=87150 return=-50.000 length=50
+[2026-07-02 12:54:44] episode=1744 step=87200 return=-50.000 length=50
+[2026-07-02 12:54:45] episode=1745 step=87250 return=-50.000 length=50
+[2026-07-02 12:54:46] episode=1746 step=87300 return=-50.000 length=50
+[2026-07-02 12:54:47] episode=1747 step=87350 return=-50.000 length=50
+[2026-07-02 12:54:49] episode=1748 step=87400 return=-50.000 length=50
+[2026-07-02 12:54:50] episode=1749 step=87450 return=-50.000 length=50
+[2026-07-02 12:54:51] episode=1750 step=87500 return=-50.000 length=50
+[2026-07-02 12:54:51] step=87500 critic_loss=2243.5532 actor_loss=-100.5340 log_pi=3.8073 q1=93.2672 q2=92.4759
+[2026-07-02 12:54:52] episode=1751 step=87550 return=-50.000 length=50
+[2026-07-02 12:54:53] episode=1752 step=87600 return=-50.000 length=50
+[2026-07-02 12:54:55] episode=1753 step=87650 return=-50.000 length=50
+[2026-07-02 12:54:56] episode=1754 step=87700 return=-50.000 length=50
+[2026-07-02 12:54:57] episode=1755 step=87750 return=-50.000 length=50
+[2026-07-02 12:54:58] episode=1756 step=87800 return=-50.000 length=50
+[2026-07-02 12:55:00] episode=1757 step=87850 return=-50.000 length=50
+[2026-07-02 12:55:01] episode=1758 step=87900 return=-50.000 length=50
+[2026-07-02 12:55:02] episode=1759 step=87950 return=-50.000 length=50
+[2026-07-02 12:55:03] episode=1760 step=88000 return=-50.000 length=50
+[2026-07-02 12:55:03] step=88000 critic_loss=1458.9114 actor_loss=-61.4204 log_pi=3.5014 q1=57.9086 q2=57.5315
+[2026-07-02 12:55:04] episode=1761 step=88050 return=-50.000 length=50
+[2026-07-02 12:55:05] episode=1762 step=88100 return=-50.000 length=50
+[2026-07-02 12:55:06] episode=1763 step=88150 return=-50.000 length=50
+[2026-07-02 12:55:08] episode=1764 step=88200 return=-50.000 length=50
+[2026-07-02 12:55:09] episode=1765 step=88250 return=-50.000 length=50
+[2026-07-02 12:55:10] episode=1766 step=88300 return=-50.000 length=50
+[2026-07-02 12:55:11] episode=1767 step=88350 return=-50.000 length=50
+[2026-07-02 12:55:12] episode=1768 step=88400 return=-50.000 length=50
+[2026-07-02 12:55:13] episode=1769 step=88450 return=-50.000 length=50
+[2026-07-02 12:55:14] episode=1770 step=88500 return=-50.000 length=50
+[2026-07-02 12:55:14] step=88500 critic_loss=3019.7822 actor_loss=-95.6340 log_pi=2.9781 q1=92.2198 q2=91.0954
+[2026-07-02 12:55:15] episode=1771 step=88550 return=-50.000 length=50
+[2026-07-02 12:55:17] episode=1772 step=88600 return=-50.000 length=50
+[2026-07-02 12:55:18] episode=1773 step=88650 return=-50.000 length=50
+[2026-07-02 12:55:19] episode=1774 step=88700 return=-50.000 length=50
+[2026-07-02 12:55:20] episode=1775 step=88750 return=-50.000 length=50
+[2026-07-02 12:55:21] episode=1776 step=88800 return=-50.000 length=50
+[2026-07-02 12:55:22] episode=1777 step=88850 return=-50.000 length=50
+[2026-07-02 12:55:23] episode=1778 step=88900 return=-50.000 length=50
+[2026-07-02 12:55:24] episode=1779 step=88950 return=-50.000 length=50
+[2026-07-02 12:55:26] episode=1780 step=89000 return=-50.000 length=50
+[2026-07-02 12:55:26] step=89000 critic_loss=10449.4990 actor_loss=-115.5804 log_pi=4.7911 q1=106.1925 q2=105.3556
+[2026-07-02 12:55:28] episode=1781 step=89050 return=-50.000 length=50
+[2026-07-02 12:55:29] episode=1782 step=89100 return=-50.000 length=50
+[2026-07-02 12:55:30] episode=1783 step=89150 return=-50.000 length=50
+[2026-07-02 12:55:31] episode=1784 step=89200 return=-50.000 length=50
+[2026-07-02 12:55:32] episode=1785 step=89250 return=-50.000 length=50
+[2026-07-02 12:55:33] episode=1786 step=89300 return=-50.000 length=50
+[2026-07-02 12:55:34] episode=1787 step=89350 return=-50.000 length=50
+[2026-07-02 12:55:35] episode=1788 step=89400 return=-50.000 length=50
+[2026-07-02 12:55:36] episode=1789 step=89450 return=-50.000 length=50
+[2026-07-02 12:55:37] episode=1790 step=89500 return=-50.000 length=50
+[2026-07-02 12:55:37] step=89500 critic_loss=12307.8428 actor_loss=-118.0941 log_pi=3.5022 q1=112.6175 q2=112.4870
+[2026-07-02 12:55:38] episode=1791 step=89550 return=-50.000 length=50
+[2026-07-02 12:55:39] episode=1792 step=89600 return=-50.000 length=50
+[2026-07-02 12:55:40] episode=1793 step=89650 return=-50.000 length=50
+[2026-07-02 12:55:42] episode=1794 step=89700 return=-50.000 length=50
+[2026-07-02 12:55:43] episode=1795 step=89750 return=-50.000 length=50
+[2026-07-02 12:55:44] episode=1796 step=89800 return=-50.000 length=50
+[2026-07-02 12:55:45] episode=1797 step=89850 return=-50.000 length=50
+[2026-07-02 12:55:46] episode=1798 step=89900 return=-50.000 length=50
+[2026-07-02 12:55:47] episode=1799 step=89950 return=-50.000 length=50
+[2026-07-02 12:55:48] episode=1800 step=90000 return=-50.000 length=50
+[2026-07-02 12:55:48] step=90000 critic_loss=1660.1638 actor_loss=-100.7879 log_pi=3.3588 q1=96.8993 q2=98.1849
+[2026-07-02 12:55:49] [eval] step=90000 avg_return=-50.000
+[2026-07-02 12:55:49] saved checkpoint at step=90000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_90000.pt
+[2026-07-02 12:55:50] episode=1801 step=90050 return=-50.000 length=50
+[2026-07-02 12:55:51] episode=1802 step=90100 return=-50.000 length=50
+[2026-07-02 12:55:52] episode=1803 step=90150 return=-50.000 length=50
+[2026-07-02 12:55:53] episode=1804 step=90200 return=-50.000 length=50
+[2026-07-02 12:55:54] episode=1805 step=90250 return=-50.000 length=50
+[2026-07-02 12:55:55] episode=1806 step=90300 return=-50.000 length=50
+[2026-07-02 12:55:56] episode=1807 step=90350 return=-50.000 length=50
+[2026-07-02 12:55:57] episode=1808 step=90400 return=-50.000 length=50
+[2026-07-02 12:55:58] episode=1809 step=90450 return=-50.000 length=50
+[2026-07-02 12:55:59] episode=1810 step=90500 return=-50.000 length=50
+[2026-07-02 12:55:59] step=90500 critic_loss=870.7303 actor_loss=-85.0924 log_pi=4.2443 q1=79.9934 q2=79.4328
+[2026-07-02 12:56:00] episode=1811 step=90550 return=-50.000 length=50
+[2026-07-02 12:56:01] episode=1812 step=90600 return=-50.000 length=50
+[2026-07-02 12:56:02] episode=1813 step=90650 return=-50.000 length=50
+[2026-07-02 12:56:03] episode=1814 step=90700 return=-50.000 length=50
+[2026-07-02 12:56:04] episode=1815 step=90750 return=-50.000 length=50
+[2026-07-02 12:56:05] episode=1816 step=90800 return=-50.000 length=50
+[2026-07-02 12:56:06] episode=1817 step=90850 return=-50.000 length=50
+[2026-07-02 12:56:07] episode=1818 step=90900 return=-50.000 length=50
+[2026-07-02 12:56:08] episode=1819 step=90950 return=-50.000 length=50
+[2026-07-02 12:56:09] episode=1820 step=91000 return=-50.000 length=50
+[2026-07-02 12:56:09] step=91000 critic_loss=13366.7520 actor_loss=-90.0833 log_pi=3.5749 q1=76.0183 q2=78.8311
+[2026-07-02 12:56:10] episode=1821 step=91050 return=-50.000 length=50
+[2026-07-02 12:56:11] episode=1822 step=91100 return=-50.000 length=50
+[2026-07-02 12:56:12] episode=1823 step=91150 return=-50.000 length=50
+[2026-07-02 12:56:13] episode=1824 step=91200 return=-50.000 length=50
+[2026-07-02 12:56:14] episode=1825 step=91250 return=-50.000 length=50
+[2026-07-02 12:56:15] episode=1826 step=91300 return=-50.000 length=50
+[2026-07-02 12:56:16] episode=1827 step=91350 return=-50.000 length=50
+[2026-07-02 12:56:17] episode=1828 step=91400 return=-50.000 length=50
+[2026-07-02 12:56:19] episode=1829 step=91450 return=-50.000 length=50
+[2026-07-02 12:56:20] episode=1830 step=91500 return=-50.000 length=50
+[2026-07-02 12:56:20] step=91500 critic_loss=10744.4219 actor_loss=-106.9360 log_pi=4.6397 q1=103.9483 q2=102.6563
+[2026-07-02 12:56:21] episode=1831 step=91550 return=-50.000 length=50
+[2026-07-02 12:56:22] episode=1832 step=91600 return=-50.000 length=50
+[2026-07-02 12:56:24] episode=1833 step=91650 return=-50.000 length=50
+[2026-07-02 12:56:25] episode=1834 step=91700 return=-50.000 length=50
+[2026-07-02 12:56:26] episode=1835 step=91750 return=-50.000 length=50
+[2026-07-02 12:56:27] episode=1836 step=91800 return=-50.000 length=50
+[2026-07-02 12:56:28] episode=1837 step=91850 return=-50.000 length=50
+[2026-07-02 12:56:29] episode=1838 step=91900 return=-50.000 length=50
+[2026-07-02 12:56:30] episode=1839 step=91950 return=-50.000 length=50
+[2026-07-02 12:56:31] episode=1840 step=92000 return=-50.000 length=50
+[2026-07-02 12:56:31] step=92000 critic_loss=1777.0286 actor_loss=-123.8627 log_pi=4.0615 q1=114.3174 q2=114.6048
+[2026-07-02 12:56:32] episode=1841 step=92050 return=-50.000 length=50
+[2026-07-02 12:56:33] episode=1842 step=92100 return=-50.000 length=50
+[2026-07-02 12:56:34] episode=1843 step=92150 return=-50.000 length=50
+[2026-07-02 12:56:36] episode=1844 step=92200 return=-50.000 length=50
+[2026-07-02 12:56:37] episode=1845 step=92250 return=-50.000 length=50
+[2026-07-02 12:56:38] episode=1846 step=92300 return=-50.000 length=50
+[2026-07-02 12:56:39] episode=1847 step=92350 return=-50.000 length=50
+[2026-07-02 12:56:40] episode=1848 step=92400 return=-50.000 length=50
+[2026-07-02 12:56:41] episode=1849 step=92450 return=-50.000 length=50
+[2026-07-02 12:56:42] episode=1850 step=92500 return=-50.000 length=50
+[2026-07-02 12:56:42] step=92500 critic_loss=1706.6257 actor_loss=-124.0350 log_pi=3.7034 q1=118.0374 q2=117.2264
+[2026-07-02 12:56:43] episode=1851 step=92550 return=-50.000 length=50
+[2026-07-02 12:56:44] episode=1852 step=92600 return=-50.000 length=50
+[2026-07-02 12:56:45] episode=1853 step=92650 return=-50.000 length=50
+[2026-07-02 12:56:47] episode=1854 step=92700 return=-50.000 length=50
+[2026-07-02 12:56:48] episode=1855 step=92750 return=-50.000 length=50
+[2026-07-02 12:56:49] episode=1856 step=92800 return=-50.000 length=50
+[2026-07-02 12:56:50] episode=1857 step=92850 return=-50.000 length=50
+[2026-07-02 12:56:51] episode=1858 step=92900 return=-50.000 length=50
+[2026-07-02 12:56:52] episode=1859 step=92950 return=-50.000 length=50
+[2026-07-02 12:56:53] episode=1860 step=93000 return=-50.000 length=50
+[2026-07-02 12:56:53] step=93000 critic_loss=476.3358 actor_loss=-77.4537 log_pi=3.4660 q1=73.3490 q2=73.8791
+[2026-07-02 12:56:55] episode=1861 step=93050 return=-50.000 length=50
+[2026-07-02 12:56:56] episode=1862 step=93100 return=-50.000 length=50
+[2026-07-02 12:56:57] episode=1863 step=93150 return=-50.000 length=50
+[2026-07-02 12:56:58] episode=1864 step=93200 return=-50.000 length=50
+[2026-07-02 12:56:59] episode=1865 step=93250 return=-50.000 length=50
+[2026-07-02 12:57:00] episode=1866 step=93300 return=-50.000 length=50
+[2026-07-02 12:57:01] episode=1867 step=93350 return=-50.000 length=50
+[2026-07-02 12:57:02] episode=1868 step=93400 return=-50.000 length=50
+[2026-07-02 12:57:04] episode=1869 step=93450 return=-50.000 length=50
+[2026-07-02 12:57:05] episode=1870 step=93500 return=-50.000 length=50
+[2026-07-02 12:57:05] step=93500 critic_loss=1058.3452 actor_loss=-101.9183 log_pi=3.0224 q1=97.0831 q2=97.0952
+[2026-07-02 12:57:06] episode=1871 step=93550 return=-50.000 length=50
+[2026-07-02 12:57:07] episode=1872 step=93600 return=-50.000 length=50
+[2026-07-02 12:57:08] episode=1873 step=93650 return=-50.000 length=50
+[2026-07-02 12:57:09] episode=1874 step=93700 return=-50.000 length=50
+[2026-07-02 12:57:10] episode=1875 step=93750 return=-50.000 length=50
+[2026-07-02 12:57:11] episode=1876 step=93800 return=-50.000 length=50
+[2026-07-02 12:57:13] episode=1877 step=93850 return=-50.000 length=50
+[2026-07-02 12:57:14] episode=1878 step=93900 return=-50.000 length=50
+[2026-07-02 12:57:15] episode=1879 step=93950 return=-50.000 length=50
+[2026-07-02 12:57:17] episode=1880 step=94000 return=-50.000 length=50
+[2026-07-02 12:57:17] step=94000 critic_loss=1768.1486 actor_loss=-141.2837 log_pi=4.1444 q1=131.8906 q2=132.6933
+[2026-07-02 12:57:18] episode=1881 step=94050 return=-50.000 length=50
+[2026-07-02 12:57:19] episode=1882 step=94100 return=-50.000 length=50
+[2026-07-02 12:57:20] episode=1883 step=94150 return=-50.000 length=50
+[2026-07-02 12:57:21] episode=1884 step=94200 return=-50.000 length=50
+[2026-07-02 12:57:22] episode=1885 step=94250 return=-50.000 length=50
+[2026-07-02 12:57:23] episode=1886 step=94300 return=-50.000 length=50
+[2026-07-02 12:57:24] episode=1887 step=94350 return=-50.000 length=50
+[2026-07-02 12:57:26] episode=1888 step=94400 return=-50.000 length=50
+[2026-07-02 12:57:27] episode=1889 step=94450 return=-50.000 length=50
+[2026-07-02 12:57:28] episode=1890 step=94500 return=-50.000 length=50
+[2026-07-02 12:57:28] step=94500 critic_loss=198394.4688 actor_loss=-104.0621 log_pi=4.2067 q1=101.6741 q2=98.2646
+[2026-07-02 12:57:30] episode=1891 step=94550 return=-50.000 length=50
+[2026-07-02 12:57:32] episode=1892 step=94600 return=-50.000 length=50
+[2026-07-02 12:57:33] episode=1893 step=94650 return=-50.000 length=50
+[2026-07-02 12:57:35] episode=1894 step=94700 return=-50.000 length=50
+[2026-07-02 12:57:36] episode=1895 step=94750 return=-50.000 length=50
+[2026-07-02 12:57:37] episode=1896 step=94800 return=-50.000 length=50
+[2026-07-02 12:57:38] episode=1897 step=94850 return=-50.000 length=50
+[2026-07-02 12:57:39] episode=1898 step=94900 return=-50.000 length=50
+[2026-07-02 12:57:41] episode=1899 step=94950 return=-50.000 length=50
+[2026-07-02 12:57:42] episode=1900 step=95000 return=-50.000 length=50
+[2026-07-02 12:57:42] step=95000 critic_loss=2658.3115 actor_loss=-185.4050 log_pi=4.5997 q1=182.4444 q2=184.2369
+[2026-07-02 12:57:43] [eval] step=95000 avg_return=-50.000
+[2026-07-02 12:57:43] saved checkpoint at step=95000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_95000.pt
+[2026-07-02 12:57:44] episode=1901 step=95050 return=-50.000 length=50
+[2026-07-02 12:57:45] episode=1902 step=95100 return=-50.000 length=50
+[2026-07-02 12:57:46] episode=1903 step=95150 return=-50.000 length=50
+[2026-07-02 12:57:47] episode=1904 step=95200 return=-50.000 length=50
+[2026-07-02 12:57:48] episode=1905 step=95250 return=-50.000 length=50
+[2026-07-02 12:57:49] episode=1906 step=95300 return=-50.000 length=50
+[2026-07-02 12:57:50] episode=1907 step=95350 return=-50.000 length=50
+[2026-07-02 12:57:51] episode=1908 step=95400 return=-50.000 length=50
+[2026-07-02 12:57:52] episode=1909 step=95450 return=-50.000 length=50
+[2026-07-02 12:57:53] episode=1910 step=95500 return=-50.000 length=50
+[2026-07-02 12:57:53] step=95500 critic_loss=1538.8296 actor_loss=-113.1038 log_pi=3.2025 q1=109.3160 q2=107.6171
+[2026-07-02 12:57:54] episode=1911 step=95550 return=-50.000 length=50
+[2026-07-02 12:57:55] episode=1912 step=95600 return=-50.000 length=50
+[2026-07-02 12:57:56] episode=1913 step=95650 return=-50.000 length=50
+[2026-07-02 12:57:57] episode=1914 step=95700 return=-50.000 length=50
+[2026-07-02 12:57:58] episode=1915 step=95750 return=-50.000 length=50
+[2026-07-02 12:57:59] episode=1916 step=95800 return=-50.000 length=50
+[2026-07-02 12:58:00] episode=1917 step=95850 return=-50.000 length=50
+[2026-07-02 12:58:01] episode=1918 step=95900 return=-50.000 length=50
+[2026-07-02 12:58:02] episode=1919 step=95950 return=-50.000 length=50
+[2026-07-02 12:58:03] episode=1920 step=96000 return=-50.000 length=50
+[2026-07-02 12:58:03] step=96000 critic_loss=1931.3181 actor_loss=-109.9081 log_pi=3.7320 q1=99.6665 q2=102.1527
+[2026-07-02 12:58:04] episode=1921 step=96050 return=-50.000 length=50
+[2026-07-02 12:58:05] episode=1922 step=96100 return=-50.000 length=50
+[2026-07-02 12:58:06] episode=1923 step=96150 return=-50.000 length=50
+[2026-07-02 12:58:07] episode=1924 step=96200 return=-50.000 length=50
+[2026-07-02 12:58:08] episode=1925 step=96250 return=-50.000 length=50
+[2026-07-02 12:58:10] episode=1926 step=96300 return=-50.000 length=50
+[2026-07-02 12:58:11] episode=1927 step=96350 return=-50.000 length=50
+[2026-07-02 12:58:12] episode=1928 step=96400 return=-50.000 length=50
+[2026-07-02 12:58:13] episode=1929 step=96450 return=-50.000 length=50
+[2026-07-02 12:58:14] episode=1930 step=96500 return=-50.000 length=50
+[2026-07-02 12:58:14] step=96500 critic_loss=3834.3682 actor_loss=-143.6099 log_pi=3.5611 q1=130.2165 q2=131.4776
+[2026-07-02 12:58:15] episode=1931 step=96550 return=-50.000 length=50
+[2026-07-02 12:58:16] episode=1932 step=96600 return=-50.000 length=50
+[2026-07-02 12:58:17] episode=1933 step=96650 return=-50.000 length=50
+[2026-07-02 12:58:18] episode=1934 step=96700 return=-50.000 length=50
+[2026-07-02 12:58:19] episode=1935 step=96750 return=-50.000 length=50
+[2026-07-02 12:58:20] episode=1936 step=96800 return=-50.000 length=50
+[2026-07-02 12:58:21] episode=1937 step=96850 return=-50.000 length=50
+[2026-07-02 12:58:22] episode=1938 step=96900 return=-50.000 length=50
+[2026-07-02 12:58:23] episode=1939 step=96950 return=-50.000 length=50
+[2026-07-02 12:58:24] episode=1940 step=97000 return=-50.000 length=50
+[2026-07-02 12:58:24] step=97000 critic_loss=1151.7252 actor_loss=-83.8698 log_pi=4.2499 q1=77.9995 q2=77.1076
+[2026-07-02 12:58:25] episode=1941 step=97050 return=-50.000 length=50
+[2026-07-02 12:58:26] episode=1942 step=97100 return=-50.000 length=50
+[2026-07-02 12:58:27] episode=1943 step=97150 return=-50.000 length=50
+[2026-07-02 12:58:28] episode=1944 step=97200 return=-50.000 length=50
+[2026-07-02 12:58:29] episode=1945 step=97250 return=-50.000 length=50
+[2026-07-02 12:58:30] episode=1946 step=97300 return=-50.000 length=50
+[2026-07-02 12:58:31] episode=1947 step=97350 return=-50.000 length=50
+[2026-07-02 12:58:32] episode=1948 step=97400 return=-50.000 length=50
+[2026-07-02 12:58:33] episode=1949 step=97450 return=-50.000 length=50
+[2026-07-02 12:58:34] episode=1950 step=97500 return=-50.000 length=50
+[2026-07-02 12:58:34] step=97500 critic_loss=1970.4857 actor_loss=-106.5440 log_pi=3.1149 q1=98.2128 q2=98.7492
+[2026-07-02 12:58:35] episode=1951 step=97550 return=-50.000 length=50
+[2026-07-02 12:58:36] episode=1952 step=97600 return=-50.000 length=50
+[2026-07-02 12:58:37] episode=1953 step=97650 return=-50.000 length=50
+[2026-07-02 12:58:38] episode=1954 step=97700 return=-50.000 length=50
+[2026-07-02 12:58:40] episode=1955 step=97750 return=-50.000 length=50
+[2026-07-02 12:58:41] episode=1956 step=97800 return=-50.000 length=50
+[2026-07-02 12:58:42] episode=1957 step=97850 return=-50.000 length=50
+[2026-07-02 12:58:43] episode=1958 step=97900 return=-50.000 length=50
+[2026-07-02 12:58:44] episode=1959 step=97950 return=-50.000 length=50
+[2026-07-02 12:58:45] episode=1960 step=98000 return=-50.000 length=50
+[2026-07-02 12:58:45] step=98000 critic_loss=1662.1924 actor_loss=-125.0043 log_pi=4.4514 q1=115.3874 q2=114.8434
+[2026-07-02 12:58:46] episode=1961 step=98050 return=-50.000 length=50
+[2026-07-02 12:58:47] episode=1962 step=98100 return=-50.000 length=50
+[2026-07-02 12:58:48] episode=1963 step=98150 return=-50.000 length=50
+[2026-07-02 12:58:49] episode=1964 step=98200 return=-50.000 length=50
+[2026-07-02 12:58:50] episode=1965 step=98250 return=-50.000 length=50
+[2026-07-02 12:58:51] episode=1966 step=98300 return=-50.000 length=50
+[2026-07-02 12:58:52] episode=1967 step=98350 return=-50.000 length=50
+[2026-07-02 12:58:53] episode=1968 step=98400 return=-50.000 length=50
+[2026-07-02 12:58:54] episode=1969 step=98450 return=-50.000 length=50
+[2026-07-02 12:58:55] episode=1970 step=98500 return=-50.000 length=50
+[2026-07-02 12:58:55] step=98500 critic_loss=801.2794 actor_loss=-124.1553 log_pi=4.5806 q1=118.2388 q2=116.5132
+[2026-07-02 12:58:56] episode=1971 step=98550 return=-50.000 length=50
+[2026-07-02 12:58:57] episode=1972 step=98600 return=-50.000 length=50
+[2026-07-02 12:58:58] episode=1973 step=98650 return=-50.000 length=50
+[2026-07-02 12:58:59] episode=1974 step=98700 return=-50.000 length=50
+[2026-07-02 12:59:00] episode=1975 step=98750 return=-50.000 length=50
+[2026-07-02 12:59:01] episode=1976 step=98800 return=-50.000 length=50
+[2026-07-02 12:59:02] episode=1977 step=98850 return=-50.000 length=50
+[2026-07-02 12:59:03] episode=1978 step=98900 return=-50.000 length=50
+[2026-07-02 12:59:04] episode=1979 step=98950 return=-50.000 length=50
+[2026-07-02 12:59:05] episode=1980 step=99000 return=-50.000 length=50
+[2026-07-02 12:59:05] step=99000 critic_loss=1413.5269 actor_loss=-129.0952 log_pi=4.0802 q1=121.6477 q2=121.3793
+[2026-07-02 12:59:06] episode=1981 step=99050 return=-50.000 length=50
+[2026-07-02 12:59:07] episode=1982 step=99100 return=-50.000 length=50
+[2026-07-02 12:59:08] episode=1983 step=99150 return=-50.000 length=50
+[2026-07-02 12:59:09] episode=1984 step=99200 return=-50.000 length=50
+[2026-07-02 12:59:10] episode=1985 step=99250 return=-50.000 length=50
+[2026-07-02 12:59:11] episode=1986 step=99300 return=-50.000 length=50
+[2026-07-02 12:59:12] episode=1987 step=99350 return=-50.000 length=50
+[2026-07-02 12:59:13] episode=1988 step=99400 return=-50.000 length=50
+[2026-07-02 12:59:15] episode=1989 step=99450 return=-50.000 length=50
+[2026-07-02 12:59:16] episode=1990 step=99500 return=-50.000 length=50
+[2026-07-02 12:59:16] step=99500 critic_loss=3978.5664 actor_loss=-120.3554 log_pi=4.1239 q1=110.8902 q2=110.8963
+[2026-07-02 12:59:17] episode=1991 step=99550 return=-50.000 length=50
+[2026-07-02 12:59:18] episode=1992 step=99600 return=-50.000 length=50
+[2026-07-02 12:59:19] episode=1993 step=99650 return=-50.000 length=50
+[2026-07-02 12:59:20] episode=1994 step=99700 return=-50.000 length=50
+[2026-07-02 12:59:21] episode=1995 step=99750 return=-50.000 length=50
+[2026-07-02 12:59:22] episode=1996 step=99800 return=-50.000 length=50
+[2026-07-02 12:59:23] episode=1997 step=99850 return=-50.000 length=50
+[2026-07-02 12:59:24] episode=1998 step=99900 return=-50.000 length=50
+[2026-07-02 12:59:25] episode=1999 step=99950 return=-50.000 length=50
+[2026-07-02 12:59:26] episode=2000 step=100000 return=-50.000 length=50
+[2026-07-02 12:59:26] step=100000 critic_loss=1116.0944 actor_loss=-94.4490 log_pi=5.0695 q1=92.2790 q2=92.8000
+[2026-07-02 12:59:27] [eval] step=100000 avg_return=-50.000
+[2026-07-02 12:59:27] saved checkpoint at step=100000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_checkpoint_100000.pt
+[2026-07-02 12:59:27] Finished SAC+HER Training
+[2026-07-02 12:59:27] saved checkpoint at step=100000: results\checkpoints\FetchSlide-v4\20260702_122318\sacher_final.pt
+[2026-07-02 12:59:27] Closing logger

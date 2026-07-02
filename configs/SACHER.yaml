@@ -1,7 +1,8 @@
 env:
-  name: FetchSlide-v4
+  name: FetchPush-v4
   max_episode_steps: 0
   reward_scaler: 1.0
+  flatten_obs: false
   kwargs: {}
 
 train:
