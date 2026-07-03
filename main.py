@@ -3,6 +3,7 @@ import os
 import time 
 from utils.helper import loadConfig
 from trainers.train_sac import SACTrainer
+from trainers.train_ppo import PPOTrainer
 
 def get_args(): 
     parser = argparse.ArgumentParser()
@@ -13,11 +14,12 @@ def get_args():
 def process_configDir(agent, configDir=None): 
     if configDir is None: 
         if agent.lower() not in ["sac", "sacher", "ppo"]: 
-            raise ValueError("Supported `SAC`, `SACHER` and `PPO`, found {agent}")
+            raise ValueError(f"Supported `SAC`, `SACHER` and `PPO`, found {agent}")
         return f"configs/{agent.upper()}.yaml"
     else: 
         if not os.path.exists(configDir): 
-            raise FileNotFoundError(f"Cannot found configuration file {configDir}")
+            raise FileNotFoundError(f"Cannot find configuration file {configDir}")
+        return configDir
 
 def main(): 
     args = get_args()
@@ -29,9 +31,10 @@ def main():
     elif args.agent.lower()=="sacher": 
         # TODO : Imlement SAC HER agent
         pass 
-    else: 
-        # TODO : Implement PPO agent
-        pass
+    elif args.agent.lower()=="ppo":
+        agent = PPOTrainer(config)
+    else:
+        raise ValueError(f"Unsupported agent: {args.agent}")
     agent.train()
     end_time = time.perf_counter()-start_time
     print(f"Total runtime : {end_time}s")
