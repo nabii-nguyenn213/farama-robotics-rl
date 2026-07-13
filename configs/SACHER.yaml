@@ -1,26 +1,27 @@
 env:
-  name: FetchPush-v4
-  max_episode_steps: 0
+  name: FetchSlide-v4
+  max_episode_steps: 50
   reward_scaler: 1.0
   flatten_obs: false
   kwargs: {}
 
 train:
   run_name: SACHER_${env.name}
-  total_timesteps: 100000
+  total_timesteps: 2000000
   memory_size: 1000000
   batch_size: 256
   optimizer:
     name: Adam
-    actor_lr: 0.0003
-    critic_lr: 0.0003
-    alpha_lr: 0.0003
+    actor_lr: 0.0001
+    critic_lr: 0.0001
+    alpha_lr: 0.0001
   learning_start: 5000
   tau: 0.005
   gamma: 0.98
   auto_alpha: true
   target_entropy: auto
   alpha: 0.2
+  pretrained_checkpoint: ""
 
   show_tb: true
   device: auto
@@ -34,10 +35,10 @@ her:
   goal_selection_strategy: future
 
 eval:
-  eval_every: 5000
-  save_every: 5000
-  log_every: 500
-  eval_episodes: 10
+  eval_every: 20000
+  save_every: 100000
+  log_every: 10000
+  eval_episodes: 20
 
 dir:
   root: .

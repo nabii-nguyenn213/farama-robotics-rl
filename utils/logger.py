@@ -60,6 +60,7 @@ class Logger:
                     "step",
                     "avg_return",
                     "best_so_far",
+                    "success_rate",
                     "elapsed_sec",
                 ])
 
@@ -162,8 +163,12 @@ class Logger:
             f"length={int(episode_length)}"
         )
 
-    def log_eval(self, step, avg_return):
+    def log_eval(self, step, avg_return, success_rate=None):
         avg_return = self._to_float(avg_return)
+
+        if success_rate is not None:
+            success_rate = self._to_float(success_rate)
+
         is_best = avg_return > self.best_eval_return
         if is_best:
             self.best_eval_return = avg_return
@@ -176,6 +181,7 @@ class Logger:
                 step,
                 avg_return,
                 self.best_eval_return,
+                success_rate if success_rate is not None else "",
                 elapsed,
             ])
 
@@ -183,10 +189,28 @@ class Logger:
             self.writer.add_scalar("eval/avg_return", avg_return, step)
             self.writer.add_scalar("eval/best_return", self.best_eval_return, step)
 
-        if is_best:
-            self.info(f"[eval] step={step} avg_return={avg_return:.3f} NEW_BEST")
+            if success_rate is not None:
+                self.writer.add_scalar("eval/success_rate", success_rate, step)
+
+        if success_rate is not None:
+            if is_best:
+                self.info(
+                    f"[eval] step={step} "
+                    f"avg_return={avg_return:.3f} "
+                    f"success_rate={success_rate:.3f} "
+                    f"NEW_BEST"
+                )
+            else:
+                self.info(
+                    f"[eval] step={step} "
+                    f"avg_return={avg_return:.3f} "
+                    f"success_rate={success_rate:.3f}"
+                )
         else:
-            self.info(f"[eval] step={step} avg_return={avg_return:.3f}")
+            if is_best:
+                self.info(f"[eval] step={step} avg_return={avg_return:.3f} NEW_BEST")
+            else:
+                self.info(f"[eval] step={step} avg_return={avg_return:.3f}")
 
         return is_best
 

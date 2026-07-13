@@ -1,0 +1,47 @@
+env:
+  name: FetchSlideDense-v4
+  max_episode_steps: 50
+  reward_scaler: 1.0
+  flatten_obs: false
+  kwargs: {}
+train:
+  run_name: SACHER_FetchSlideDense-v4
+  total_timesteps: 2000000
+  memory_size: 1000000
+  batch_size: 256
+  optimizer:
+    name: Adam
+    actor_lr: 0.0001
+    critic_lr: 0.0001
+    alpha_lr: 0.0001
+  learning_start: 50000
+  tau: 0.005
+  gamma: 0.98
+  auto_alpha: true
+  target_entropy: auto
+  alpha: 0.2
+  show_tb: true
+  device: auto
+  hidden_size_actor:
+  - 256
+  - 256
+  hidden_size_critic:
+  - 256
+  - 256
+  seed: 44
+  gradient_step: 1
+her:
+  k: 4
+  goal_selection_strategy: future
+eval:
+  eval_every: 20000
+  save_every: 100000
+  log_every: 10000
+  eval_episodes: 20
+dir:
+  root: .
+  log: ./logs/log/FetchSlideDense-v4
+  ckpt: ./results/checkpoints/FetchSlideDense-v4
+  model: ./results/models/FetchSlideDense-v4
+  best: ./results/best/FetchSlideDense-v4
+  tensorboard: ./logs/tensorboard_logs/FetchSlideDense-v4

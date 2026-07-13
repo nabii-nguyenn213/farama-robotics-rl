@@ -16,6 +16,11 @@ class SACHERTrainer(BaseTrainer):
 
         self.agent = SAC_Agent(config)
 
+        pretrained_checkpoint = self.config["train"].get("pretrained_checkpoint", None)
+
+        if pretrained_checkpoint is not None:
+            self.load_pretrained(pretrained_checkpoint)
+
         buffer_capacity = config["train"].get("memory_size", 1_000_000)
         her_ratio = config["train"].get("her_ratio", 0.8)
 
@@ -44,7 +49,14 @@ class SACHERTrainer(BaseTrainer):
         ep_return = 0.0
         ep_len = 0
         last_update_info = None
+        ep_success = 0.0
 
+        initial_achieved_goal = obs["achieved_goal"].copy()
+
+        ep_final_distance = float(np.linalg.norm(
+            obs["achieved_goal"] - obs["desired_goal"]
+        ))
+        ep_object_displacement = 0.0
         try:
             for step in range(1, self.total_timesteps + 1):
                 self.global_step = step
@@ -58,12 +70,31 @@ class SACHERTrainer(BaseTrainer):
                 
                 next_obs, reward, done, terminated, truncated, info = self.step_env(action, self.env)
 
+                ep_success = max(
+                    ep_success,
+                    float(info.get("is_success", 0.0))
+                )
+
+                ep_final_distance = float(np.linalg.norm(
+                    next_obs["achieved_goal"] - next_obs["desired_goal"]
+                ))
+
+                current_displacement = float(np.linalg.norm(
+                    next_obs["achieved_goal"] - initial_achieved_goal
+                ))
+
+                ep_object_displacement = max(
+                    ep_object_displacement,
+                    current_displacement
+                )
+
                 self.replay_buffer.store_transition(
                     obs=obs,
                     action=action,
                     reward=reward,
                     next_obs=next_obs,
-                    done=done,
+                    done=terminated,
+                    episode_done=terminated or truncated,
                     info=info,
                 )
 
@@ -81,9 +112,37 @@ class SACHERTrainer(BaseTrainer):
                         episode_length=ep_len,
                     )
 
+                    if self.logger.writer is not None:
+                        self.logger.writer.add_scalar(
+                            "episode/final_distance",
+                            ep_final_distance,
+                            step,
+                        )
+
+                        self.logger.writer.add_scalar(
+                            "episode/object_displacement",
+                            ep_object_displacement,
+                            step,
+                        )
+
+                        self.logger.writer.add_scalar(
+                            "episode/success",
+                            ep_success,
+                            step,
+                        )
+
                     obs, _ = self.reset_env(self.env)
                     ep_return = 0.0
                     ep_len = 0
+                    ep_success = 0.0
+
+                    initial_achieved_goal = obs["achieved_goal"].copy()
+
+                    ep_final_distance = float(np.linalg.norm(
+                        obs["achieved_goal"] - obs["desired_goal"]
+                    ))
+
+                    ep_object_displacement = 0.0
 
                 if step >= self.learning_start and self.replay_buffer.can_sample(self.batch_size):
                     for _ in range(self.gradient_step):
@@ -96,9 +155,14 @@ class SACHERTrainer(BaseTrainer):
                     if step % self.log_every == 0 and last_update_info is not None:
                         self.logger.log_train(step, last_update_info, print_to_console=True)
                 
-                if self.eval_every > 0 and step % self.eval_every ==0:
-                    avg_return = self.evaluate(self.eval_episode)
-                    is_best = self.logger.log_eval(step, avg_return)
+                if self.eval_every > 0 and step % self.eval_every == 0:
+                    avg_return, success_rate = self.evaluate(self.eval_episode)
+
+                    is_best = self.logger.log_eval(
+                        step,
+                        avg_return,
+                        success_rate=success_rate,
+                    )
 
                     if is_best:
                         self.save_best(step)
@@ -116,11 +180,14 @@ class SACHERTrainer(BaseTrainer):
             num_episodes = self.eval_episode
 
         returns = []
+        successes = []
 
         for _ in range(num_episodes):
             obs, _ = self.reset_env(self.eval_env)
             done = False
+
             ep_return = 0.0
+            ep_success = 0.0
 
             while not done:
                 flat_obs = flatten_goal_obs(obs)
@@ -132,11 +199,21 @@ class SACHERTrainer(BaseTrainer):
                 )
 
                 ep_return += float(reward)
+
+                ep_success = max(
+                    ep_success,
+                    float(info.get("is_success", 0.0)),
+                )
+
                 obs = next_obs
-            
+
             returns.append(ep_return)
-        
-        return sum(returns) / len(returns)
+            successes.append(ep_success)
+
+        avg_return = sum(returns) / len(returns)
+        success_rate = sum(successes) / len(successes)
+
+        return avg_return, success_rate
     
     def save_checkpoint(self, step, filename=None):
         if filename is None:
@@ -204,6 +281,45 @@ class SACHERTrainer(BaseTrainer):
             state["alpha"] = alpha.detach().cpu()
         
         return state
+    
+    def load_pretrained(self, checkpoint_path):
+        checkpoint = torch.load(
+            checkpoint_path,
+            map_location=self.agent.device,
+            weights_only=False,
+        )
+
+        agent_state = checkpoint["agent_state"]
+
+        self.agent.net.load_state_dict(agent_state["net"])
+
+        self.agent.target_critic1.load_state_dict(
+            agent_state["target_critic1"]
+        )
+
+        self.agent.target_critic2.load_state_dict(
+            agent_state["target_critic2"]
+        )
+
+        if "log_alpha" in agent_state and hasattr(self.agent, "log_alpha"):
+            self.agent.log_alpha.data.copy_(
+                agent_state["log_alpha"].to(self.agent.device)
+            )
+            self.agent.alpha = self.agent.log_alpha.exp().detach()
+
+        elif "alpha" in agent_state:
+            alpha_value = agent_state["alpha"]
+            if torch.is_tensor(alpha_value):
+                alpha_value = alpha_value.item()
+
+            self.agent.alpha = torch.tensor(
+                float(alpha_value),
+                device=self.agent.device,
+            )
+
+        print(f"Loaded pretrained checkpoint from: {checkpoint_path}")
+        print(f"Pretrained step: {checkpoint.get('step', 'unknown')}")
+        print(f"Pretrained episode: {checkpoint.get('episode_num', 'unknown')}")
 
 
 

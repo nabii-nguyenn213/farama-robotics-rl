@@ -44,7 +44,7 @@ class RolloutBuffer:
     pass
 
 class HER_ReplayBuffer: 
-    def __init__(self, max_size, env, her_ratio=0.8):
+    def __init__(self, max_size, env, her_ratio=0.6):
         self.max_size = int(max_size)
         self.env = env
         self.her_ratio = her_ratio
@@ -61,28 +61,28 @@ class HER_ReplayBuffer:
             axis=-1,
         ).astype(np.float32)
     
-    def store_transition(self, obs, action, reward, next_obs, done, info=None):
+    def store_transition(self, obs, action, reward, next_obs, done, info=None, episode_done=None):
         if info is None:
             info = {}
+
+        if episode_done is None:
+            episode_done = done
 
         transition = {
             "obs": np.asarray(obs["observation"], dtype=np.float32).copy(),
             "achieved_goal": np.asarray(obs["achieved_goal"], dtype=np.float32).copy(),
             "desired_goal": np.asarray(obs["desired_goal"], dtype=np.float32).copy(),
-
             "act": np.asarray(action, dtype=np.float32).copy(),
             "rew": float(reward),
-
             "next_obs": np.asarray(next_obs["observation"], dtype=np.float32).copy(),
             "next_achieved_goal": np.asarray(next_obs["achieved_goal"], dtype=np.float32).copy(),
-
             "done": float(done),
             "info": info,
         }
 
         self.current_episode.append(transition)
 
-        if done:
+        if episode_done:
             self.episodes.append(self.current_episode)
             self.current_episode = []
 
@@ -120,8 +120,8 @@ class HER_ReplayBuffer:
             done = transition["done"]
             info = transition["info"]
 
-            if np.random.rand() < self.her_ratio:
-                future_t = np.random.randint(t, len(episode))
+            if np.random.rand() < self.her_ratio and t + 1 < len(episode):
+                future_t = np.random.randint(t + 1, len(episode))
                 desired_goal = episode[future_t]["next_achieved_goal"]
 
                 reward = self.env.unwrapped.compute_reward(
@@ -138,6 +138,17 @@ class HER_ReplayBuffer:
             rew_batch.append([reward])
             next_obs_batch.append(next_state_goal)
             done_batch.append([done])
+        
+        if np.random.rand() < 0.0005:
+            rew_np = np.asarray(rew_batch).reshape(-1)
+            print(
+                "HER reward debug:",
+                "mean =", rew_np.mean(),
+                "min =", rew_np.min(),
+                "max =", rew_np.max(),
+                "num_zero =", np.sum(rew_np == 0.0),
+                "batch_size =", len(rew_np),
+            )
         
         return {
             "obs": torch.as_tensor(np.asarray(obs_batch), dtype=torch.float32, device=device),
