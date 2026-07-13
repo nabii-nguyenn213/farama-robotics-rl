@@ -40,9 +40,5 @@ class ReplayBuffer:
             "done": torch.as_tensor(self.terminal_memory[batch], dtype=torch.float32, device=device),
             }
 
-class RolloutBuffer: 
-    pass
-
 class HER_ReplayBuffer: 
     pass
-

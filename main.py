@@ -3,6 +3,7 @@ import os
 import time 
 from utils.helper import loadConfig
 from trainers.train_sac import SACTrainer
+from trainers.train_ppo import PPOTrainer
 
 def get_args(): 
     parser = argparse.ArgumentParser()
@@ -29,9 +30,10 @@ def main():
     elif args.agent.lower()=="sacher": 
         # TODO : Imlement SAC HER agent
         pass 
+    elif args.agent.lower()=="ppo": 
+        agent = PPOTrainer(config)
     else: 
-        # TODO : Implement PPO agent
-        pass
+        raise ValueError(f"unsupported agent: {args.agent}")
     agent.train()
     end_time = time.perf_counter()-start_time
     print(f"Total runtime : {end_time}s")

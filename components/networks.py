@@ -91,12 +91,12 @@ class QCriticNetwork(nn.Module):
                  hidden_act="ReLU", output_act="Linear"): 
         super().__init__()
         layer_dims = [obs_dim+act_dim, *hidden_size, 1]
-        self.criticnet = MLP(layer_dims, hidden_act, output_act)
+        self.qcriticnet = MLP(layer_dims, hidden_act, output_act)
 
     def forward(self, obs, act): 
         if act.ndim==1: act = torch.unsqueeze(act, dim=1)
         x = torch.cat([obs, act], dim=1)
-        return self.criticnet(x)
+        return self.qcriticnet(x)
 
 class ActorDoubleQCriticNetwork(nn.Module): 
 
@@ -119,3 +119,12 @@ class ActorDoubleQCriticNetwork(nn.Module):
         q1 = self.critic1(obs, act) 
         q2 = self.critic2(obs, act) 
         return q1, q2
+
+class VCriticNetwork(nn.Module): 
+    def __init__(self, obs_dim, hidden_size=[64, 64], hidden_act="ReLU", output_act="Linear"): 
+        super().__init__()
+        layer_dims = [obs_dim, *hidden_size, 1]
+        self.vcriticnet = MLP(layer_dims, hidden_act, output_act)
+
+    def forward(self, obs): 
+        return self.vcriticnet(obs)
