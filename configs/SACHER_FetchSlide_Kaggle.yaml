@@ -1,0 +1,55 @@
+env:
+  name: "FetchSlide-v4"
+  max_episode_steps: 50
+  flatten_obs: false
+  reward_scaler: 1.0
+  kwargs: {}
+
+train:
+  device: "cuda"
+  seed: 42
+
+  total_timesteps: 1000000
+  learning_start: 10000
+  batch_size: 256
+  gradient_step: 1
+
+  gamma: 0.98
+  tau: 0.005
+
+  memory_size: 1000000
+  her_ratio: 0.6
+
+  alpha: 0.2
+  auto_alpha: true
+  target_entropy: "auto"
+
+  hidden_size_actor: [256, 256]
+  hidden_size_critic: [256, 256]
+
+  pretrained_checkpoint: "/kaggle/input/fetchslide-dense-checkpoint/sacher_final.pt"
+
+  grad_clip_norm: 5.0
+
+  lr_decay: true
+  lr_min_factor: 0.1
+  lr_decay_steps: 1000000
+
+  optimizer:
+    name: "Adam"
+    actor_lr: 0.0001
+    critic_lr: 0.0001
+    alpha_lr: 0.0001
+
+eval:
+  log_every: 1000
+  eval_every: 20000
+  eval_episode: 20
+  save_every: 50000
+
+dir:
+  log_dir: "/kaggle/working/farama-robotics-rl/logs/log"
+  tb_dir: "/kaggle/working/farama-robotics-rl/logs/tensorboard_logs"
+  ckpt_dir: "/kaggle/working/farama-robotics-rl/results/checkpoints"
+  best_dir: "/kaggle/working/farama-robotics-rl/results/best"
+  model_dir: "/kaggle/working/farama-robotics-rl/results/models"

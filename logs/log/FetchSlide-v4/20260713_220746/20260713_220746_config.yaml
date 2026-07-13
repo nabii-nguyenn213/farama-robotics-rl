@@ -4,9 +4,8 @@ env:
   reward_scaler: 1.0
   flatten_obs: false
   kwargs: {}
-
 train:
-  run_name: SACHER_${env.name}
+  run_name: SACHER_FetchSlide-v4
   total_timesteps: 1000000
   memory_size: 1000000
   batch_size: 256
@@ -21,35 +20,33 @@ train:
   auto_alpha: true
   target_entropy: auto
   alpha: 0.2
-  pretrained_checkpoint: "results/checkpoints/FetchSlide-v4/20260712_164447/sacher_final.pt"
-
+  pretrained_checkpoint: results/best/FetchSlide-v4/20260712_164447/sacher_best.pt
   grad_clip_norm: 5.0
-
   lr_decay: true
   lr_min_factor: 0.1
   lr_decay_steps: 1000000
-
   show_tb: true
   device: auto
-  hidden_size_actor: [256, 256]
-  hidden_size_critic: [256, 256]
+  hidden_size_actor:
+  - 256
+  - 256
+  hidden_size_critic:
+  - 256
+  - 256
   seed: 44
   gradient_step: 1
-
 her:
   k: 4
   goal_selection_strategy: future
-
 eval:
   eval_every: 20000
   save_every: 100000
   log_every: 10000
   eval_episodes: 20
-
 dir:
   root: .
-  log: ${dir.root}/logs/log/${env.name}
-  ckpt: ${dir.root}/results/checkpoints/${env.name}
-  model: ${dir.root}/results/models/${env.name}
-  best: ${dir.root}/results/best/${env.name}
-  tensorboard: ${dir.root}/logs/tensorboard_logs/${env.name}
+  log: ./logs/log/FetchSlide-v4
+  ckpt: ./results/checkpoints/FetchSlide-v4
+  model: ./results/models/FetchSlide-v4
+  best: ./results/best/FetchSlide-v4
+  tensorboard: ./logs/tensorboard_logs/FetchSlide-v4

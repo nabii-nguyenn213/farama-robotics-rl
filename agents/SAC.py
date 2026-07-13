@@ -58,6 +58,46 @@ class SAC_Agent:
             self.critic2_optimizer= optim.Adam(self.net.critic2.parameters(), lr=critic_lr)
         else : 
             raise ValueError(f"Unsupported optimizer {config['train']['optimizer']['name']}")
+        
+        self.lr_decay = config["train"].get("lr_decay", False)
+        self.lr_min_factor = float(config["train"].get("lr_min_factor", 0.1))
+        self.lr_decay_steps = int(config["train"].get(
+            "lr_decay_steps",
+            config["train"].get("total_timesteps", 1_000_000),
+        ))
+
+        self.update_counter = 0
+
+        if self.lr_decay:
+            def lr_lambda(update_step):
+                progress = min(update_step / self.lr_decay_steps, 1.0)
+                return 1.0 - progress * (1.0 - self.lr_min_factor)
+            
+            self.actor_scheduler = optim.lr_scheduler.LambdaLR(
+                self.actor_optimizer,
+                lr_lambda=lr_lambda,
+            )
+            self.critic1_scheduler = optim.lr_scheduler.LambdaLR(
+                self.critic1_optimizer,
+                lr_lambda=lr_lambda,
+            )
+            self.critic2_scheduler = optim.lr_scheduler.LambdaLR(
+                self.critic2_optimizer,
+                lr_lambda=lr_lambda,
+            )
+
+            if self.alpha_optimizer is not None:
+                self.alpha_scheduler = optim.lr_scheduler.LambdaLR(
+                    self.alpha_optimizer,
+                    lr_lambda=lr_lambda,
+                )
+            else:
+                self.alpha_optimizer = None
+        else:
+            self.actor_scheduler = None
+            self.critic1_scheduler = None
+            self.critic2_scheduler = None
+            self.alpha_scheduler = None
 
     @torch.no_grad() 
     def act(self, obs, deterministic=False): 
@@ -144,6 +184,16 @@ class SAC_Agent:
         self.soft_update(self.target_critic1, self.net.critic1)
         self.soft_update(self.target_critic2, self.net.critic2)
 
+        self.update_counter += 1
+
+        if self.lr_decay:
+            self.actor_scheduler.step()
+            self.critic1_scheduler.step()
+            self.critic2_scheduler.step()
+
+            if self.alpha_scheduler is not None:
+                self.alpha_scheduler.step()
+
         return {
             "critic_loss": critic_loss.item(),
             "q1_loss": q1_loss.item(),
@@ -154,5 +204,7 @@ class SAC_Agent:
             "log_pi_mean": log_pi.mean().item(),
             "alpha": float(self.alpha.item()),
             "alpha_loss": float(alpha_loss.item()),
+            "actor_lr": self.actor_optimizer.param_groups[0]["lr"],
+            "critic_lr": self.critic1_optimizer.param_groups[0]["lr"],
         }
 
