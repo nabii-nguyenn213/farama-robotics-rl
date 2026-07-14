@@ -9,7 +9,7 @@ train:
   device: "cuda"
   seed: 42
 
-  total_timesteps: 1000000
+  total_timesteps: 2000000
   learning_start: 10000
   batch_size: 256
   gradient_step: 1
@@ -30,7 +30,7 @@ train:
 
   grad_clip_norm: 5.0
 
-  lr_decay: false
+  lr_decay: true
   lr_min_factor: 0.1
   lr_decay_steps: 1000000
 
